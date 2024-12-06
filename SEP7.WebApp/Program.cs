@@ -1,4 +1,5 @@
 using SEP7.WebApp.Components;
+using MudBlazor.Services; // Add MudBlazor namespace
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-
+// Add MudBlazor services
+builder.Services.AddMudServices(); // Register MudBlazor services here
 
 var app = builder.Build();
 
@@ -22,11 +24,11 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
 app.UseAntiforgery();
 
+app.UseStaticFiles();
 app.MapStaticAssets();
-app.MapRazorComponents<App>()
+app.MapRazorComponents<SEP7.WebApp.Components.App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
