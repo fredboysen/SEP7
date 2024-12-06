@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {}
+    "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+    "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
         "projectName": "SEP7.WebAPI",
-        "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -97,17 +97,17 @@
         }
       }
     },
-    "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {
+    "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
         "projectName": "SEP7.WebApp",
-        "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
-        "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -120,8 +120,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
-                "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
+              "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+                "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
               }
             }
           }
@@ -141,6 +141,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[7.15.0, )"
+            },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[27.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
