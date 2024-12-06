@@ -9,9 +9,10 @@ namespace SEP7.Database.Data
     {
         public ApplicationDB(DbContextOptions<ApplicationDB> options) : base(options) { }
 
-        public DbSet<Materials> Materials {get; set;}
+        public DbSet<MaterialsTotal> MaterialsTotals {get; set;}
 
-        public DbSet<Routes> Routes {get; set;}
+        public DbSet<Product> Products {get; set;}
+        public DbSet<MaterialData> MatData {get; set;}
         
     }
 

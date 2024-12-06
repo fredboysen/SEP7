@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SEP7.Database.Data; 
 using Microsoft.OpenApi.Models; 
+using SEP7.WebAPI.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,20 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.Services.AddControllers();  
+
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    });
+
+    builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.MaxDepth = 32; // or any other appropriate depth
+    });
+
+
 builder.Services.AddEndpointsApiExplorer(); 
 builder.Services.AddSwaggerGen(c =>
 
@@ -45,12 +60,12 @@ if (app.Environment.IsDevelopment())
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ApplicationDB>();
-    DbSeeder.Seed(context);  
+    await DbSeeder.Seed(context);  
 }
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
-
+app.MapControllers();
 
 app.Run();
 

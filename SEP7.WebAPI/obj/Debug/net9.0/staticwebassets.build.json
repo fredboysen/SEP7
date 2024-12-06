@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9ZWA55R6vm2oX7AuR9Pr5owQx2r18UEb4a/1FEcWjz8=",
+  "Source": "SEP7.WebAPI",
+  "BasePath": "_content/SEP7.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
