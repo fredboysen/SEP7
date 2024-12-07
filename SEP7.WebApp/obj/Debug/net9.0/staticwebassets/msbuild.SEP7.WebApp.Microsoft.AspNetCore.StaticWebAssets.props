@@ -876,8 +876,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ahkpbyk3ph</Fingerprint>
-      <Integrity>7uZa7HNvAHB+kTJpZnBh5Y5oWsm0HCAcTVlTelZz75E=</Integrity>
+      <Fingerprint>1tntjned25</Fingerprint>
+      <Integrity>OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\MudBlazor.min.js'))</OriginalItemSpec>

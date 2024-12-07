@@ -1,9 +1,7 @@
 ﻿@page "/weather"
-@using ChartJs.Blazor
 @using ChartJs.Blazor.PieChart
 @using ChartJs.Blazor.Common
 @using ChartJs.Blazor.Util
-@inject HttpClient Http
 
 <PageTitle>Totals Overview</PageTitle>
 
@@ -11,82 +9,55 @@
 
 <div>
     <h4>Pie Chart</h4>
-    <ChartJsPieChart Config="@PieChartConfig" />
+    @if (PieChartConfig != null)
+    {
+        <Chart Config="@PieChartConfig" />
+    }
+    else
+    {
+        <p>Loading chart...</p>
+    }
 </div>
 
-@if (selectedField != null)
-{
-    <div class="mt-4">
-        <h5>Details for @selectedField</h5>
-        <p>Value: @selectedValue</p>
-    </div>
-}
-
 @code {
-    private PieConfig PieChartConfig = new PieConfig();
-    private string? selectedField;
-    private double selectedValue;
+    private PieConfig? PieChartConfig;
 
-    private class MaterialTotal
+    protected override void OnInitialized()
     {
-        public int MaterialId { get; set; }
-        public string MaterialName { get; set; } = string.Empty;
-        public double ADP_Fossil_MJ { get; set; }
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        try
+        // Static Data
+        var staticData = new List<(string Label, double Value)>
         {
-            // Fetch data from your API
-            var totals = await Http.GetFromJsonAsync<List<MaterialTotal>>("api/totals");
+            ("Static Item 1", 50),
+            ("Static Item 2", 30),
+            ("Static Item 3", 20)
+        };
 
-            if (totals != null)
-            {
-                // Create a new dataset
-                var dataset = new PieDataset<double>
-                {
-                    BackgroundColor = new IndexableOption<string>(totals.Select(_ => $"#{RandomColor()}").ToArray()),
-                    BorderColor = new IndexableOption<string>(totals.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
-                    HoverBackgroundColor = new IndexableOption<string>(totals.Select(_ => "rgba(0, 0, 0, 0.3)").ToArray()),
-                    HoverBorderColor = new IndexableOption<string>(totals.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
-                    BorderWidth = 2 // Border width in pixels
-                };
+        // Extract labels and values
+        var labels = staticData.Select(item => item.Label).ToList();
+        var values = staticData.Select(item => item.Value).ToList();
 
-                dataset.AddRange(totals.Select(t => t.ADP_Fossil_MJ)); // Add data values to the dataset
-
-                // Configure PieChart
-                PieChartConfig = new PieConfig
-                {
-                    Options = new PieOptions
-                    {
-                        Responsive = true,
-                        OnClick = new JavaScriptHandler<ChartMouseEvent>("handlePieClick")
-                    }
-                };
-
-                foreach (var label in totals.Select(t => t.MaterialName))
-                {
-                    PieChartConfig.Data.Labels.Add(label);
-                }
-                PieChartConfig.Data.Datasets.Add(dataset);
-            }
-        }
-        catch (Exception ex)
+        // Create the dataset
+        var dataset = new PieDataset<double>
         {
-            Console.WriteLine($"Error fetching data: {ex.Message}");
-        }
-    }
+            BackgroundColor = new IndexableOption<string>(values.Select(_ => $"#{RandomColor()}").ToArray()),
+            BorderColor = new IndexableOption<string>(values.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
+            HoverBackgroundColor = new IndexableOption<string>(values.Select(_ => "rgba(0, 0, 0, 0.3)").ToArray()),
+            HoverBorderColor = new IndexableOption<string>(values.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
+            BorderWidth = 2
+        };
 
-    [JSInvokable]
-    public void HandlePieClick(int index)
-    {
-        if (index >= 0 && index < ((PieDataset<double>)PieChartConfig.Data.Datasets.First()).Data.Count)
+        dataset.AddRange(values);
+
+        // Configure the Pie Chart
+        PieChartConfig = new PieConfig
         {
-            selectedField = PieChartConfig.Data.Labels[index];
-            selectedValue = ((PieDataset<double>)PieChartConfig.Data.Datasets.First()).Data[index];
-            StateHasChanged();
+            Options = new PieOptions { Responsive = true }
+        };
+        foreach (var label in labels)
+        {
+            PieChartConfig.Data.Labels.Add(label);
         }
+        PieChartConfig.Data.Datasets.Add(dataset);
     }
 
     private static string RandomColor()
