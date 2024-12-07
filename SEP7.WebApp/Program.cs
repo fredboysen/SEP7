@@ -7,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7073/") });
+
 // Add MudBlazor services
 builder.Services.AddMudServices(); // Register MudBlazor services here
 
@@ -22,10 +25,9 @@ if (!app.Environment.IsDevelopment())
 
 
 
+
 app.UseHttpsRedirection();
-
 app.UseAntiforgery();
-
 app.UseStaticFiles();
 app.MapStaticAssets();
 app.MapRazorComponents<SEP7.WebApp.Components.App>()

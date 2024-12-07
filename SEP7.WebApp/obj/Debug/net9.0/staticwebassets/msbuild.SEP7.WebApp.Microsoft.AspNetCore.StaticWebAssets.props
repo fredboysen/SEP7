@@ -12,11 +12,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8qrn7qnrne</Fingerprint>
-      <Integrity>4NQcvGFtvFGWij/hkcj0hChiaNagAEroCisbpR9Y3Cg=</Integrity>
+      <Fingerprint>4sjvqp7u5l</Fingerprint>
+      <Integrity>5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ChartJsBlazorInterop.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>SEP7.WebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/SEP7.WebApp</BasePath>
+      <RelativePath>ChartJsBlazorInterop.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>49ox6r4gbs</Fingerprint>
+      <Integrity>+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ChartJsBlazorInterop.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.png'))">
       <SourceType>Package</SourceType>
@@ -858,8 +876,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rnojub5shy</Fingerprint>
-      <Integrity>lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=</Integrity>
+      <Fingerprint>ahkpbyk3ph</Fingerprint>
+      <Integrity>7uZa7HNvAHB+kTJpZnBh5Y5oWsm0HCAcTVlTelZz75E=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\MudBlazor.min.js'))</OriginalItemSpec>
