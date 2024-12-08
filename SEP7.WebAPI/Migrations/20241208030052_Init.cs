@@ -14,8 +14,7 @@ namespace SEP7.WebAPI.Migrations
                 name: "Products",
                 columns: table => new
                 {
-                    ProductID = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                    ProductID = table.Column<string>(type: "TEXT", nullable: false),
                     ProductName = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
@@ -58,7 +57,7 @@ namespace SEP7.WebAPI.Migrations
                     PM_Disease_Inc = table.Column<float>(type: "REAL", nullable: false),
                     POCP_kg_NMVOC = table.Column<float>(type: "REAL", nullable: false),
                     WDP_m3_Depriv = table.Column<float>(type: "REAL", nullable: false),
-                    ProductID = table.Column<int>(type: "INTEGER", nullable: false)
+                    ProductID = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -67,8 +66,7 @@ namespace SEP7.WebAPI.Migrations
                         name: "FK_MaterialsTotals_Products_ProductID",
                         column: x => x.ProductID,
                         principalTable: "Products",
-                        principalColumn: "ProductID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "ProductID");
                 });
 
             migrationBuilder.CreateTable(
@@ -77,9 +75,9 @@ namespace SEP7.WebAPI.Migrations
                 {
                     MaterialDataId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    ProductID = table.Column<int>(type: "INTEGER", nullable: false),
+                    ProductID = table.Column<string>(type: "TEXT", nullable: true),
                     MaterialId = table.Column<int>(type: "INTEGER", nullable: false),
-                    MaterialType = table.Column<string>(type: "TEXT", nullable: false),
+                    MaterialType = table.Column<string>(type: "TEXT", nullable: true),
                     TotalWeight = table.Column<float>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
@@ -95,8 +93,7 @@ namespace SEP7.WebAPI.Migrations
                         name: "FK_MatData_Products_ProductID",
                         column: x => x.ProductID,
                         principalTable: "Products",
-                        principalColumn: "ProductID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "ProductID");
                 });
 
             migrationBuilder.CreateIndex(

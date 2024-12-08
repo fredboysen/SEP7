@@ -137,3 +137,379 @@ h1:focus {
 .error-table tr:hover {
     background-color: #f1f1f1;
 }
+
+/* _______________________________________________________________________*/
+
+/*UPLOAD PAGE*/
+
+/* Styling for the entire upload container */
+.upload-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the file input */
+.file-input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the Upload button */
+.upload-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.upload-btn:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+/* Styling for the upload status and alert messages */
+.upload-status {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.alert {
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+/* Small responsive adjustments */
+@media (max-width: 768px) {
+    .upload-container {
+        padding: 15px;
+    }
+
+    .upload-btn {
+        font-size: 14px;
+    }
+}
+
+
+/* _______________________________________________________________________*/
+
+/*Product/Materials PAGE*/
+/* Body Styling for Product Materials Page */
+.product-page-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Search Container Styling for Product Materials */
+.product-search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.product-search-input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1rem;
+    border: 2px solid #ff6f03;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.product-search-input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.product-search-button {
+    padding: 10px 20px;
+    background-color: #ff6f03;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-search-button:hover {
+    background-color: #ff6f03;
+}
+
+.product-search-button:active {
+    background-color: #ff6f03;
+}
+
+/* Table Container Styling for Product Materials */
+.product-materials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-materials-table {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-materials-table th,
+.product-materials-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.product-materials-table th {
+    background-color: #ff6f03;
+    color: white;
+}
+
+.product-materials-table td {
+    background-color: #f9f9f9;
+}
+
+.product-materials-table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.product-materials-table tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* Loading/No Results Message */
+.product-materials-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Styling for Success and Error Alerts */
+.product-alert {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.product-alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.product-alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.product-alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+/* Second Table Styling for Product Materials Page */
+.product-materials-details-table {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-materials-details-table th,
+.product-materials-details-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.product-materials-details-table th {
+    background-color: #ff6f03;
+    color: white;
+}
+
+.product-materials-details-table td {
+    background-color: #f9f9f9;
+}
+
+.product-materials-details-table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.product-materials-details-table tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* Loading/No Results Message for Second Table */
+.product-materials-details-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Spacing and Alignment for both Tables */
+.product-materials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Extra margin between tables */
+.product-materials-table + .product-materials-details-table {
+    margin-top: 40px;
+}
+
+/* Product Materials Tables */
+
+/* Container for both tables */
+.product-materials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+/* Styling for the first table */
+.product-materials-table-container {
+    width: 100%;
+}
+
+.product-materials-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-materials-table th,
+.product-materials-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.product-materials-table th {
+    background-color: #ff6f03;
+    color: white;
+}
+
+.product-materials-table td {
+    background-color: #f9f9f9;
+}
+
+.product-materials-table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.product-materials-table tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* Styling for the second table (Material Details) */
+.product-materials-details-table-container {
+    width: 100%;
+}
+
+/* Wrapper for horizontal scrolling */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.product-materials-details-table {
+    width: 100%;
+    min-width: 1000px; /* Ensures the table stays large enough */
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-materials-details-table th,
+.product-materials-details-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.product-materials-details-table th {
+    background-color: #ff6f03;
+    color: white;
+}
+
+.product-materials-details-table td {
+    background-color: #f9f9f9;
+}
+
+.product-materials-details-table tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+.product-materials-details-table tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* Make table horizontally scrollable */
+@media (max-width: 1200px) {
+    .product-materials-details-table {
+        min-width: 900px;
+    }
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .product-materials-details-table {
+        min-width: 600px;
+    }
+
+    .product-materials-table,
+    .product-materials-details-table {
+        font-size: 0.9rem;
+    }
+}

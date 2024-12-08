@@ -2,6 +2,11 @@ using Microsoft.EntityFrameworkCore;
 using SEP7.Database.Data; 
 using Microsoft.OpenApi.Models; 
 using SEP7.WebAPI.Data;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+
+
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,17 +19,33 @@ builder.Services.AddControllers();
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-    });
-
-    builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
         options.JsonSerializerOptions.MaxDepth = 32; // or any other appropriate depth
     });
 
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowBlazorApp", builder =>
+    {
+        builder.WithOrigins("https://localhost:5123")
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .AllowCredentials();
+    });
+});
+
+
+builder.Services.Configure<IISServerOptions>(options =>
+{
+    options.MaxRequestBodySize = 104857600; // 100MB
+});
+
+
 builder.Services.AddEndpointsApiExplorer(); 
+
 builder.Services.AddSwaggerGen(c =>
 
 {
@@ -56,6 +77,8 @@ if (app.Environment.IsDevelopment())
 }
 }
 
+app.UseCors("AllowAll");
+app.UseCors("AllowBlazorApp");
 
 using (var scope = app.Services.CreateScope())
 {
@@ -64,8 +87,9 @@ using (var scope = app.Services.CreateScope())
 }
 app.UseHttpsRedirection();
 
+
 app.UseStaticFiles();
 app.MapControllers();
-
+app.MapStaticAssets();
 app.Run();
 
