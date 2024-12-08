@@ -1,7 +1,119 @@
 ﻿@page "/"
+@using SEP7.WebApp.Components.Layout
+@layout Homelayout
+@inherits LayoutComponentBase
 
-<PageTitle>Home</PageTitle>
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">&copy; VOLA EDP </a>
+    </div>
+</div>
 
-<h1>Hello, world!</h1>
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
-Welcome to your new app.
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="product-materials">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Materials Usage
+            </NavLink>
+        </div>
+
+   <div class="nav-item px-3">
+            <NavLink class="nav-link" href="upload">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Upload CSV
+            </NavLink>
+        </div>
+
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="login">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Login
+            </NavLink>
+        </div>
+    </nav>
+</div>
+<div class="fact-sheet-container">
+    <!-- Header Section -->
+    <header class="fact-sheet-header">
+        <h1>COUNTRY</h1>
+        <h2>FACT SHEET</h2>
+        <div class="country-flag">
+        
+        </div>
+    </header>
+
+    <!-- Did You Know Section -->
+    <section class="did-you-know">
+        <div class="info-box">
+            <h3>Did You Know?</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="fact-sheet-content">
+        <div class="fact-card">
+            <h3>COUNTRY</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.
+            </p>
+            <img src="world-map.png" alt="World Map" />
+        </div>
+
+        <div class="fact-card">
+            <h3>POPULATION</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </p>
+            <div class="population-stats">
+                <div>
+                    <h4>Male</h4>
+                    <p>49%</p>
+                </div>
+                <div>
+                    <h4>Female</h4>
+                    <p>51%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fact-card">
+            <h3>TRAVEL</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </p>
+            <img src="travel-icon.png" alt="Travel Icon" />
+        </div>
+
+        <div class="fact-card">
+            <h3>INFORMATION</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            </p>
+            <div class="info-stats">
+                <div>
+                    <h4>Fact 1</h4>
+                    <p>78%</p>
+                </div>
+                <div>
+                    <h4>Fact 2</h4>
+                    <p>89%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

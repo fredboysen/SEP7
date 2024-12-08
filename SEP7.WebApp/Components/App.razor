@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="@Assets["lib/bootstrap/dist/css/bootstrap.min.css"]" />
     <link rel="stylesheet" href="@Assets["app.css"]" />
     <link rel="stylesheet" href="@Assets["SEP7.WebApp.styles.css"]" />
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     
-   @* <link href="lib/bootstrap/dist/css/MudBlazor.min.css" rel="stylesheet" /> *@
+
 
     
     <ImportMap />
@@ -19,15 +20,11 @@
 
 <body>
     <Routes />
-    
+      <script src="_framework/blazor.web.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+<!-- This is the glue between Blazor and Chart.js -->
+<script src="_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js"></script>
 
-   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-
-
-    <!-- MudBlazor JavaScript -->
-     @* <script src="_content/MudBlazor/MudBlazor.min.js"></script> *@
-    <script src="_framework/blazor.web.js"></script>
 </body>
 
 </html>

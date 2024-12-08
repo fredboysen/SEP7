@@ -1,36 +1,19 @@
-using SEP7.WebApp.Components;
-using MudBlazor.Services; // Add MudBlazor namespace
+using SEP7.WebApp.Services;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-
+    
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7073/") });
 
-// Add MudBlazor services
-builder.Services.AddMudServices(); 
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddCors();
 
-// Add HttpClient for API interaction
-builder.Services.AddHttpClient("WebAPI", client => { 
-    client.BaseAddress = new Uri("https://localhost:7073");
-});
-
-builder.Services.AddHttpClient();
-
-// Add CORS policy
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowBlazorApp", policy =>
-    {
-        policy.WithOrigins("https://localhost:5123")  
-              .AllowAnyMethod()
-              .AllowAnyHeader()
-              .AllowCredentials();
-    });
-});
 
 var app = builder.Build();
 

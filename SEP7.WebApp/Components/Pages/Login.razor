@@ -1,0 +1,50 @@
+@page "/login"
+
+@using SEP7.WebApp.Components.Layout
+@using SEP7.WebApp.Models
+@using SEP7.WebApp.Services
+@inject IAuthService AuthService
+@inject NavigationManager NavigationManager
+@layout CenteredCardLayout
+@inherits LoginLayout
+
+<div class="container">
+
+    <!-- Login Form Section -->
+    <EditForm Model="@user" OnValidSubmit="HandleLogin">
+        <form>
+            <input type="text" @bind="user.Username" placeholder="Username" />
+            <input type="password" @bind="user.Password" placeholder="Password" />
+            <button type="submit">Login</button>
+            <button type="button" class="back-button" @onclick="NavigateToHome">Back</button>
+        </form>
+    </EditForm>
+</div>
+
+@if (!string.IsNullOrEmpty(loginMessage))
+{
+    <p>@loginMessage</p>
+}
+
+@code {
+    private User user = new User();
+    private string loginMessage;
+
+    private async Task HandleLogin()
+    {
+        var loggedInUser = await AuthService.LoginAsync(user);
+        if (loggedInUser != null)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+        else
+        {
+            loginMessage = "Invalid username or password. Please try again.";
+        }
+    }
+
+    private void NavigateToHome()
+    {
+        NavigationManager.NavigateTo("/"); // Redirects to the home page
+    }
+}

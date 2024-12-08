@@ -162,6 +162,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BlazorPro.Spinkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "ChartJs.Blazor": {
               "target": "Package",
               "version": "[1.1.0, )"
@@ -170,13 +178,21 @@
               "target": "Package",
               "version": "[2.0.2, )"
             },
-            "MudBlazor": {
+            "Microsoft.AspNetCore.Cors": {
               "target": "Package",
-              "version": "[7.15.0, )"
+              "version": "[2.2.0, )"
             },
-            "Syncfusion.Blazor": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[27.2.5, )"
+              "version": "[13.0.3, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[5.6.12, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
