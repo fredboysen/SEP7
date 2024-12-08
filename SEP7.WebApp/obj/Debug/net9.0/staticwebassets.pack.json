@@ -1,16 +1,16 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
-=======
       "Id": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "PackagePath": "staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\SEP7.WebApp.lhrkgjz0vq.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Home.css",
+      "PackagePath": "staticwebassets\\Home.css"
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Waste sorting app.png",
@@ -23,6 +23,10 @@
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\images.jpg",
+      "PackagePath": "staticwebassets\\images.jpg"
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -202,202 +206,6 @@
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-=======
-      "Id": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
-      "PackagePath": "staticwebassets\\SEP7.WebApp.lhrkgjz0vq.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
-      "PackagePath": "staticwebassets\\app.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\MudBlazor.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\MudBlazor.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
->>>>>>> 1d7e64557afd271f9e2aea451f9e0cb30882e578
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {

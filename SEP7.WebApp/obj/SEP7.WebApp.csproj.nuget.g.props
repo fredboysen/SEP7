@@ -34,6 +34,7 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.0\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\9.0.0\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />
+    <Import Project="$(NuGetPackageRoot)radzen.blazor\5.6.12\buildTransitive\Radzen.Blazor.props" Condition="Exists('$(NuGetPackageRoot)radzen.blazor\5.6.12\buildTransitive\Radzen.Blazor.props')" />
     <Import Project="$(NuGetPackageRoot)chartjs.blazor.fork\2.0.2\buildTransitive\ChartJs.Blazor.Fork.props" Condition="Exists('$(NuGetPackageRoot)chartjs.blazor.fork\2.0.2\buildTransitive\ChartJs.Blazor.Fork.props')" />
     <Import Project="$(NuGetPackageRoot)blazorpro.spinkit\1.2.0\buildTransitive\BlazorPro.Spinkit.props" Condition="Exists('$(NuGetPackageRoot)blazorpro.spinkit\1.2.0\buildTransitive\BlazorPro.Spinkit.props')" />
   </ImportGroup>

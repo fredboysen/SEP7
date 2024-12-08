@@ -8,15 +8,22 @@
 @layout CenteredCardLayout
 @inherits LoginLayout
 
-<EditForm Model="@user" OnValidSubmit="HandleLogin">
-    <input type="text" @bind="user.Username" placeholder="Username" />
-    <input type="password" @bind="user.Password" placeholder="Password" />
-    <button type="submit">Login</button>
-</EditForm>
+<div class="container">
+
+    <!-- Login Form Section -->
+    <EditForm Model="@user" OnValidSubmit="HandleLogin">
+        <form>
+            <input type="text" @bind="user.Username" placeholder="Username" />
+            <input type="password" @bind="user.Password" placeholder="Password" />
+            <button type="submit">Login</button>
+            <button type="button" class="back-button" @onclick="NavigateToHome">Back</button>
+        </form>
+    </EditForm>
+</div>
 
 @if (!string.IsNullOrEmpty(loginMessage))
 {
-    <p style="color:red">@loginMessage</p>
+    <p>@loginMessage</p>
 }
 
 @code {
@@ -28,18 +35,16 @@
         var loggedInUser = await AuthService.LoginAsync(user);
         if (loggedInUser != null)
         {
-            if (loggedInUser.Role == "Admin")
-            {
-                NavigationManager.NavigateTo("/");
-            }
-            else
-            {
-                NavigationManager.NavigateTo("/");
-            }
+            NavigationManager.NavigateTo("/");
         }
         else
         {
             loginMessage = "Invalid username or password. Please try again.";
         }
+    }
+
+    private void NavigateToHome()
+    {
+        NavigationManager.NavigateTo("/"); // Redirects to the home page
     }
 }
