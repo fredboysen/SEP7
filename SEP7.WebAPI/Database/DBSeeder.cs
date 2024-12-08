@@ -1,8 +1,7 @@
 using SEP7.WebAPI.Models;
 using SEP7.Database.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace SEP7.WebAPI.Data
 {
@@ -15,14 +14,14 @@ namespace SEP7.WebAPI.Data
 
             // Check if the product with the given ProductID already exists
             var existingProduct = await context.Products
-                                                .FirstOrDefaultAsync(p => p.ProductID == 40001010);
+                                                .FirstOrDefaultAsync(p => p.ProductID == "4000-10-10");
 
             if (existingProduct == null)
             {
                 // Step 1: Create the Product record
                 var product = new Product
                 {
-                    ProductID = 40001010, // Product ID
+                    ProductID = "4000-10-10", // Product ID
                     ProductName = "Toiletpaperholder stainless steel"
                 };
 
@@ -86,7 +85,7 @@ namespace SEP7.WebAPI.Data
             else
             {
                 // Handle the case where the product already exists, if necessary
-                Console.WriteLine($"Product with ID {40001010} already exists.");
+                Console.WriteLine($"Product with ID {"4000-10-10"} already exists.");
             }
         }
     }

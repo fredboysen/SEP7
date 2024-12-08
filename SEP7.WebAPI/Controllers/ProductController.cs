@@ -16,18 +16,18 @@ namespace SEP7.WebAPI.Controllers
         }
 
 
-       [HttpGet("product/{productId}")]
-        public async Task<IActionResult> GetMaterialsTotalByProduct(int productId)
-        {
-            var materialsTotals = await _context.MaterialsTotals
-                .Where(mt => mt.ProductID == productId)
-                .Include(mt => mt.Product)
-                .ToListAsync();
+    [HttpGet("product/{productId}")]
+public async Task<IActionResult> GetMaterialsTotalByProduct(string productId)
+{
+    var materialsTotals = await _context.MaterialsTotals
+        .Where(mt => mt.ProductID == productId) // Ensure ProductID is also a string in the database.
+        .Include(mt => mt.Product)
+        .ToListAsync();
 
-            if (!materialsTotals.Any())
-            {
-                return NotFound("No MaterialsTotal found for this product.");
-            }
+    if (!materialsTotals.Any())
+    {
+        return NotFound("No MaterialsTotal found for this product.");
+    }
 
             var result = materialsTotals.Select(mt => new
             {

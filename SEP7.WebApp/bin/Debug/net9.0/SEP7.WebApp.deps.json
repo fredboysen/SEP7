@@ -20,6 +20,7 @@
           "SEP7.WebApp.dll": {}
         }
       },
+<<<<<<< HEAD
       "BlazorComponentUtilities/1.6.0": {
         "dependencies": {
           "System.Runtime": "4.3.1"
@@ -55,6 +56,10 @@
           }
         }
       },
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1d7e64557afd271f9e2aea451f9e0cb30882e578
       "ChartJs.Blazor.Fork/2.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "8.0.0",
@@ -68,6 +73,7 @@
           }
         }
       },
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CsvHelper/33.0.1": {
         "runtime": {
           "lib/net8.0/CsvHelper.dll": {
@@ -419,6 +425,17 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "7.1.0"
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/7.1.0": {
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "7.1.0"
+        },
+        "runtime": {
+          "lib/net9.0/Swashbuckle.AspNetCore.Annotations.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.916"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/7.1.0": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.22"
@@ -479,7 +496,9 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Swashbuckle.AspNetCore": "7.1.0",
-          "Swashbuckle.AspNetCore.Swagger": "7.1.0"
+          "Swashbuckle.AspNetCore.Annotations": "7.1.0",
+          "Swashbuckle.AspNetCore.Swagger": "7.1.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "7.1.0"
         },
         "runtime": {
           "SEP7.WebAPI.dll": {
@@ -496,6 +515,7 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "BlazorComponentUtilities/1.6.0": {
       "type": "package",
       "serviceable": true,
@@ -517,6 +537,10 @@
       "path": "blazorpro.spinkit/1.2.0",
       "hashPath": "blazorpro.spinkit.1.2.0.nupkg.sha512"
     },
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 1d7e64557afd271f9e2aea451f9e0cb30882e578
     "ChartJs.Blazor.Fork/2.0.2": {
       "type": "package",
       "serviceable": true,
@@ -524,6 +548,7 @@
       "path": "chartjs.blazor.fork/2.0.2",
       "hashPath": "chartjs.blazor.fork.2.0.2.nupkg.sha512"
     },
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
     "CsvHelper/33.0.1": {
       "type": "package",
       "serviceable": true,
@@ -782,6 +807,13 @@
       "sha512": "sha512-PpKwEZNCciDPczWPnuqaTVuN5jR/fG2RubQYgKHVWY2KB+TpvKkOrQJoF51S1yMJxygaofCM3BXlLy4PK/o8WA==",
       "path": "swashbuckle.aspnetcore/7.1.0",
       "hashPath": "swashbuckle.aspnetcore.7.1.0.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.Annotations/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lesyci+wHqJxxPyQx9maLeYoZWJkXN5AXAsxWvhEIWCy41x5PTF7kv+/VPT+4fCmLmjzpCZYR+5Zgq9e9bcaGA==",
+      "path": "swashbuckle.aspnetcore.annotations/7.1.0",
+      "hashPath": "swashbuckle.aspnetcore.annotations.7.1.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/7.1.0": {
       "type": "package",

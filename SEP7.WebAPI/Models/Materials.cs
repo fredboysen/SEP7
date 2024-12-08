@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
+
 
 namespace SEP7.WebAPI.Models
 
@@ -12,7 +12,7 @@ namespace SEP7.WebAPI.Models
     public int MaterialDataId { get; set; }
 
     [ForeignKey("Product")]  // Explicit Foreign Key
-    public int ProductID { get; set; }
+    public string ProductID { get; set; }
 
     [ForeignKey("MaterialsTotal")]  // Explicit Foreign Key
     public int MaterialId { get; set; }
@@ -21,7 +21,6 @@ namespace SEP7.WebAPI.Models
     public float TotalWeight { get; set; }
 
     // Navigation properties
-    [JsonIgnore]
     public virtual Product Product { get; set; }
     public virtual MaterialsTotal MaterialsTotal { get; set; }
 }

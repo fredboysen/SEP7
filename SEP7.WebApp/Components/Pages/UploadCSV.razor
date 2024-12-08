@@ -1,0 +1,86 @@
+@page "/upload"
+@inject HttpClient Http
+@rendermode InteractiveServer
+
+<h3 class="text-center">CSV File Upload</h3>
+
+<div class="upload-container">
+    <!-- File Input to select CSV file -->
+    <InputFile OnChange="HandleFileSelected" accept=".csv" class="file-input" />
+
+    <!-- Button to trigger the file upload -->
+    <button @onclick="UploadFile" class="btn btn-primary upload-btn">Upload</button>
+
+    @if (isUploading)
+    {
+        <div class="upload-status text-info">Uploading...</div>
+    }
+
+    @if (!string.IsNullOrEmpty(uploadResult))
+    {
+        <div class="alert @alertClass" role="alert">
+            @uploadResult
+        </div>
+    }
+</div>
+
+@code {
+    private IBrowserFile selectedFile;
+    private bool isUploading = false;
+    private string uploadResult = string.Empty;
+    private string alertClass = "alert-success"; // Default to success alert
+
+    // This method is triggered when the user selects a file
+    private void HandleFileSelected(InputFileChangeEventArgs e)
+    {
+        selectedFile = e.File;
+        uploadResult = $"File selected: {selectedFile.Name} ({selectedFile.Size} bytes)";
+        alertClass = "alert-info";
+    }
+
+    // This method is triggered when the user clicks the upload button
+    private async Task UploadFile()
+    {
+        if (selectedFile == null)
+        {
+            uploadResult = "No file selected.";
+            alertClass = "alert-danger";
+            return;
+        }
+
+        isUploading = true;
+        uploadResult = $"Uploading {selectedFile.Name}...";
+        alertClass = "alert-info";
+
+        var content = new MultipartFormDataContent();
+        var streamContent = new StreamContent(selectedFile.OpenReadStream());
+        content.Add(streamContent, "file", selectedFile.Name);
+
+        try
+        {
+            // POST the file to the API endpoint for processing
+            var response = await Http.PostAsync("https://localhost:7073/api/Import/upload", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                uploadResult = "File uploaded and processed successfully!";
+                alertClass = "alert-success";
+            }
+            else
+            {
+                uploadResult = "Error uploading file.";
+                alertClass = "alert-danger";
+            }
+        }
+        catch (Exception ex)
+        {
+            // Handle any exceptions that occur during the upload
+            uploadResult = $"Error uploading file: {ex.Message}";
+            alertClass = "alert-danger";
+        }
+        finally
+        {
+            isUploading = false;
+        }
+    }
+}

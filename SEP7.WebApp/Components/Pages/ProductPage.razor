@@ -1,0 +1,197 @@
+﻿@page "/product-materials"
+@inject HttpClient Http
+@using System.Text.Json
+@using System.Net.Http.Json
+
+@rendermode InteractiveServer
+
+<PageTitle>Materials Totals</PageTitle>
+
+<h1>Materials Totals</h1>
+
+<div class="product-search-container">
+    <input type="text" @bind="searchProductId" placeholder="Enter Product ID to search" class="product-search-input" />
+    <button @onclick="SearchMaterialByProductId" class="product-search-button">Search</button>
+</div>
+
+<div class="product-materials-container">
+    @if (MaterialsTotals == null)
+    {
+        <p>Loading materials totals...</p>
+    }
+    else if (!MaterialsTotals.Any())
+    {
+        <p>No materials totals found for this Product ID.</p>
+    }
+    else
+    {
+        <!-- First Table - Basic Information -->
+        <div class="product-materials-table-container">
+            <table class="product-materials-table">
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Material ID</th>
+                        <th>Material Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var material in MaterialsTotals)
+                    {
+                        <tr>
+                            <td>@material.Product?.ProductID</td>
+                            <td>@material.Product?.ProductName</td>
+                            <td>@material.MaterialId</td>
+                            <td>@material.MaterialName</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Second Table - Material Details (Scrollable) -->
+        <div class="product-materials-details-table-container">
+            <div class="table-wrapper">
+                <table class="product-materials-details-table">
+                    <thead>
+                        <tr>
+                            <th>ADP Fossil MJ</th>
+                            <th>ADP Minerals Metals</th>
+                            <th>AP Mol H Eq</th>
+                            <th>E Fi CTUe</th>
+                            <th>E Fm CTUe</th>
+                            <th>E Fo CTUe</th>
+                            <th>EP Terrestrial Mol N Eq</th>
+                            <th>EP Freshwater kg P</th>
+                            <th>EP Marine kg N</th>
+                            <th>ETP FW CTUe</th>
+                            <th>GWP Biogenic kg CO2</th>
+                            <th>GWP Fossil kg CO2</th>
+                            <th>GWP LULUC kg CO2</th>
+                            <th>GWP Total kg CO2</th>
+                            <th>HT CI CTUh</th>
+                            <th>HT CM CTUh</th>
+                            <th>HT CO CTUh</th>
+                            <th>HT NCI CTUh</th>
+                            <th>HT NCM CTUh</th>
+                            <th>HT NCO CTUh</th>
+                            <th>HTTP C CTUh</th>
+                            <th>HTTP NC CTUh</th>
+                            <th>IRP kBq U235</th>
+                            <th>LU Pt</th>
+                            <th>ODP kg CFC11</th>
+                            <th>PM Disease Inc</th>
+                            <th>POCP kg NMVOC</th>
+                            <th>WDP m3 Depriv</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var material in MaterialsTotals)
+                        {
+                            <tr>
+                                <td>@material.ADP_Fossil_MJ</td>
+                                <td>@material.ADP_Minerals_Metals</td>
+                                <td>@material.AP_Mol_H_Eq</td>
+                                <td>@material.E_Fi_CTUe</td>
+                                <td>@material.E_Fm_CTUe</td>
+                                <td>@material.E_Fo_CTUe</td>
+                                <td>@material.EP_Terrestrial_Mol_N_Eq</td>
+                                <td>@material.EP_Freshwater_kg_P</td>
+                                <td>@material.EP_Marine_kg_N</td>
+                                <td>@material.ETP_FW_CTUe</td>
+                                <td>@material.GWP_Biogenic_kg_CO2</td>
+                                <td>@material.GWP_Fossil_kg_CO2</td>
+                                <td>@material.GWP_LULUC_kg_CO2</td>
+                                <td>@material.GWP_Total_kg_CO2</td>
+                                <td>@material.HT_CI_CTUh</td>
+                                <td>@material.HT_CM_CTUh</td>
+                                <td>@material.HT_CO_CTUh</td>
+                                <td>@material.HT_NCI_CTUh</td>
+                                <td>@material.HT_NCM_CTUh</td>
+                                <td>@material.HT_NCO_CTUh</td>
+                                <td>@material.HTTP_C_CTUh</td>
+                                <td>@material.HTTP_NC_CTUh</td>
+                                <td>@material.IRP_kBq_U235</td>
+                                <td>@material.LU_Pt</td>
+                                <td>@material.ODP_kg_CFC11</td>
+                                <td>@material.PM_Disease_Inc</td>
+                                <td>@material.POCP_kg_NMVOC</td>
+                                <td>@material.WDP_m3_Depriv</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private List<MaterialsTotal> MaterialsTotals;
+    private string searchProductId = string.Empty;
+
+    private async Task SearchMaterialByProductId()
+    {
+        if (!string.IsNullOrEmpty(searchProductId))
+        {
+            try
+            {
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+
+                // Make API call to get materials totals filtered by Product ID
+                MaterialsTotals = await Http.GetFromJsonAsync<List<MaterialsTotal>>($"https://localhost:7073/api/Product/product/{searchProductId}", options);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching materials totals: {ex.Message}");
+            }
+        }
+    }
+
+    public class MaterialsTotal
+    {
+        public int MaterialId { get; set; }
+        public string MaterialName { get; set; } = string.Empty;
+        public float ADP_Fossil_MJ { get; set; }
+        public float ADP_Minerals_Metals { get; set; }
+        public float AP_Mol_H_Eq { get; set; }
+        public float E_Fi_CTUe { get; set; }
+        public float E_Fm_CTUe { get; set; }
+        public float E_Fo_CTUe { get; set; }
+        public float EP_Terrestrial_Mol_N_Eq { get; set; }
+        public float EP_Freshwater_kg_P { get; set; }
+        public float EP_Marine_kg_N { get; set; }
+        public float ETP_FW_CTUe { get; set; }
+        public float GWP_Biogenic_kg_CO2 { get; set; }
+        public float GWP_Fossil_kg_CO2 { get; set; }
+        public float GWP_LULUC_kg_CO2 { get; set; }
+        public float GWP_Total_kg_CO2 { get; set; }
+        public float HT_CI_CTUh { get; set; }
+        public float HT_CM_CTUh { get; set; }
+        public float HT_CO_CTUh { get; set; }
+        public float HT_NCI_CTUh { get; set; }
+        public float HT_NCM_CTUh { get; set; }
+        public float HT_NCO_CTUh { get; set; }
+        public float HTTP_C_CTUh { get; set; }
+        public float HTTP_NC_CTUh { get; set; }
+        public float IRP_kBq_U235 { get; set; }
+        public float LU_Pt { get; set; }
+        public float ODP_kg_CFC11 { get; set; }
+        public float PM_Disease_Inc { get; set; }
+        public float POCP_kg_NMVOC { get; set; }
+        public float WDP_m3_Depriv { get; set; }
+
+        public string ProductID { get; set; }
+        public virtual Product Product { get; set; }
+    }
+
+    public class Product
+    {
+        public string ProductName { get; set; } = string.Empty;
+        public string ProductID { get; set; }
+    }
+}

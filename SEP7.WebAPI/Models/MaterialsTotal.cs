@@ -68,7 +68,7 @@ namespace SEP7.WebAPI.Models
         public float WDP_m3_Depriv { get; set; }
 
 
-    public int ProductID { get; set; }
+    public string ProductID { get; set; }
     public virtual Product Product { get; set; }
     }
 }

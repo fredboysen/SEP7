@@ -28,8 +28,8 @@ namespace SEP7.WebAPI.Migrations
                     b.Property<string>("MaterialType")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("ProductID")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
 
                     b.Property<float>("TotalWeight")
                         .HasColumnType("REAL");
@@ -134,8 +134,8 @@ namespace SEP7.WebAPI.Migrations
                     b.Property<float>("POCP_kg_NMVOC")
                         .HasColumnType("REAL");
 
-                    b.Property<int>("ProductID")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
 
                     b.Property<float>("WDP_m3_Depriv")
                         .HasColumnType("REAL");
@@ -150,9 +150,8 @@ namespace SEP7.WebAPI.Migrations
 
             modelBuilder.Entity("SEP7.WebAPI.Models.Product", b =>
                 {
-                    b.Property<int>("ProductID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -173,9 +172,7 @@ namespace SEP7.WebAPI.Migrations
 
                     b.HasOne("SEP7.WebAPI.Models.Product", "Product")
                         .WithMany("MaterialData")
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProductID");
 
                     b.Navigation("MaterialsTotal");
 
@@ -186,9 +183,7 @@ namespace SEP7.WebAPI.Migrations
                 {
                     b.HasOne("SEP7.WebAPI.Models.Product", "Product")
                         .WithOne("MaterialsTotal")
-                        .HasForeignKey("SEP7.WebAPI.Models.MaterialsTotal", "ProductID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SEP7.WebAPI.Models.MaterialsTotal", "ProductID");
 
                     b.Navigation("Product");
                 });

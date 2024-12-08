@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTG9naW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -48,8 +44,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/ProductPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaWdudXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/UploadCSV.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVcGxvYWRDU1YucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Weather.razor]
