@@ -12,13 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-<<<<<<< HEAD
-      <Fingerprint>zqrz53kfvw</Fingerprint>
-      <Integrity>O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=</Integrity>
-=======
-      <Fingerprint>4sjvqp7u5l</Fingerprint>
-      <Integrity>5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=</Integrity>
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      <Fingerprint>fzrx8cw2z4</Fingerprint>
+      <Integrity>Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</OriginalItemSpec>
@@ -881,13 +876,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-<<<<<<< HEAD
-      <Fingerprint>zg9oio7e7u</Fingerprint>
-      <Integrity>8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=</Integrity>
-=======
-      <Fingerprint>1tntjned25</Fingerprint>
-      <Integrity>OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=</Integrity>
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      <Fingerprint>6jdiwj38ae</Fingerprint>
+      <Integrity>/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\MudBlazor.min.js'))</OriginalItemSpec>

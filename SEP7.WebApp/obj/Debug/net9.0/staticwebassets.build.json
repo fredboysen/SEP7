@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "EpBlLPCC+7F94clW7sRDxLRc7mzVBmAhT+xp/bZDiBs=",
-=======
-  "Hash": "KMGn5wteyyqac9MNwRXEf6TZXmy0ZNwSA8zy7Upph7E=",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+  "Hash": "cu0IxCVNqaMKlRbNTxtYoSZNDVn0mmuy59z+BKSQYn8=",
   "Source": "SEP7.WebApp",
   "BasePath": "_content/SEP7.WebApp",
   "Mode": "Default",
@@ -33,13 +29,10 @@
   ],
   "Assets": [
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
-=======
-      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
       "BasePath": "_content/SEP7.WebApp",
       "RelativePath": "ChartJsBlazorInterop#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -54,13 +47,13 @@
       "Integrity": "+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
       "SourceId": "ChartJs.Blazor.Fork",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor.Fork",
       "RelativePath": "ChartJsBlazorInterop.js",
       "AssetKind": "All",
@@ -75,11 +68,241 @@
       "Integrity": "+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "Chart.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rd7kpyao0h",
+      "Integrity": "oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ChartJSBlazor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rxs4m3fo3f",
+      "Integrity": "geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ChartJsBlazorInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bv7wdkbct1",
+      "Integrity": "KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ChartJsBlazorInterop.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zyqspy8l5n",
+      "Integrity": "i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "moment-with-locales.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lzs9hmhw5n",
+      "Integrity": "AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ts/ChartJsBlazorInterop.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7x216tqnxp",
+      "Integrity": "9YAc/7zqenCGPhUJWk0x0WpSSTRg68AJbixm1HiQn/w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ts/ChartJsInterop.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k5onokynzw",
+      "Integrity": "CKKno5zikvogS+VOyrtlqJDAV7otVJ4H5iJ2XHqA6FQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ts/MomentJsInterop.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m78t6um9a2",
+      "Integrity": "0my7KUv2Z5NXtY7VknCp/kxTftbjSiXdG1cwcuAsh98=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ts/types/Chart.min.d.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2rnb4e15pm",
+      "Integrity": "AuekiVBNUw2RH02rCPRlUfISK5n0k05W7x6UFjZrfHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ts/types/moment.d.ts",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epq59vhuoa",
+      "Integrity": "jtQvfIEjFGqu1MuI8zJVQg8ljAIA24UzQ/88Pwyar8A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "tsconfig.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ft71q750bt",
+      "Integrity": "LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
@@ -3019,6 +3242,27 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\scripts\\sf-dashboard-layout.min.js"
     },
     {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "tsconfig.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zhwxsh5ac9",
+      "Integrity": "x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
+    },
+    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\16lpm8pp05-ctw7an2mxc.gz",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -3334,20 +3578,12 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\scripts\\sf-speeddial.min.js"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
-=======
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-fzrx8cw2z4.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
-<<<<<<< HEAD
-      "RelativePath": "app#[.{fingerprint=zqrz53kfvw}]?.css.gz",
-=======
-      "RelativePath": "app#[.{fingerprint=4sjvqp7u5l}]?.css.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "RelativePath": "app#[.{fingerprint=fzrx8cw2z4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3356,13 +3592,8 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-<<<<<<< HEAD
-      "Fingerprint": "duuw4m82li",
-      "Integrity": "JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=",
-=======
-      "Fingerprint": "eetr0grydd",
-      "Integrity": "asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Fingerprint": "zly1t1ob15",
+      "Integrity": "iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css"
@@ -4103,6 +4334,27 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\scripts\\sf-bullet-chart.min.js"
     },
     {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ChartJSBlazor.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xsimxa90ak",
+      "Integrity": "Tz5WuJn9dwWtYSb6+dVlqRClwnCteKEF1QHMER1pvwQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
+    },
+    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\9sk28oydjq-d7shbmvgxk.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
@@ -4229,13 +4481,10 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\styles\\bootstrap5-lite.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azz7n0gu3n-erj0k50lnv.gz",
-=======
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
       "RelativePath": "ChartJsBlazorInterop#[.{fingerprint=49ox6r4gbs}]?.js.gz",
       "AssetKind": "All",
@@ -4243,18 +4492,17 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "7gwhaexwob",
       "Integrity": "hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azz7n0gu3n-erj0k50lnv.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azz7n0gu3n-erj0k50lnv.gz",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -5241,6 +5489,27 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "Chart.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3jlom1vcoi",
+      "Integrity": "AROCcVSccYOUscZOgnNbWDSwWyGrCg399RXsmnbwagU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
+    },
+    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\koe3iulnl6-8cgcz2d20q.gz",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -5302,6 +5571,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ChartJsBlazorInterop.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "kwa1z49aqr",
+      "Integrity": "jG8nXIi19XXYStKi0ojEOUb84vHyNZq4fWdw3bwzw58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\lkespo2mpc-rrz4zie5bu.gz",
@@ -5367,20 +5657,12 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
-=======
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-6jdiwj38ae.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
-<<<<<<< HEAD
-      "RelativePath": "lib/bootstrap/dist/js/MudBlazor.min#[.{fingerprint=zg9oio7e7u}]?.js.gz",
-=======
-      "RelativePath": "lib/bootstrap/dist/js/MudBlazor.min#[.{fingerprint=1tntjned25}]?.js.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "RelativePath": "lib/bootstrap/dist/js/MudBlazor.min#[.{fingerprint=6jdiwj38ae}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5389,13 +5671,8 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-<<<<<<< HEAD
-      "Fingerprint": "kkemg6uypp",
-      "Integrity": "RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU=",
-=======
-      "Fingerprint": "k0iowfsg1d",
-      "Integrity": "zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Fingerprint": "auunxaeb43",
+      "Integrity": "Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js"
@@ -5422,13 +5699,10 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\nt7m4huj10-ub07r2b239.gz",
-=======
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
       "SourceId": "ChartJs.Blazor.Fork",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor.Fork",
       "RelativePath": "ChartJsBlazorInterop.js.gz",
       "AssetKind": "All",
@@ -5436,18 +5710,17 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "7gwhaexwob",
       "Integrity": "hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\nt7m4huj10-qesaa3a1fm.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\nt7m4huj10-ub07r2b239.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -5550,6 +5823,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "ChartJsBlazorInterop.js.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4vn8xytsfl",
+      "Integrity": "MHxrjiSuvuDFdZFMgA8cNVISAWncZB3IFFQc+KVJy3U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
     },
     {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\qeg02v8nug-c3jkn46u09.gz",
@@ -6161,6 +6455,27 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\scripts\\sf-accordion.min.js"
     },
     {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
+      "SourceId": "ChartJs.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor",
+      "RelativePath": "moment-with-locales.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3h8iyrkv3h",
+      "Integrity": "Z6kBsNxM2QV00gI34HL/6lqjRnnO2U8m8Sx06H0PM3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+    },
+    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\vfpw31d6oc-t2396olr7f.gz",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -6742,13 +7057,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-<<<<<<< HEAD
-      "Fingerprint": "zqrz53kfvw",
-      "Integrity": "O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=",
-=======
-      "Fingerprint": "4sjvqp7u5l",
-      "Integrity": "5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Fingerprint": "fzrx8cw2z4",
+      "Integrity": "Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -7734,13 +8044,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-<<<<<<< HEAD
-      "Fingerprint": "zg9oio7e7u",
-      "Integrity": "8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=",
-=======
-      "Fingerprint": "1tntjned25",
-      "Integrity": "OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Fingerprint": "6jdiwj38ae",
+      "Integrity": "/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js"
@@ -7749,7 +8054,7 @@
   "Endpoints": [
     {
       "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js",
-      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7786,7 +8091,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -7841,7 +8146,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7881,6 +8186,1013 @@
         {
           "Name": "integrity",
           "Value": "sha256-hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/Chart.min.js",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "156728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/Chart.min.js",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000021031821"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47546"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AROCcVSccYOUscZOgnNbWDSwWyGrCg399RXsmnbwagU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/Chart.min.js.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AROCcVSccYOUscZOgnNbWDSwWyGrCg399RXsmnbwagU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AROCcVSccYOUscZOgnNbWDSwWyGrCg399RXsmnbwagU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004444444444"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tz5WuJn9dwWtYSb6+dVlqRClwnCteKEF1QHMER1pvwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tz5WuJn9dwWtYSb6+dVlqRClwnCteKEF1QHMER1pvwQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tz5WuJn9dwWtYSb6+dVlqRClwnCteKEF1QHMER1pvwQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000342817964"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2916"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jG8nXIi19XXYStKi0ojEOUb84vHyNZq4fWdw3bwzw58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jG8nXIi19XXYStKi0ojEOUb84vHyNZq4fWdw3bwzw58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jG8nXIi19XXYStKi0ojEOUb84vHyNZq4fWdw3bwzw58="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000481695568"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2075"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MHxrjiSuvuDFdZFMgA8cNVISAWncZB3IFFQc+KVJy3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MHxrjiSuvuDFdZFMgA8cNVISAWncZB3IFFQc+KVJy3U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MHxrjiSuvuDFdZFMgA8cNVISAWncZB3IFFQc+KVJy3U="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "336451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000014193255"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70455"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z6kBsNxM2QV00gI34HL/6lqjRnnO2U8m8Sx06H0PM3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70455"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z6kBsNxM2QV00gI34HL/6lqjRnnO2U8m8Sx06H0PM3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z6kBsNxM2QV00gI34HL/6lqjRnnO2U8m8Sx06H0PM3o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/ChartJsBlazorInterop.ts",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "356"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9YAc/7zqenCGPhUJWk0x0WpSSTRg68AJbixm1HiQn/w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9YAc/7zqenCGPhUJWk0x0WpSSTRg68AJbixm1HiQn/w="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/ChartJsInterop.ts",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CKKno5zikvogS+VOyrtlqJDAV7otVJ4H5iJ2XHqA6FQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CKKno5zikvogS+VOyrtlqJDAV7otVJ4H5iJ2XHqA6FQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/MomentJsInterop.ts",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0my7KUv2Z5NXtY7VknCp/kxTftbjSiXdG1cwcuAsh98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0my7KUv2Z5NXtY7VknCp/kxTftbjSiXdG1cwcuAsh98="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/types/Chart.min.d.ts",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AuekiVBNUw2RH02rCPRlUfISK5n0k05W7x6UFjZrfHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AuekiVBNUw2RH02rCPRlUfISK5n0k05W7x6UFjZrfHY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/ts/types/moment.d.ts",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21967"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/vnd.dlna.mpeg-tts"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jtQvfIEjFGqu1MuI8zJVQg8ljAIA24UzQ/88Pwyar8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jtQvfIEjFGqu1MuI8zJVQg8ljAIA24UzQ/88Pwyar8A="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/tsconfig.json",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/tsconfig.json",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004329004329"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor/tsconfig.json.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Mar 2020 12:53:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU="
         }
       ]
     },
@@ -31637,22 +32949,13 @@
       ]
     },
     {
-<<<<<<< HEAD
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
-=======
-      "Route": "app.4sjvqp7u5l.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-fzrx8cw2z4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-<<<<<<< HEAD
-          "Quality": "0.000312207306"
-=======
-          "Quality": "0.000503018109"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Quality": "0.000310269935"
         }
       ],
       "ResponseHeaders": [
@@ -31662,16 +32965,15 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "3202"
+          "Value": "3222"
         },
         {
           "Name": "ETag",
-          "Value": "\"JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=\""
+          "Value": "\"iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
+          "Value": "Sun, 08 Dec 2024 03:44:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31691,13 +32993,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=\""
+          "Value": "W/\"Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg="
+          "Value": "sha256-Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA="
         }
       ]
     },
@@ -31712,7 +33014,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12164"
+          "Value": "12229"
         },
         {
           "Name": "Content-Type",
@@ -31720,11 +33022,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=\""
+          "Value": "\"Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
+          "Value": "Sun, 08 Dec 2024 03:44:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31734,13 +33036,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg="
+          "Value": "sha256-Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA="
         }
       ]
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-fzrx8cw2z4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -31749,7 +33051,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3202"
+          "Value": "3222"
         },
         {
           "Name": "Content-Type",
@@ -31757,11 +33059,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=\""
+          "Value": "\"iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
+          "Value": "Sun, 08 Dec 2024 03:44:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31779,18 +33081,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA="
+          "Value": "sha256-iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k="
         }
       ]
     },
     {
-      "Route": "app.zqrz53kfvw.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
+      "Route": "app.fzrx8cw2z4.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-fzrx8cw2z4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000312207306"
+          "Quality": "0.000310269935"
         }
       ],
       "ResponseHeaders": [
@@ -31800,26 +33102,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3202"
+          "Value": "3222"
         },
         {
           "Name": "ETag",
-          "Value": "\"JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=\""
+          "Value": "\"iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
-=======
-          "Value": "1987"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 03:44:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31839,21 +33130,13 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "W/\"O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=\""
-=======
-          "Value": "W/\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "W/\"Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "zqrz53kfvw"
-=======
-          "Value": "4sjvqp7u5l"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "fzrx8cw2z4"
         },
         {
           "Name": "label",
@@ -31861,22 +33144,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg="
-=======
-          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "sha256-Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "app.zqrz53kfvw.css",
+      "Route": "app.fzrx8cw2z4.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
-=======
-      "Route": "app.4sjvqp7u5l.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -31885,11 +33159,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "12164"
-=======
-          "Value": "4382"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "12229"
         },
         {
           "Name": "Content-Type",
@@ -31897,19 +33167,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=\""
+          "Value": "\"Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
-=======
-          "Value": "\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 03:44:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31919,11 +33181,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "zqrz53kfvw"
-=======
-          "Value": "4sjvqp7u5l"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "fzrx8cw2z4"
         },
         {
           "Name": "label",
@@ -31931,22 +33189,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg="
-=======
-          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "sha256-Fbzp5Sg8DQTFF56XVqFmqZtHNCjytDV1z3a5Fs1JjTA="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "app.zqrz53kfvw.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
-=======
-      "Route": "app.4sjvqp7u5l.css.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Route": "app.fzrx8cw2z4.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-fzrx8cw2z4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -31955,11 +33204,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "3202"
-=======
-          "Value": "1987"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "3222"
         },
         {
           "Name": "Content-Type",
@@ -31967,19 +33212,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=\""
+          "Value": "\"iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
-=======
-          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 03:44:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31997,11 +33234,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "zqrz53kfvw"
-=======
-          "Value": "4sjvqp7u5l"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "fzrx8cw2z4"
         },
         {
           "Name": "label",
@@ -32009,153 +33242,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA="
-=======
-          "Value": "sha256-asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000503018109"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1987"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4382"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1987"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ="
+          "Value": "sha256-iXlRWUT9w0fTSJmglASZFINzvTh+ADhCWxY84qWZk/k="
         }
       ]
     },
     {
       "Route": "ChartJsBlazorInterop.49ox6r4gbs.js",
-      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -32200,7 +33293,7 @@
     },
     {
       "Route": "ChartJsBlazorInterop.49ox6r4gbs.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -32263,7 +33356,7 @@
     },
     {
       "Route": "ChartJsBlazorInterop.49ox6r4gbs.js.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -32316,7 +33409,7 @@
     },
     {
       "Route": "ChartJsBlazorInterop.js",
-      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -32353,7 +33446,7 @@
     },
     {
       "Route": "ChartJsBlazorInterop.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -32408,7 +33501,7 @@
     },
     {
       "Route": "ChartJsBlazorInterop.js.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -32448,7 +33541,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY="
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
@@ -45945,22 +47037,13 @@
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
-=======
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.1tntjned25.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.6jdiwj38ae.js",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-6jdiwj38ae.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-<<<<<<< HEAD
-          "Quality": "0.000093510380"
-=======
-          "Quality": "0.005025125628"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Quality": "0.004926108374"
         }
       ],
       "ResponseHeaders": [
@@ -45970,27 +47053,15 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "10693"
+          "Value": "202"
         },
         {
           "Name": "ETag",
-          "Value": "\"RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU=\""
+          "Value": "\"Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
-=======
-          "Value": "198"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 03:43:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46010,17 +47081,13 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "W/\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
-=======
-          "Value": "W/\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "W/\"/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "1tntjned25"
+          "Value": "6jdiwj38ae"
         },
         {
           "Name": "label",
@@ -46028,22 +47095,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc="
-=======
-          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "sha256-/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.6jdiwj38ae.js",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
-=======
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.1tntjned25.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -46052,11 +47110,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "50111"
-=======
-          "Value": "262"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "269"
         },
         {
           "Name": "Content-Type",
@@ -46064,136 +47118,21 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
+          "Value": "\"/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.js.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10693"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.zg9oio7e7u.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000093510380"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10693"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
-=======
-          "Value": "\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 03:43:44 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-<<<<<<< HEAD
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
-=======
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "zg9oio7e7u"
-=======
-          "Value": "1tntjned25"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "6jdiwj38ae"
         },
         {
           "Name": "label",
@@ -46201,22 +47140,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc="
-=======
-          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "sha256-/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.zg9oio7e7u.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
-=======
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.1tntjned25.js.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.6jdiwj38ae.js.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-6jdiwj38ae.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -46225,11 +47155,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "50111"
-=======
-          "Value": "198"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "202"
         },
         {
           "Name": "Content-Type",
@@ -46237,64 +47163,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
+          "Value": "\"Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zg9oio7e7u"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/js/MudBlazor.min.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/js/MudBlazor.min.zg9oio7e7u.js.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10693"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
-=======
-          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 03:43:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46312,11 +47185,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "zg9oio7e7u"
-=======
-          "Value": "1tntjned25"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "6jdiwj38ae"
         },
         {
           "Name": "label",
@@ -46324,21 +47193,18 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU="
-=======
-          "Value": "sha256-zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo="
+          "Value": "sha256-Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-6jdiwj38ae.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.005025125628"
+          "Quality": "0.004926108374"
         }
       ],
       "ResponseHeaders": [
@@ -46348,15 +47214,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "198"
+          "Value": "202"
         },
         {
           "Name": "ETag",
-          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
+          "Value": "\"Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+          "Value": "Sun, 08 Dec 2024 03:43:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46376,19 +47242,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
+          "Value": "W/\"/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
+          "Value": "sha256-/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -46397,7 +47263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "262"
+          "Value": "269"
         },
         {
           "Name": "Content-Type",
@@ -46405,11 +47271,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
+          "Value": "\"/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+          "Value": "Sun, 08 Dec 2024 03:43:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46419,13 +47285,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
+          "Value": "sha256-/m6j6Jm+RfTLjcJ9+Pucn1uGj0ctoQwANyi1StS9kbU="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/MudBlazor.min.js.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-6jdiwj38ae.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -46434,7 +47300,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "198"
+          "Value": "202"
         },
         {
           "Name": "Content-Type",
@@ -46442,11 +47308,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
+          "Value": "\"Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+          "Value": "Sun, 08 Dec 2024 03:43:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46464,8 +47330,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo="
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "sha256-Hjunc0zI6z79+CDWweubfyp3d6A2k0XtbmUQ9M8ezYQ="
         }
       ]
     },
@@ -46494,11 +47359,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46551,11 +47412,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46592,11 +47449,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46643,11 +47496,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46708,11 +47557,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46757,11 +47602,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46816,11 +47657,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46881,11 +47718,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46930,11 +47763,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -46989,11 +47818,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -47046,11 +47871,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -47087,11 +47908,7 @@
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
-=======
-          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+          "Value": "Sun, 08 Dec 2024 14:56:05 GMT"
         },
         {
           "Name": "Cache-Control",

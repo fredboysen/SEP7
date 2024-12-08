@@ -2,6 +2,37 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "ChartJs.Blazor/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/ChartJs.Blazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/ChartJs.Blazor.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.1/Properties/launchSettings.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "buildTransitive/ChartJs.Blazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/ChartJs.Blazor.props": {}
+        }
+      },
       "ChartJs.Blazor.Fork/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -880,6 +911,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "ChartJs.Blazor": "1.1.0",
           "CsvHelper": "33.0.1",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
@@ -902,6 +934,36 @@
     }
   },
   "libraries": {
+    "ChartJs.Blazor/1.1.0": {
+      "sha512": "MUGYzS5FSx9r17sPVRlREPWU+1mFtggFaQtGKifQg30I48tx3OEDH3JZd07r+jKwtpN/h89HVUYy3IT2FS8ZEw==",
+      "type": "package",
+      "path": "chartjs.blazor/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ChartJs.Blazor.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/ChartJs.Blazor.props",
+        "buildTransitive/ChartJs.Blazor.props",
+        "chartjs.blazor.1.1.0.nupkg.sha512",
+        "chartjs.blazor.nuspec",
+        "content/Properties/launchSettings.json",
+        "contentFiles/any/netstandard2.1/Properties/launchSettings.json",
+        "lib/netstandard2.1/ChartJs.Blazor.dll",
+        "lib/netstandard2.1/ChartJs.Blazor.xml",
+        "staticwebassets/Chart.min.js",
+        "staticwebassets/ChartJSBlazor.css",
+        "staticwebassets/ChartJsBlazorInterop.js",
+        "staticwebassets/ChartJsBlazorInterop.js.map",
+        "staticwebassets/moment-with-locales.min.js",
+        "staticwebassets/ts/ChartJsBlazorInterop.ts",
+        "staticwebassets/ts/ChartJsInterop.ts",
+        "staticwebassets/ts/MomentJsInterop.ts",
+        "staticwebassets/ts/types/Chart.min.d.ts",
+        "staticwebassets/ts/types/moment.d.ts",
+        "staticwebassets/tsconfig.json"
+      ]
+    },
     "ChartJs.Blazor.Fork/2.0.2": {
       "sha512": "1aJR2uX3Al1OnWsTOIza2UV4oDZcmspOhliXQ2f9rpAOCuwT0BPbN0eFYT3Fzp5aWU9+9tfyhPlQO48UwpfKVQ==",
       "type": "package",
@@ -2472,6 +2534,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "ChartJs.Blazor >= 1.1.0",
       "ChartJs.Blazor.Fork >= 2.0.2",
       "MudBlazor >= 7.15.0",
       "SEP7.WebAPI >= 1.0.0",
@@ -2479,19 +2542,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thoma\\.nuget\\packages\\": {}
+    "C:\\Users\\frebo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
       "projectName": "SEP7.WebApp",
-      "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+      "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -2504,8 +2567,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
-              "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
+            "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+              "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
             }
           }
         }
@@ -2526,6 +2589,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "ChartJs.Blazor": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "ChartJs.Blazor.Fork": {
             "target": "Package",
             "version": "[2.0.2, )"

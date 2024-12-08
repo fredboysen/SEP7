@@ -1,15 +1,11 @@
 {
   "Files": [
     {
-<<<<<<< HEAD
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
-=======
-      "Id": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "Id": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "PackagePath": "staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Id": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\SEP7.WebApp.lhrkgjz0vq.bundle.scp.css"
     },
     {

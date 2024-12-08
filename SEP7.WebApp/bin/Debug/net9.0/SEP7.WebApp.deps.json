@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "SEP7.WebApp/1.0.0": {
         "dependencies": {
+          "ChartJs.Blazor": "1.1.0",
           "ChartJs.Blazor.Fork": "2.0.2",
           "MudBlazor": "7.15.0",
           "SEP7.WebAPI": "1.0.0",
@@ -17,8 +18,13 @@
           "SEP7.WebApp.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
+      "ChartJs.Blazor/1.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.3"
+        }
+      },
       "ChartJs.Blazor.Fork/2.0.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "9.0.0",
@@ -32,7 +38,6 @@
           }
         }
       },
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CsvHelper/33.0.1": {
         "runtime": {
           "lib/net8.0/CsvHelper.dll": {
@@ -488,6 +493,7 @@
       "System.Text.Json/9.0.0": {},
       "SEP7.WebAPI/1.0.0": {
         "dependencies": {
+          "ChartJs.Blazor": "1.1.0",
           "CsvHelper": "33.0.1",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0",
@@ -512,8 +518,13 @@
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
-=======
+    "ChartJs.Blazor/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUGYzS5FSx9r17sPVRlREPWU+1mFtggFaQtGKifQg30I48tx3OEDH3JZd07r+jKwtpN/h89HVUYy3IT2FS8ZEw==",
+      "path": "chartjs.blazor/1.1.0",
+      "hashPath": "chartjs.blazor.1.1.0.nupkg.sha512"
+    },
     "ChartJs.Blazor.Fork/2.0.2": {
       "type": "package",
       "serviceable": true,
@@ -521,7 +532,6 @@
       "path": "chartjs.blazor.fork/2.0.2",
       "hashPath": "chartjs.blazor.fork.2.0.2.nupkg.sha512"
     },
->>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
     "CsvHelper/33.0.1": {
       "type": "package",
       "serviceable": true,

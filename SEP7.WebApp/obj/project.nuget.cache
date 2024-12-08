@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8gcrXheI2ko=",
+  "dgSpecHash": "Vgm2XSW2uDA=",
   "success": true,
   "projectFilePath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\chartjs.blazor.1.1.0.nupkg.sha512",
     "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\chartjs.blazor.fork.2.0.2.nupkg.sha512",
     "C:\\Users\\frebo\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\frebo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.0\\microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",
@@ -54,12 +55,5 @@
     "C:\\Users\\frebo\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\frebo\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
