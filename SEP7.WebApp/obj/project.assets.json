@@ -2,6 +2,57 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "BlazorComponentUtilities/1.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.3.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/BlazorComponentUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BlazorComponentUtilities.dll": {}
+        }
+      },
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        }
+      },
+      "BlazorPro.Spinkit/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "BlazorComponentUtilities": "1.6.0",
+          "Microsoft.AspNetCore.Components": "3.1.2",
+          "Microsoft.AspNetCore.Components.Web": "3.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/BlazorPro.Spinkit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/BlazorPro.Spinkit.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.1/libman.json": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "buildTransitive/BlazorPro.Spinkit.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorPro.Spinkit.props": {}
+        }
+      },
       "ChartJs.Blazor.Fork/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -46,92 +97,93 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authorization/9.0.0": {
+      "Microsoft.AspNetCore.Authorization/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Options": "9.0.0"
+          "Microsoft.AspNetCore.Metadata": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.AspNetCore.Authorization.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Authorization.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Authorization.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.AspNetCore.Components/9.0.0": {
+      "Microsoft.AspNetCore.Components/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.0",
-          "Microsoft.AspNetCore.Components.Analyzers": "9.0.0"
+          "Microsoft.AspNetCore.Authorization": "8.0.0",
+          "Microsoft.AspNetCore.Components.Analyzers": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.AspNetCore.Components.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Components.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/9.0.0": {
+      "Microsoft.AspNetCore.Components.Analyzers/8.0.0": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/9.0.0": {
+      "Microsoft.AspNetCore.Components.Forms/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.0"
+          "Microsoft.AspNetCore.Components": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.AspNetCore.Components.Forms.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Components.Forms.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.AspNetCore.Components.Web/9.0.0": {
+      "Microsoft.AspNetCore.Components.Web/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.0",
-          "Microsoft.AspNetCore.Components.Forms": "9.0.0",
-          "Microsoft.Extensions.DependencyInjection": "9.0.0",
-          "Microsoft.Extensions.Primitives": "9.0.0",
-          "Microsoft.JSInterop": "9.0.0"
+          "Microsoft.AspNetCore.Components": "8.0.0",
+          "Microsoft.AspNetCore.Components.Forms": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Microsoft.JSInterop": "8.0.0",
+          "System.IO.Pipelines": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.AspNetCore.Components.Web.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Components.Web.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.AspNetCore.Metadata/9.0.0": {
+      "Microsoft.AspNetCore.Metadata/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/Microsoft.AspNetCore.Metadata.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.AspNetCore.Metadata.dll": {
+          "lib/net8.0/Microsoft.AspNetCore.Metadata.dll": {
             "related": ".xml"
           }
         }
@@ -400,38 +452,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Localization/8.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
-          "Microsoft.Extensions.Localization.Abstractions": "8.0.8",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.1",
-          "Microsoft.Extensions.Options": "8.0.2"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Localization.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Localization.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Extensions.Logging/9.0.0": {
         "type": "package",
         "dependencies": {
@@ -508,17 +528,35 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.JSInterop/9.0.0": {
+      "Microsoft.JSInterop/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net9.0/Microsoft.JSInterop.dll": {
+          "lib/net8.0/Microsoft.JSInterop.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.JSInterop.dll": {
+          "lib/net8.0/Microsoft.JSInterop.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
         }
       },
       "Microsoft.OpenApi/1.6.22": {
@@ -532,31 +570,6 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "MudBlazor/7.15.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "8.0.8",
-          "Microsoft.AspNetCore.Components.Web": "8.0.8",
-          "Microsoft.Extensions.Localization": "8.0.8"
-        },
-        "compile": {
-          "lib/net8.0/MudBlazor.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/MudBlazor.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "build/MudBlazor.targets": {},
-          "buildTransitive/MudBlazor.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/MudBlazor.props": {}
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -773,66 +786,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Syncfusion.Blazor/27.2.5": {
+      "System.IO.Pipelines/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "9.0.0",
-          "Newtonsoft.Json": "13.0.2",
-          "Syncfusion.ExcelExport.Net.Core": "27.2.5",
-          "Syncfusion.Licensing": "27.2.5",
-          "Syncfusion.PdfExport.Net.Core": "27.2.5",
-          "System.Text.Json": "9.0.0"
-        },
         "compile": {
-          "lib/net9.0/Syncfusion.Blazor.dll": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Syncfusion.Blazor.dll": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/Syncfusion.Blazor.props": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Syncfusion.Blazor.props": {}
-        }
-      },
-      "Syncfusion.ExcelExport.Net.Core/27.2.5": {
-        "type": "package",
-        "compile": {
-          "lib/net9.0/Syncfusion.ExcelExport.Net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Syncfusion.ExcelExport.Net.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Syncfusion.Licensing/27.2.5": {
-        "type": "package",
-        "compile": {
-          "lib/net9.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/net9.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.PdfExport.Net.Core/27.2.5": {
-        "type": "package",
-        "compile": {
-          "lib/net9.0/Syncfusion.PdfExport.Net.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/Syncfusion.PdfExport.Net.dll": {
-            "related": ".xml"
-          }
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Memory/4.5.3": {
@@ -842,6 +809,40 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.1",
+          "Microsoft.NETCore.Targets": "1.1.3"
+        },
+        "compile": {
+          "ref/netstandard1.5/System.Runtime.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
         }
       },
       "System.Text.Json/9.0.0": {
@@ -858,6 +859,21 @@
         },
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
+        }
+      },
+      "CuriousDriveRazorLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.0.0",
+          "Microsoft.AspNetCore.Components.Web": "3.0.0",
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CuriousDriveRazorLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CuriousDriveRazorLibrary.dll": {}
         }
       },
       "SEP7.WebAPI/1.0.0": {
@@ -884,6 +900,57 @@
     }
   },
   "libraries": {
+    "BlazorComponentUtilities/1.6.0": {
+      "sha512": "lMs6tJpkgYWmze2+hEp0Kg4VeIuZPkS6ekt7k+18tE+4iMAy3xlgM5XJw1fzOZjpYQj3X9rex6T3Eoij52tyXw==",
+      "type": "package",
+      "path": "blazorcomponentutilities/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "blazor-glove-256.jpg",
+        "blazorcomponentutilities.1.6.0.nupkg.sha512",
+        "blazorcomponentutilities.nuspec",
+        "lib/netstandard2.0/BlazorComponentUtilities.dll"
+      ]
+    },
+    "Blazored.LocalStorage/4.5.0": {
+      "sha512": "6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
+      "type": "package",
+      "path": "blazored.localstorage/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazored.localstorage.4.5.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll",
+        "lib/net8.0/Blazored.LocalStorage.dll"
+      ]
+    },
+    "BlazorPro.Spinkit/1.2.0": {
+      "sha512": "foGXeN8xbM/OMwsApLNtlOl07blfY8ruYN56JeGha+omRI34abu2AxOyeLVnhuuEdEfcYMOEJlxK7PG0RDirtg==",
+      "type": "package",
+      "path": "blazorpro.spinkit/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "blazor-glove-128.jpg",
+        "blazorpro.spinkit.1.2.0.nupkg.sha512",
+        "blazorpro.spinkit.nuspec",
+        "build/BlazorPro.Spinkit.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BlazorPro.Spinkit.props",
+        "buildTransitive/BlazorPro.Spinkit.props",
+        "content/libman.json",
+        "contentFiles/any/netstandard2.1/libman.json",
+        "lib/netstandard2.1/BlazorPro.Spinkit.dll",
+        "staticwebassets/spinkit.min.css"
+      ]
+    },
     "ChartJs.Blazor.Fork/2.0.2": {
       "sha512": "1aJR2uX3Al1OnWsTOIza2UV4oDZcmspOhliXQ2f9rpAOCuwT0BPbN0eFYT3Fzp5aWU9+9tfyhPlQO48UwpfKVQ==",
       "type": "package",
@@ -932,10 +999,10 @@
         "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/9.0.0": {
-      "sha512": "qDJlBC5pUQ/3o6/C6Vuo9CGKtV5TAe5AdKeHvDR2bgmw8vwPxsAy3KG5eU0i1C+iAUNbmq+iDTbiKt16f9pRiA==",
+    "Microsoft.AspNetCore.Authorization/8.0.0": {
+      "sha512": "OGIGJMnlWvQgcweHcv1Mq/P24Zx/brUHeEdD05NzqkSXmQSnFomTvVyCuBtCXT4JPfv2m70y1RSocmd9bIbJRg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/9.0.0",
+      "path": "microsoft.aspnetcore.authorization/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -943,33 +1010,33 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net462/Microsoft.AspNetCore.Authorization.dll",
         "lib/net462/Microsoft.AspNetCore.Authorization.xml",
-        "lib/net9.0/Microsoft.AspNetCore.Authorization.dll",
-        "lib/net9.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/9.0.0": {
-      "sha512": "xKzY0LRqWrwuPVzKIF9k1kC21NrLmIE2qPhhKlInEAdYqNe8qcMoPWZy7fo1uScHkz5g73nTqDDra3+aAV7mTQ==",
+    "Microsoft.AspNetCore.Components/8.0.0": {
+      "sha512": "kqspqWo3lT+rrSd39kvrV7SZYl0znYZQbQ8SJaHjDA8ffMPV6BkfVe0i6LvxRPwq/agwSWdIDq2j4x+78Frypg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/9.0.0",
+      "path": "microsoft.aspnetcore.components/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
-        "lib/net9.0/Microsoft.AspNetCore.Components.dll",
-        "lib/net9.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.9.0.0.nupkg.sha512",
+        "lib/net8.0/Microsoft.AspNetCore.Components.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/9.0.0": {
-      "sha512": "maOE1qlJ9hf1Fb7PhFLw9bgP9mWckuDOcn1uKNt9/msdJG2YHl3cPRHojYa6CxliGHIXL8Da4qPgeUc4CaOoeg==",
+    "Microsoft.AspNetCore.Components.Analyzers/8.0.0": {
+      "sha512": "lJMa9kQDw3vkqcMMbuicIpyax7QH6imQFbLRzVqJzrGs5LN954IPaJVkDzRCEXFVAN24Cml6g4mEF3b0D7Oa+Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/9.0.0",
+      "path": "microsoft.aspnetcore.components.analyzers/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -978,44 +1045,44 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.9.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/9.0.0": {
-      "sha512": "orHGxDkbAa9syuaLVtZWOhNC8IddnCsDqpFaKjBj4zxe+B8cd6kcNf/t4Lv5hWBQ7mODiRCzEfKBnpU+GCHvbw==",
+    "Microsoft.AspNetCore.Components.Forms/8.0.0": {
+      "sha512": "iiYB/7Sl/vTURO4EiTUCmfIXujlJOl+Gh7nknCFhvFQ+kKMFFXYcrszYwLN9aQSolpswc/A9a78KL59/UIezig==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/9.0.0",
+      "path": "microsoft.aspnetcore.components.forms/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
-        "lib/net9.0/Microsoft.AspNetCore.Components.Forms.dll",
-        "lib/net9.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.9.0.0.nupkg.sha512",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/9.0.0": {
-      "sha512": "ZfJwwV05T+268cnJsO6yfi9oXYLe3ATRAEk0VZgBMptA5HVsduIsnFLjhNOYT7+I8NolxDEx1CEW8yKe5xTb6Q==",
+    "Microsoft.AspNetCore.Components.Web/8.0.0": {
+      "sha512": "aokUKvFoNqxR6bf0+iKrDfQ79OLHWYn5UGYp5MU65/il1vuRK7MAF18oGj7QgiZJUu3cMAZjCFkHbsWLhQxCsA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/9.0.0",
+      "path": "microsoft.aspnetcore.components.web/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
-        "lib/net9.0/Microsoft.AspNetCore.Components.Web.dll",
-        "lib/net9.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.9.0.0.nupkg.sha512",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/9.0.0": {
-      "sha512": "X81C891nMuWgzNHyZ0C3s+blSDxRHzQHDFYQoOKtFvFuxGq3BbkLbc5CfiCqIzA/sWIfz6u8sGBgwntQwBJWBw==",
+    "Microsoft.AspNetCore.Metadata/8.0.0": {
+      "sha512": "OmuSztiZMitRTYlbMNDkBk3BinSsVcOApSNBAsrw+KYNJh6ALarPhWLlKdtvMgrKzpyCY06xtLAjTmQLURHSlQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/9.0.0",
+      "path": "microsoft.aspnetcore.metadata/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1023,11 +1090,11 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net462/Microsoft.AspNetCore.Metadata.dll",
         "lib/net462/Microsoft.AspNetCore.Metadata.xml",
-        "lib/net9.0/Microsoft.AspNetCore.Metadata.dll",
-        "lib/net9.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net8.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.9.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -1627,44 +1694,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Localization/8.0.8": {
-      "sha512": "n32ZGmc2UOv9R/xsBHQPOxBsqCSAAJSoMtFqoQ8zOegB2P+H6+773OyCWg4jRBkO/3dmCyBJXB0yLAOVW2/C/w==",
-      "type": "package",
-      "path": "microsoft.extensions.localization/8.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net462/Microsoft.Extensions.Localization.dll",
-        "lib/net462/Microsoft.Extensions.Localization.xml",
-        "lib/net8.0/Microsoft.Extensions.Localization.dll",
-        "lib/net8.0/Microsoft.Extensions.Localization.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Localization.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Localization.xml",
-        "microsoft.extensions.localization.8.0.8.nupkg.sha512",
-        "microsoft.extensions.localization.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
-      "sha512": "WYIsqP/A6dH/LWJznrvgoNPc7Q+CUJD0E78765GL3aonBtyFK1BKtPzBvvlnrr3SVqSO2r6xJCLgCEiCMG1gfA==",
-      "type": "package",
-      "path": "microsoft.extensions.localization.abstractions/8.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
-        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
-        "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll",
-        "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
-        "microsoft.extensions.localization.abstractions.8.0.8.nupkg.sha512",
-        "microsoft.extensions.localization.abstractions.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Logging/9.0.0": {
       "sha512": "crjWyORoug0kK7RSNJBTeSE6VX8IQgLf3nUpTB9m62bPXp/tzbnOsnbe8TXEG0AASNaKZddnpHKw7fET8E++Pg==",
       "type": "package",
@@ -1839,19 +1868,49 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/9.0.0": {
-      "sha512": "efQKxKUPe8OuH0hRiYsvBJkhhPzIYFNcr9+3wanQ7Bch/wr1JWNd90GYiPLtkSHepE1zMEoaLkAxi5N5/eyC4Q==",
+    "Microsoft.JSInterop/8.0.0": {
+      "sha512": "qQqASbHxWIddssdEBKUQ/49j21SEstiho6VAepPQa9eISLCBCE6wq0m3YaB6cpdF5U+AWX5F3FvDfmssql3xtw==",
       "type": "package",
-      "path": "microsoft.jsinterop/9.0.0",
+      "path": "microsoft.jsinterop/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net9.0/Microsoft.JSInterop.dll",
-        "lib/net9.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.9.0.0.nupkg.sha512",
+        "lib/net8.0/Microsoft.JSInterop.dll",
+        "lib/net8.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.8.0.0.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/1.1.1": {
+      "sha512": "TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json"
+      ]
+    },
+    "Microsoft.NETCore.Targets/1.1.3": {
+      "sha512": "3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
+      "type": "package",
+      "path": "microsoft.netcore.targets/1.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.targets.1.1.3.nupkg.sha512",
+        "microsoft.netcore.targets.nuspec",
+        "runtime.json"
       ]
     },
     "Microsoft.OpenApi/1.6.22": {
@@ -1867,32 +1926,6 @@
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.6.22.nupkg.sha512",
         "microsoft.openapi.nuspec"
-      ]
-    },
-    "MudBlazor/7.15.0": {
-      "sha512": "b2+hO7ZTGwsGhu9SoowuNe2ETeF1GzExpg/hIYR++rSh+vy4v/QD0iOsrATWv3LdFJXSgk3d1+XIr5srW3jBiA==",
-      "type": "package",
-      "path": "mudblazor/7.15.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "Nuget.png",
-        "README.md",
-        "analyzers/dotnet/cs/MudBlazor.Analyzers.dll",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/MudBlazor.props",
-        "build/MudBlazor.targets",
-        "buildMultiTargeting/MudBlazor.props",
-        "buildTransitive/MudBlazor.props",
-        "lib/net7.0/MudBlazor.dll",
-        "lib/net7.0/MudBlazor.xml",
-        "lib/net8.0/MudBlazor.dll",
-        "lib/net8.0/MudBlazor.xml",
-        "mudblazor.7.15.0.nupkg.sha512",
-        "mudblazor.nuspec",
-        "staticwebassets/MudBlazor.min.css",
-        "staticwebassets/MudBlazor.min.js"
       ]
     },
     "Newtonsoft.Json/13.0.3": {
@@ -2102,232 +2135,33 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Syncfusion.Blazor/27.2.5": {
-      "sha512": "W0paLF3LetuMOL8i4MCgpMHafLlp7JsMpE2Ybyv2xe0j2SCRT/jgtXM+TT3AgkC61yvxieFaq1pR+Ek7Yr5Low==",
+    "System.IO.Pipelines/8.0.0": {
+      "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "type": "package",
-      "path": "syncfusion.blazor/27.2.5",
+      "path": "system.io.pipelines/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-        "build/Microsoft.AspNetCore.StaticWebAssets.props",
-        "build/Syncfusion.Blazor.props",
-        "buildMultiTargeting/Syncfusion.Blazor.props",
-        "buildTransitive/Syncfusion.Blazor.props",
-        "lib/net6.0/Syncfusion.Blazor.dll",
-        "lib/net6.0/Syncfusion.Blazor.xml",
-        "lib/net7.0/Syncfusion.Blazor.dll",
-        "lib/net7.0/Syncfusion.Blazor.xml",
-        "lib/net8.0/Syncfusion.Blazor.dll",
-        "lib/net8.0/Syncfusion.Blazor.xml",
-        "lib/net9.0/Syncfusion.Blazor.dll",
-        "lib/net9.0/Syncfusion.Blazor.xml",
-        "staticwebassets/scripts/data.min.js",
-        "staticwebassets/scripts/navigationsbase.min.js",
-        "staticwebassets/scripts/popup.min.js",
-        "staticwebassets/scripts/popupsbase.min.js",
-        "staticwebassets/scripts/sf-accordion.min.js",
-        "staticwebassets/scripts/sf-accumulation-chart.min.js",
-        "staticwebassets/scripts/sf-ai-assistview.min.js",
-        "staticwebassets/scripts/sf-barcode.min.js",
-        "staticwebassets/scripts/sf-breadcrumb.min.js",
-        "staticwebassets/scripts/sf-bullet-chart.min.js",
-        "staticwebassets/scripts/sf-calendar.min.js",
-        "staticwebassets/scripts/sf-carousel.min.js",
-        "staticwebassets/scripts/sf-chart.min.js",
-        "staticwebassets/scripts/sf-chart3D.min.js",
-        "staticwebassets/scripts/sf-circulargauge.min.js",
-        "staticwebassets/scripts/sf-colorpicker.min.js",
-        "staticwebassets/scripts/sf-contextmenu.min.js",
-        "staticwebassets/scripts/sf-dashboard-layout.min.js",
-        "staticwebassets/scripts/sf-datepicker.min.js",
-        "staticwebassets/scripts/sf-daterangepicker.min.js",
-        "staticwebassets/scripts/sf-diagramcomponent.min.js",
-        "staticwebassets/scripts/sf-dialog.min.js",
-        "staticwebassets/scripts/sf-drop-down-button.min.js",
-        "staticwebassets/scripts/sf-dropdownlist.min.js",
-        "staticwebassets/scripts/sf-dropdowntree.min.js",
-        "staticwebassets/scripts/sf-filemanager.min.js",
-        "staticwebassets/scripts/sf-floating-action-button.min.js",
-        "staticwebassets/scripts/sf-gantt.min.js",
-        "staticwebassets/scripts/sf-grid.min.js",
-        "staticwebassets/scripts/sf-heatmap.min.js",
-        "staticwebassets/scripts/sf-image-editor.min.js",
-        "staticwebassets/scripts/sf-inplaceeditor.min.js",
-        "staticwebassets/scripts/sf-kanban.min.js",
-        "staticwebassets/scripts/sf-lineargauge.min.js",
-        "staticwebassets/scripts/sf-listbox.min.js",
-        "staticwebassets/scripts/sf-listview.min.js",
-        "staticwebassets/scripts/sf-maps.min.js",
-        "staticwebassets/scripts/sf-maskedtextbox.min.js",
-        "staticwebassets/scripts/sf-mention.min.js",
-        "staticwebassets/scripts/sf-menu.min.js",
-        "staticwebassets/scripts/sf-multicolumncombobox.min.js",
-        "staticwebassets/scripts/sf-multiselect.min.js",
-        "staticwebassets/scripts/sf-numerictextbox.min.js",
-        "staticwebassets/scripts/sf-otp-input.min.js",
-        "staticwebassets/scripts/sf-pager.min.js",
-        "staticwebassets/scripts/sf-pivotview.min.js",
-        "staticwebassets/scripts/sf-progressbar.min.js",
-        "staticwebassets/scripts/sf-range-navigator.min.js",
-        "staticwebassets/scripts/sf-rating.min.js",
-        "staticwebassets/scripts/sf-richtexteditor.min.js",
-        "staticwebassets/scripts/sf-schedule.min.js",
-        "staticwebassets/scripts/sf-sidebar.min.js",
-        "staticwebassets/scripts/sf-signature.min.js",
-        "staticwebassets/scripts/sf-slider.min.js",
-        "staticwebassets/scripts/sf-smith-chart.min.js",
-        "staticwebassets/scripts/sf-sparkline.min.js",
-        "staticwebassets/scripts/sf-speeddial.min.js",
-        "staticwebassets/scripts/sf-spinner.min.js",
-        "staticwebassets/scripts/sf-splitter.min.js",
-        "staticwebassets/scripts/sf-stepper.min.js",
-        "staticwebassets/scripts/sf-stock-chart.min.js",
-        "staticwebassets/scripts/sf-svg-export.min.js",
-        "staticwebassets/scripts/sf-tab.min.js",
-        "staticwebassets/scripts/sf-textarea.min.js",
-        "staticwebassets/scripts/sf-textbox.min.js",
-        "staticwebassets/scripts/sf-timepicker.min.js",
-        "staticwebassets/scripts/sf-toast.min.js",
-        "staticwebassets/scripts/sf-toolbar.min.js",
-        "staticwebassets/scripts/sf-tooltip.min.js",
-        "staticwebassets/scripts/sf-treegrid.min.js",
-        "staticwebassets/scripts/sf-treemap.min.js",
-        "staticwebassets/scripts/sf-treeview.min.js",
-        "staticwebassets/scripts/sf-uploader.min.js",
-        "staticwebassets/scripts/sortable.min.js",
-        "staticwebassets/scripts/spinner.min.js",
-        "staticwebassets/scripts/splitbuttonsbase.min.js",
-        "staticwebassets/scripts/svgbase.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-base.min.js",
-        "staticwebassets/scripts/syncfusion-blazor.min.js",
-        "staticwebassets/styles/bds-dark-lite.css",
-        "staticwebassets/styles/bds-dark.css",
-        "staticwebassets/styles/bds-lite.css",
-        "staticwebassets/styles/bds.css",
-        "staticwebassets/styles/bootstrap-dark-lite.css",
-        "staticwebassets/styles/bootstrap-dark.css",
-        "staticwebassets/styles/bootstrap-lite.css",
-        "staticwebassets/styles/bootstrap.css",
-        "staticwebassets/styles/bootstrap4-lite.css",
-        "staticwebassets/styles/bootstrap4.css",
-        "staticwebassets/styles/bootstrap5-dark-lite.css",
-        "staticwebassets/styles/bootstrap5-dark.css",
-        "staticwebassets/styles/bootstrap5-lite.css",
-        "staticwebassets/styles/bootstrap5.3-dark-lite.css",
-        "staticwebassets/styles/bootstrap5.3-dark.css",
-        "staticwebassets/styles/bootstrap5.3-lite.css",
-        "staticwebassets/styles/bootstrap5.3.css",
-        "staticwebassets/styles/bootstrap5.css",
-        "staticwebassets/styles/customized/material-dark.css",
-        "staticwebassets/styles/customized/material.css",
-        "staticwebassets/styles/customized/tailwind-dark.css",
-        "staticwebassets/styles/customized/tailwind.css",
-        "staticwebassets/styles/fabric-dark-lite.css",
-        "staticwebassets/styles/fabric-dark.css",
-        "staticwebassets/styles/fabric-lite.css",
-        "staticwebassets/styles/fabric.css",
-        "staticwebassets/styles/fluent-dark-lite.css",
-        "staticwebassets/styles/fluent-dark.css",
-        "staticwebassets/styles/fluent-lite.css",
-        "staticwebassets/styles/fluent.css",
-        "staticwebassets/styles/fluent2-dark-lite.css",
-        "staticwebassets/styles/fluent2-dark.css",
-        "staticwebassets/styles/fluent2-highcontrast-lite.css",
-        "staticwebassets/styles/fluent2-highcontrast.css",
-        "staticwebassets/styles/fluent2-lite.css",
-        "staticwebassets/styles/fluent2.css",
-        "staticwebassets/styles/highcontrast-lite.css",
-        "staticwebassets/styles/highcontrast.css",
-        "staticwebassets/styles/material-dark-lite.css",
-        "staticwebassets/styles/material-dark.css",
-        "staticwebassets/styles/material-lite.css",
-        "staticwebassets/styles/material.css",
-        "staticwebassets/styles/material3-dark-lite.css",
-        "staticwebassets/styles/material3-dark.css",
-        "staticwebassets/styles/material3-lite.css",
-        "staticwebassets/styles/material3.css",
-        "staticwebassets/styles/tailwind-dark-lite.css",
-        "staticwebassets/styles/tailwind-dark.css",
-        "staticwebassets/styles/tailwind-lite.css",
-        "staticwebassets/styles/tailwind.css",
-        "syncfusion.blazor.27.2.5.nupkg.sha512",
-        "syncfusion.blazor.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.ExcelExport.Net.Core/27.2.5": {
-      "sha512": "/g8if1tf5fvw7VmS/lKJvFcUmcoMHYHtfc3+MYcol3SNWqha+3hHNNuPCalBKl3zwJMpnpD3VbuZ4bDf5pKAVQ==",
-      "type": "package",
-      "path": "syncfusion.excelexport.net.core/27.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "lib/net6.0/Syncfusion.ExcelExport.Net.dll",
-        "lib/net6.0/Syncfusion.ExcelExport.Net.xml",
-        "lib/net7.0/Syncfusion.ExcelExport.Net.dll",
-        "lib/net7.0/Syncfusion.ExcelExport.Net.xml",
-        "lib/net8.0/Syncfusion.ExcelExport.Net.dll",
-        "lib/net8.0/Syncfusion.ExcelExport.Net.xml",
-        "lib/net9.0/Syncfusion.ExcelExport.Net.dll",
-        "lib/net9.0/Syncfusion.ExcelExport.Net.xml",
-        "lib/netstandard2.0/Syncfusion.ExcelExport.Net.dll",
-        "lib/netstandard2.0/Syncfusion.ExcelExport.Net.xml",
-        "syncfusion.excelexport.net.core.27.2.5.nupkg.sha512",
-        "syncfusion.excelexport.net.core.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.Licensing/27.2.5": {
-      "sha512": "esz3QIcCfxz6PSNmsX7WQh+rdVOgalZCYOdM1naYUqxZWKhf4En7Ytd2w8e9HSfLgQ2HcAnuk4d0X3CBlRlevQ==",
-      "type": "package",
-      "path": "syncfusion.licensing/27.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
-        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
-        "lib/net40/Syncfusion.Licensing.dll",
-        "lib/net45/Syncfusion.Licensing.dll",
-        "lib/net462/Syncfusion.Licensing.dll",
-        "lib/net6.0/Syncfusion.Licensing.dll",
-        "lib/net7.0/Syncfusion.Licensing.dll",
-        "lib/net8.0/Syncfusion.Licensing.dll",
-        "lib/net9.0/Syncfusion.Licensing.dll",
-        "lib/netstandard2.0/Syncfusion.Licensing.dll",
-        "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.27.2.5.nupkg.sha512",
-        "syncfusion.licensing.nuspec",
-        "syncfusion_logo.png"
-      ]
-    },
-    "Syncfusion.PdfExport.Net.Core/27.2.5": {
-      "sha512": "fYtl0qyPUjHUImEHF0UtAvqQwraS0cotHU8Oq3eO7euEYf3/HcrDQnB18eMGKEw0qQJFT8FjAwgPFBHjggiDZA==",
-      "type": "package",
-      "path": "syncfusion.pdfexport.net.core/27.2.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "lib/net6.0/Syncfusion.PdfExport.Net.dll",
-        "lib/net6.0/Syncfusion.PdfExport.Net.xml",
-        "lib/net7.0/Syncfusion.PdfExport.Net.dll",
-        "lib/net7.0/Syncfusion.PdfExport.Net.xml",
-        "lib/net8.0/Syncfusion.PdfExport.Net.dll",
-        "lib/net8.0/Syncfusion.PdfExport.Net.xml",
-        "lib/net9.0/Syncfusion.PdfExport.Net.dll",
-        "lib/net9.0/Syncfusion.PdfExport.Net.xml",
-        "lib/netstandard2.0/Syncfusion.PdfExport.Net.dll",
-        "lib/netstandard2.0/Syncfusion.PdfExport.Net.xml",
-        "syncfusion.pdfexport.net.core.27.2.5.nupkg.sha512",
-        "syncfusion.pdfexport.net.core.nuspec",
-        "syncfusion_logo.png"
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Pipelines.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "lib/net462/System.IO.Pipelines.dll",
+        "lib/net462/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/net7.0/System.IO.Pipelines.dll",
+        "lib/net7.0/System.IO.Pipelines.xml",
+        "lib/net8.0/System.IO.Pipelines.dll",
+        "lib/net8.0/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.8.0.0.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Memory/4.5.3": {
@@ -2349,6 +2183,129 @@
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "System.Runtime/4.3.1": {
+      "sha512": "abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
+      "type": "package",
+      "path": "system.runtime/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net462/System.Runtime.dll",
+        "lib/portable-net45+win8+wp80+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net462/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.dll",
+        "ref/netcore50/System.Runtime.xml",
+        "ref/netcore50/de/System.Runtime.xml",
+        "ref/netcore50/es/System.Runtime.xml",
+        "ref/netcore50/fr/System.Runtime.xml",
+        "ref/netcore50/it/System.Runtime.xml",
+        "ref/netcore50/ja/System.Runtime.xml",
+        "ref/netcore50/ko/System.Runtime.xml",
+        "ref/netcore50/ru/System.Runtime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.0/System.Runtime.dll",
+        "ref/netstandard1.0/System.Runtime.xml",
+        "ref/netstandard1.0/de/System.Runtime.xml",
+        "ref/netstandard1.0/es/System.Runtime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.xml",
+        "ref/netstandard1.0/it/System.Runtime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.2/System.Runtime.dll",
+        "ref/netstandard1.2/System.Runtime.xml",
+        "ref/netstandard1.2/de/System.Runtime.xml",
+        "ref/netstandard1.2/es/System.Runtime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.xml",
+        "ref/netstandard1.2/it/System.Runtime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.3/System.Runtime.dll",
+        "ref/netstandard1.3/System.Runtime.xml",
+        "ref/netstandard1.3/de/System.Runtime.xml",
+        "ref/netstandard1.3/es/System.Runtime.xml",
+        "ref/netstandard1.3/fr/System.Runtime.xml",
+        "ref/netstandard1.3/it/System.Runtime.xml",
+        "ref/netstandard1.3/ja/System.Runtime.xml",
+        "ref/netstandard1.3/ko/System.Runtime.xml",
+        "ref/netstandard1.3/ru/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.xml",
+        "ref/netstandard1.5/System.Runtime.dll",
+        "ref/netstandard1.5/System.Runtime.xml",
+        "ref/netstandard1.5/de/System.Runtime.xml",
+        "ref/netstandard1.5/es/System.Runtime.xml",
+        "ref/netstandard1.5/fr/System.Runtime.xml",
+        "ref/netstandard1.5/it/System.Runtime.xml",
+        "ref/netstandard1.5/ja/System.Runtime.xml",
+        "ref/netstandard1.5/ko/System.Runtime.xml",
+        "ref/netstandard1.5/ru/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hans/System.Runtime.xml",
+        "ref/netstandard1.5/zh-hant/System.Runtime.xml",
+        "ref/portable-net45+win8+wp80+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.runtime.4.3.1.nupkg.sha512",
+        "system.runtime.nuspec"
+      ]
+    },
+    "System.Text.Encodings.Web/7.0.0": {
+      "sha512": "OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+      "type": "package",
+      "path": "system.text.encodings.web/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encodings.Web.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "lib/net462/System.Text.Encodings.Web.dll",
+        "lib/net462/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/net7.0/System.Text.Encodings.Web.dll",
+        "lib/net7.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.7.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Text.Json/9.0.0": {
@@ -2422,6 +2379,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CuriousDriveRazorLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../../CuriosDriveLibrary/.vscode/BookStores/BlazorServerApp/CuriousDriveRazorLibrary/CuriousDriveRazorLibrary/CuriousDriveRazorLibrary.csproj",
+      "msbuildProject": "../../../CuriosDriveLibrary/.vscode/BookStores/BlazorServerApp/CuriousDriveRazorLibrary/CuriousDriveRazorLibrary/CuriousDriveRazorLibrary.csproj"
+    },
     "SEP7.WebAPI/1.0.0": {
       "type": "project",
       "path": "../SEP7.WebAPI/SEP7.WebAPI.csproj",
@@ -2430,10 +2392,13 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "BlazorPro.Spinkit >= 1.2.0",
+      "Blazored.LocalStorage >= 4.5.0",
       "ChartJs.Blazor.Fork >= 2.0.2",
-      "MudBlazor >= 7.15.0",
+      "CuriousDriveRazorLibrary >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.3",
       "SEP7.WebAPI >= 1.0.0",
-      "Syncfusion.Blazor >= 27.2.5"
+      "System.Text.Encodings.Web >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -2442,11 +2407,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
       "projectName": "SEP7.WebApp",
-      "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+      "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
       "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\",
+      "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2462,8 +2427,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
-              "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
+            "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj": {
+              "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj"
+            },
+            "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+              "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
             }
           }
         }
@@ -2484,17 +2452,25 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "BlazorPro.Spinkit": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
           "ChartJs.Blazor.Fork": {
             "target": "Package",
             "version": "[2.0.2, )"
           },
-          "MudBlazor": {
+          "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[7.15.0, )"
+            "version": "[13.0.3, )"
           },
-          "Syncfusion.Blazor": {
+          "System.Text.Encodings.Web": {
             "target": "Package",
-            "version": "[27.2.5, )"
+            "version": "[7.0.0, )"
           }
         },
         "imports": [

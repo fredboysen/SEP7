@@ -1,17 +1,92 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {}
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
-        "projectName": "SEP7.WebAPI",
-        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj",
+        "projectName": "CuriousDriveRazorLibrary",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj",
         "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "projectName": "SEP7.WebAPI",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -105,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
         "projectName": "SEP7.WebApp",
-        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
         "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -128,8 +203,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
-                "projectPath": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
+              "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj": {
+                "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\CuriosDriveLibrary\\.vscode\\BookStores\\BlazorServerApp\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary\\CuriousDriveRazorLibrary.csproj"
+              },
+              "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+                "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
               }
             }
           }
@@ -150,17 +228,25 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BlazorPro.Spinkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
             "ChartJs.Blazor.Fork": {
               "target": "Package",
               "version": "[2.0.2, )"
             },
-            "MudBlazor": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[7.15.0, )"
+              "version": "[13.0.3, )"
             },
-            "Syncfusion.Blazor": {
+            "System.Text.Encodings.Web": {
               "target": "Package",
-              "version": "[27.2.5, )"
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

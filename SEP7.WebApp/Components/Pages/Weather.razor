@@ -1,68 +1,56 @@
 ﻿@page "/weather"
+
 @using ChartJs.Blazor.PieChart
 @using ChartJs.Blazor.Common
 @using ChartJs.Blazor.Util
 
 <PageTitle>Totals Overview</PageTitle>
 
-<h3>Totals Overview</h3>
+<h3>Hello </h3>
 
-<div>
-    <h4>Pie Chart</h4>
-    @if (PieChartConfig != null)
-    {
-        <Chart Config="@PieChartConfig" />
-    }
-    else
-    {
-        <p>Loading chart...</p>
-    }
-</div>
+@if (_pieConfig != null)
+{
+    <Chart Config="_pieConfig"></Chart>
+}
 
 @code {
-    private PieConfig? PieChartConfig;
-
-    protected override void OnInitialized()
+    private PieConfig _pieConfig;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        // Static Data
-        var staticData = new List<(string Label, double Value)>
+        if (firstRender)
         {
-            ("Static Item 1", 50),
-            ("Static Item 2", 30),
-            ("Static Item 3", 20)
-        };
+            _pieConfig = new PieConfig
+            {
+                Options = new PieOptions
+                {
+                    Responsive = true,
+                    Title = new OptionsTitle
+                    {
+                        Display = true,
+                        Text = "ChartJs.Blazor Pie Chart"
+                    }
+                }
+            };
 
-        // Extract labels and values
-        var labels = staticData.Select(item => item.Label).ToList();
-        var values = staticData.Select(item => item.Value).ToList();
+            foreach (string color in new[] { "Red", "Yellow", "Green", "Blue" })
+            {
+                _pieConfig.Data.Labels.Add(color);
+            }
 
-        // Create the dataset
-        var dataset = new PieDataset<double>
-        {
-            BackgroundColor = new IndexableOption<string>(values.Select(_ => $"#{RandomColor()}").ToArray()),
-            BorderColor = new IndexableOption<string>(values.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
-            HoverBackgroundColor = new IndexableOption<string>(values.Select(_ => "rgba(0, 0, 0, 0.3)").ToArray()),
-            HoverBorderColor = new IndexableOption<string>(values.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
-            BorderWidth = 2
-        };
+            PieDataset<int> dataset = new PieDataset<int>(new[] { 6, 5, 3, 7 })
+            {
+                BackgroundColor = new[]
+                {
+                    ColorUtil.ColorHexString(255, 99, 132), // Slice 1 aka "Red"
+                    ColorUtil.ColorHexString(255, 205, 86), // Slice 2 aka "Yellow"
+                    ColorUtil.ColorHexString(75, 192, 192), // Slice 3 aka "Green"
+                    ColorUtil.ColorHexString(54, 162, 235), // Slice 4 aka "Blue"
+                }
+            };
 
-        dataset.AddRange(values);
+            _pieConfig.Data.Datasets.Add(dataset);
 
-        // Configure the Pie Chart
-        PieChartConfig = new PieConfig
-        {
-            Options = new PieOptions { Responsive = true }
-        };
-        foreach (var label in labels)
-        {
-            PieChartConfig.Data.Labels.Add(label);
+            StateHasChanged(); // Trigger re-render to display the chart
         }
-        PieChartConfig.Data.Datasets.Add(dataset);
-    }
-
-    private static string RandomColor()
-    {
-        var random = new Random();
-        return $"{random.Next(0, 255):X2}{random.Next(0, 255):X2}{random.Next(0, 255):X2}";
     }
 }
