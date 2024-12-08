@@ -7,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7073/") });
+
 // Add MudBlazor services
 builder.Services.AddMudServices(); 
 
@@ -38,9 +41,17 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+<<<<<<< HEAD
 app.UseCors("AllowAll"); // Apply the CORS policy
 app.UseHttpsRedirection();
 app.UseAntiforgery(); // Ensure it does not block your upload requests
+=======
+
+
+
+app.UseHttpsRedirection();
+app.UseAntiforgery();
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
 app.UseStaticFiles();
 app.MapStaticAssets();
 app.MapRazorComponents<SEP7.WebApp.Components.App>()

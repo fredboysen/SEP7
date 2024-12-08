@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "EpBlLPCC+7F94clW7sRDxLRc7mzVBmAhT+xp/bZDiBs=",
+=======
+  "Hash": "KMGn5wteyyqac9MNwRXEf6TZXmy0ZNwSA8zy7Upph7E=",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
   "Source": "SEP7.WebApp",
   "BasePath": "_content/SEP7.WebApp",
   "Mode": "Default",
@@ -29,7 +33,53 @@
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+=======
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "ChartJsBlazorInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49ox6r4gbs",
+      "Integrity": "+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "SourceId": "ChartJs.Blazor.Fork",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\",
+      "BasePath": "_content/ChartJs.Blazor.Fork",
+      "RelativePath": "ChartJsBlazorInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49ox6r4gbs",
+      "Integrity": "+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "SourceId": "MudBlazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
@@ -3284,12 +3334,20 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\scripts\\sf-speeddial.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
+=======
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
+<<<<<<< HEAD
       "RelativePath": "app#[.{fingerprint=zqrz53kfvw}]?.css.gz",
+=======
+      "RelativePath": "app#[.{fingerprint=4sjvqp7u5l}]?.css.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3298,8 +3356,13 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
+<<<<<<< HEAD
       "Fingerprint": "duuw4m82li",
       "Integrity": "JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=",
+=======
+      "Fingerprint": "eetr0grydd",
+      "Integrity": "asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css"
@@ -4166,7 +4229,32 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\syncfusion.blazor\\27.2.5\\staticwebassets\\styles\\bootstrap5-lite.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azz7n0gu3n-erj0k50lnv.gz",
+=======
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "ChartJsBlazorInterop#[.{fingerprint=49ox6r4gbs}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7gwhaexwob",
+      "Integrity": "hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azz7n0gu3n-erj0k50lnv.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -5279,12 +5367,20 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
+=======
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
+<<<<<<< HEAD
       "RelativePath": "lib/bootstrap/dist/js/MudBlazor.min#[.{fingerprint=zg9oio7e7u}]?.js.gz",
+=======
+      "RelativePath": "lib/bootstrap/dist/js/MudBlazor.min#[.{fingerprint=1tntjned25}]?.js.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5293,8 +5389,13 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
+<<<<<<< HEAD
       "Fingerprint": "kkemg6uypp",
       "Integrity": "RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU=",
+=======
+      "Fingerprint": "k0iowfsg1d",
+      "Integrity": "zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js"
@@ -5321,7 +5422,32 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\nt7m4huj10-ub07r2b239.gz",
+=======
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
+      "SourceId": "ChartJs.Blazor.Fork",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ChartJs.Blazor.Fork",
+      "RelativePath": "ChartJsBlazorInterop.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7gwhaexwob",
+      "Integrity": "hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\nt7m4huj10-qesaa3a1fm.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -6616,8 +6742,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "zqrz53kfvw",
       "Integrity": "O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=",
+=======
+      "Fingerprint": "4sjvqp7u5l",
+      "Integrity": "5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -7603,14 +7734,156 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "zg9oio7e7u",
       "Integrity": "8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=",
+=======
+      "Fingerprint": "1tntjned25",
+      "Integrity": "OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000503271263"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1986"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\mpzswgcqbu-49ox6r4gbs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY="
+        }
+      ]
+    },
     {
       "Route": "_content/MudBlazor/MudBlazor.min.css",
       "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
@@ -31364,13 +31637,22 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "app.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
+=======
+      "Route": "app.4sjvqp7u5l.css",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
+<<<<<<< HEAD
           "Quality": "0.000312207306"
+=======
+          "Quality": "0.000503018109"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ],
       "ResponseHeaders": [
@@ -31380,6 +31662,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "3202"
         },
         {
@@ -31526,6 +31809,17 @@
         {
           "Name": "Last-Modified",
           "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
+=======
+          "Value": "1987"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -31545,13 +31839,21 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "W/\"O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=\""
+=======
+          "Value": "W/\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zqrz53kfvw"
+=======
+          "Value": "4sjvqp7u5l"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "label",
@@ -31559,13 +31861,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg="
+=======
+          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "app.zqrz53kfvw.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+=======
+      "Route": "app.4sjvqp7u5l.css",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -31574,7 +31885,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "12164"
+=======
+          "Value": "4382"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Content-Type",
@@ -31582,11 +31897,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
+=======
+          "Value": "\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -31596,7 +31919,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zqrz53kfvw"
+=======
+          "Value": "4sjvqp7u5l"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "label",
@@ -31604,13 +31931,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-O4iL+YUpLzMsrQpdMWaBTnfLrzPvrXFRfHmsuhSmWFg="
+=======
+          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "app.zqrz53kfvw.css.gz",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-zqrz53kfvw.gz",
+=======
+      "Route": "app.4sjvqp7u5l.css.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -31619,7 +31955,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "3202"
+=======
+          "Value": "1987"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Content-Type",
@@ -31627,11 +31967,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Sun, 08 Dec 2024 03:24:40 GMT"
+=======
+          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -31649,7 +31997,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zqrz53kfvw"
+=======
+          "Value": "4sjvqp7u5l"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "label",
@@ -31657,7 +32009,446 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-JQCKq41uEfVjhlq+bqpNYMElFHGlJIQsKE5MISWcmwA="
+=======
+          "Value": "sha256-asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000503018109"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1987"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4382"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5MPo9+W68aZl15+Xdxk9hk3seRDr6u9kEVNysGbC5hY="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-4sjvqp7u5l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 18:53:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-asKV9Brrq5788kuqgi798XxgFYO3VE4FUheZfXqZwoQ="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.49ox6r4gbs.js",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49ox6r4gbs"
+        },
+        {
+          "Name": "label",
+          "Value": "ChartJsBlazorInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.49ox6r4gbs.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000503271263"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1986"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49ox6r4gbs"
+        },
+        {
+          "Name": "label",
+          "Value": "ChartJsBlazorInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.49ox6r4gbs.js.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49ox6r4gbs"
+        },
+        {
+          "Name": "label",
+          "Value": "ChartJsBlazorInterop.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10698"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000503271263"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1986"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+LTDLTFQOAzv/Zs6t+iLN+sImMB14wosmwDodz8KGH8="
+        }
+      ]
+    },
+    {
+      "Route": "ChartJsBlazorInterop.js.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\azf2h1thzz-49ox6r4gbs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jan 2021 07:28:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hxAP8Rlp2ZogpWFLbF8NBA3+AxdadEbyQttS1IpPkxY="
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
@@ -45154,13 +45945,22 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-zg9oio7e7u.gz",
+=======
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.1tntjned25.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
+<<<<<<< HEAD
           "Quality": "0.000093510380"
+=======
+          "Quality": "0.005025125628"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ],
       "ResponseHeaders": [
@@ -45170,6 +45970,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10693"
         },
         {
@@ -45179,10 +45980,21 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
+=======
+          "Value": "198"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -45198,19 +46010,40 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "W/\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
+=======
+          "Value": "W/\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "1tntjned25"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/MudBlazor.min.js"
+        },
+        {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc="
+=======
+          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
+=======
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.1tntjned25.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -45219,7 +46052,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "50111"
+=======
+          "Value": "262"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Content-Type",
@@ -45227,6 +46064,7 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
         },
         {
@@ -45316,10 +46154,18 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
+=======
+          "Value": "\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
+<<<<<<< HEAD
         },
         {
           "Name": "Content-Encoding",
@@ -45336,12 +46182,18 @@
         {
           "Name": "ETag",
           "Value": "W/\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
+=======
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zg9oio7e7u"
+=======
+          "Value": "1tntjned25"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "label",
@@ -45349,13 +46201,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc="
+=======
+          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/MudBlazor.min.zg9oio7e7u.js",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
+=======
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.1tntjned25.js.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -45364,7 +46225,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "50111"
+=======
+          "Value": "198"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Content-Type",
@@ -45372,6 +46237,7 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"8+edhovds41sWEYqAfP5beI4R04z4Mz7Jip8V1CJ6Xc=\""
         },
         {
@@ -45422,6 +46288,13 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 06 Dec 2024 12:47:31 GMT"
+=======
+          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45439,7 +46312,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zg9oio7e7u"
+=======
+          "Value": "1tntjned25"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "label",
@@ -45447,7 +46324,148 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-RDuf4pLVWRtH2hjqG4neElBgcnXJDdVE/NKL/gOX3QU="
+=======
+          "Value": "sha256-zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005025125628"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OxN9BHIMxK2Nn7hcaX9tSQJWH2SrCeyCiaHzW5Gi+HQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/MudBlazor.min.js.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Dokumenter\\Sep7\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\m03ysmdi6j-1tntjned25.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 09:51:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zBJc4NtjvZOC3obNdctepY9j44IhAqzixy4EE8xmLyo="
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         }
       ]
     },
@@ -45476,7 +46494,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45529,7 +46551,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45566,7 +46592,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45613,7 +46643,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45674,7 +46708,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45719,7 +46757,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45774,7 +46816,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45835,7 +46881,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45880,7 +46930,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45935,7 +46989,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -45988,7 +47046,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",
@@ -46025,7 +47087,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Sun, 08 Dec 2024 03:13:26 GMT"
+=======
+          "Value": "Sat, 07 Dec 2024 09:51:32 GMT"
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
         },
         {
           "Name": "Cache-Control",

@@ -138,6 +138,7 @@ h1:focus {
     background-color: #f1f1f1;
 }
 
+<<<<<<< HEAD
 /* _______________________________________________________________________*/
 
 /*UPLOAD PAGE*/
@@ -513,3 +514,11 @@ h1:focus {
         font-size: 0.9rem;
     }
 }
+=======
+
+
+.chart-container {
+    width: 100%;
+    height: 400px;
+}
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622

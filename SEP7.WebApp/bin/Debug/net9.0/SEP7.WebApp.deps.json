@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "SEP7.WebApp/1.0.0": {
         "dependencies": {
+          "ChartJs.Blazor.Fork": "2.0.2",
           "MudBlazor": "7.15.0",
           "SEP7.WebAPI": "1.0.0",
           "Syncfusion.Blazor": "27.2.5"
@@ -16,6 +17,22 @@
           "SEP7.WebApp.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "ChartJs.Blazor.Fork/2.0.2": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/ChartJs.Blazor.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
       "CsvHelper/33.0.1": {
         "runtime": {
           "lib/net8.0/CsvHelper.dll": {
@@ -64,6 +81,7 @@
           }
         }
       },
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.Sqlite.Core/9.0.0": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.10"
@@ -494,6 +512,16 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
+=======
+    "ChartJs.Blazor.Fork/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1aJR2uX3Al1OnWsTOIza2UV4oDZcmspOhliXQ2f9rpAOCuwT0BPbN0eFYT3Fzp5aWU9+9tfyhPlQO48UwpfKVQ==",
+      "path": "chartjs.blazor.fork/2.0.2",
+      "hashPath": "chartjs.blazor.fork.2.0.2.nupkg.sha512"
+    },
+>>>>>>> 142c714d59f339eebfb3a4691ec7ab0010e1e622
     "CsvHelper/33.0.1": {
       "type": "package",
       "serviceable": true,
@@ -549,6 +577,13 @@
       "sha512": "sha512-FqUK5j1EOPNuFT7IafltZQ3cakqhSwVzH5ZW1MhZDe4pPXs9sJ2M5jom1Omsu+mwF2tNKKlRAzLRHQTZzbd+6Q==",
       "path": "microsoft.aspnetcore.openapi/9.0.0",
       "hashPath": "microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/9.0.0": {
       "type": "package",

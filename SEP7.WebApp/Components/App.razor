@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="@Assets["app.css"]" />
     <link rel="stylesheet" href="@Assets["SEP7.WebApp.styles.css"]" />
     
-   <link href="lib/bootstrap/dist/css/MudBlazor.min.css" rel="stylesheet" />
+   @* <link href="lib/bootstrap/dist/css/MudBlazor.min.css" rel="stylesheet" /> *@
 
     
     <ImportMap />
@@ -20,9 +20,13 @@
 <body>
     <Routes />
     
+
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
     <!-- MudBlazor JavaScript -->
-    <script src="lib/bootstrap/dist/js/MudBlazor.min.js"></script>
-    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+     @* <script src="_content/MudBlazor/MudBlazor.min.js"></script> *@
     <script src="_framework/blazor.web.js"></script>
 </body>
 

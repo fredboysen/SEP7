@@ -1,98 +1,68 @@
 ﻿@page "/weather"
-@using MudBlazor
-@using MudBlazor.Charts
+@using ChartJs.Blazor.PieChart
+@using ChartJs.Blazor.Common
+@using ChartJs.Blazor.Util
 
-<MudLayout>
-    <!-- Top Section: Summary Cards -->
-    <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mb-4">
-        <MudGrid Spacing="2">
-            <MudItem xs="12" sm="6" md="3">
-                <MudCard Class="pa-2">
-                    <MudText Typo="Typo.subtitle2">Selected Category</MudText>
-                    <MudText Typo="Typo.h5">@selectedCategory</MudText>
-                </MudCard>
-            </MudItem>
-        </MudGrid>
-    </MudContainer>
+<PageTitle>Totals Overview</PageTitle>
 
-    <!-- Middle Section: Pie Chart and Bar Chart -->
-    <MudContainer MaxWidth="MaxWidth.ExtraLarge" Class="mb-4">
-        <MudGrid Spacing="2">
-            <!-- Pie Chart -->
-            <MudItem xs="12" md="6">
-                <MudPaper Elevation="1" Class="pa-2">
-                    <MudText Typo="Typo.subtitle1">Top Impressions by Category</MudText>
-                    <MudChart ChartType="ChartType.Pie" 
-                              Labels="@categoryLabels"
-                              Datasets="@pieChartData" />
-                </MudPaper>
-            </MudItem>
+<h3>Totals Overview</h3>
 
-            <!-- Bar Chart -->
-            <MudItem xs="12" md="6">
-                <MudPaper Elevation="1" Class="pa-2">
-                    <MudText Typo="Typo.subtitle1">Details for @selectedCategory</MudText>
-                    <MudChart ChartType="ChartType.Bar" 
-                              Labels="@filteredLabels"
-                              Datasets="@barChartData" />
-                </MudPaper>
-
-                <!-- Debug Button -->
-                <MudButton Variant="Variant.Filled" 
-                           Color="Color.Primary" 
-                           OnClick="HandleTestButtonClick">
-                    Test Button
-                </MudButton>
-            </MudItem>
-        </MudGrid>
-    </MudContainer>
-
-    <!-- Debug Outputs -->
-    <MudContainer Class="mt-4">
-        <MudText Typo="Typo.body1">Category Labels: @string.Join(", ", categoryLabels)</MudText>
-        <MudText Typo="Typo.body1">Pie Chart Data: @string.Join(", ", pieChartData[0].Data ?? new double[] { })</MudText>
-        <MudText Typo="Typo.body1">Bar Chart Data: @string.Join(", ", barChartData[0]?.Data ?? new double[] { })</MudText>
-    </MudContainer>
-</MudLayout>
-
+<div>
+    <h4>Pie Chart</h4>
+    @if (PieChartConfig != null)
+    {
+        <Chart Config="@PieChartConfig" />
+    }
+    else
+    {
+        <p>Loading chart...</p>
+    }
+</div>
 
 @code {
-    private string selectedCategory = "All Categories";
+    private PieConfig? PieChartConfig;
 
-    // Static Data for Testing
-    private string[] categoryLabels = { "Pollution", "Energy", "Waste", "Water" };
-    private ChartSeries[] pieChartData = new[]
+    protected override void OnInitialized()
     {
-        new ChartSeries { Data = new double[] { 40, 30, 25, 20 }, Name = "Categories" }
-    };
-    private string[] filteredLabels = { "Metric 1", "Metric 2", "Metric 3" };
-    private ChartSeries[] barChartData = new[]
-    {
-        new ChartSeries { Data = new double[] { 50, 60, 70 }, Name = "Details" }
-    };
+        // Static Data
+        var staticData = new List<(string Label, double Value)>
+        {
+            ("Static Item 1", 50),
+            ("Static Item 2", 30),
+            ("Static Item 3", 20)
+        };
 
-    // Test Button Click Handler
-    private void HandleTestButtonClick()
-    {
-        Console.WriteLine("Button Clicked!");
+        // Extract labels and values
+        var labels = staticData.Select(item => item.Label).ToList();
+        var values = staticData.Select(item => item.Value).ToList();
+
+        // Create the dataset
+        var dataset = new PieDataset<double>
+        {
+            BackgroundColor = new IndexableOption<string>(values.Select(_ => $"#{RandomColor()}").ToArray()),
+            BorderColor = new IndexableOption<string>(values.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
+            HoverBackgroundColor = new IndexableOption<string>(values.Select(_ => "rgba(0, 0, 0, 0.3)").ToArray()),
+            HoverBorderColor = new IndexableOption<string>(values.Select(_ => "rgba(255, 255, 255, 1)").ToArray()),
+            BorderWidth = 2
+        };
+
+        dataset.AddRange(values);
+
+        // Configure the Pie Chart
+        PieChartConfig = new PieConfig
+        {
+            Options = new PieOptions { Responsive = true }
+        };
+        foreach (var label in labels)
+        {
+            PieChartConfig.Data.Labels.Add(label);
+        }
+        PieChartConfig.Data.Datasets.Add(dataset);
     }
 
-    // Pie Chart Click Handler
-    private void HandlePieChartClick(MouseEventArgs args)
+    private static string RandomColor()
     {
-        int clickedIndex = 0; // Example: Use 0 as the first index to test functionality
-
-        if (clickedIndex >= 0 && clickedIndex < categoryLabels.Length)
-        {
-            selectedCategory = categoryLabels[clickedIndex];
-            barChartData = new[]
-            {
-                new ChartSeries
-                {
-                    Data = new double[] { 60, 70, 80 }, // Example data for testing
-                    Name = selectedCategory
-                }
-            };
-        }
+        var random = new Random();
+        return $"{random.Next(0, 255):X2}{random.Next(0, 255):X2}{random.Next(0, 255):X2}";
     }
 }
