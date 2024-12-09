@@ -59,8 +59,7 @@
     // Placeholder function to get product image URL
     private string GetProductImage(Product product)
     {
-        // Replace with logic to fetch product-specific image URLs
-        return "https://via.placeholder.com/150"; // Default placeholder image
+       return product.ImageUrl;
     }
 
     private void NavigateToProductDetails(string productId)

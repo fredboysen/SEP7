@@ -10,7 +10,7 @@ using SEP7.Database.Data;
 namespace SEP7.WebAPI.Migrations
 {
     [DbContext(typeof(ApplicationDB))]
-    [Migration("20241209065012_Init")]
+    [Migration("20241209134347_Init")]
     partial class Init
     {
         /// <inheritdoc />

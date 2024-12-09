@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZgM4hlTUTuneDsHZnapaE8rehL6K+peDQuMEiDWvcCg=",
+  "Hash": "KaWVf1BSEMzZf8PQeAdIqr8uBhNkR1TMQ8AcLlJ0tpg=",
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
@@ -372,6 +372,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "SourceId": "SEP7.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebAPI",
+      "RelativePath": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p91m3otz43",
+      "Integrity": "E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
     }
   ],
   "Endpoints": [
@@ -1379,6 +1400,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU="
+        }
+      ]
+    },
+    {
+      "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.p91m3otz43.png",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p91m3otz43"
+        },
+        {
+          "Name": "label",
+          "Value": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
+        }
+      ]
+    },
+    {
+      "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
         }
       ]
     }

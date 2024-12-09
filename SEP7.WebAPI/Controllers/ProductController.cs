@@ -21,7 +21,7 @@ namespace SEP7.WebAPI.Controllers
 public async Task<IActionResult> GetMaterialsTotalByProduct(string productId)
 {
     var materialsTotals = await _context.MaterialsTotals
-        .Where(mt => mt.ProductID == productId) // Ensure ProductID is also a string in the database.
+        .Where(mt => mt.ProductID == productId)
         .Include(mt => mt.Product)
         .ToListAsync();
 
@@ -71,25 +71,6 @@ public async Task<IActionResult> GetMaterialsTotalByProduct(string productId)
 
             return Ok(result);
         }
-
-[HttpGet("api/products/overview")]
-public async Task<ActionResult<IEnumerable<MaterialsTotal>>> GetProductOverview(string group, string impactType)
-{
-    // Fetch products and their corresponding environmental data from MaterialsTotal
-    var productOverview = await _context.MaterialsTotals
-        .Where(mt => string.IsNullOrEmpty(group) || mt.ProductID == group) // Filter by ProductID if 'group' is provided
-        .Include(mt => mt.Product) // Include related Product data (ProductName, ProductID)
-        .Select(mt => new MaterialsTotal
-        {
-            ProductID = mt.Product.ProductID, // Include ProductID from the Products table
-            GWP_Total_kg_CO2 = impactType == "GWP" ? mt.GWP_Total_kg_CO2 : 0, // Return GWP Total if selected
-            EP_Freshwater_kg_P = impactType == "EP" ? mt.EP_Freshwater_kg_P : 0, // Return Eutrophication Potential if selected
-            AP_Mol_H_Eq = impactType == "AP" ? mt.AP_Mol_H_Eq : 0  // Return Acidification Potential if selected
-        })
-        .ToListAsync();
-
-    return Ok(productOverview);
-}
 
 
   [HttpGet]

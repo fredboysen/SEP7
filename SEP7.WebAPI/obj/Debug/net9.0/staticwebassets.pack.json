@@ -1,32 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\36436384-f5f9-4395-b9c4-bc54dc473d0d_logo.png",
-      "PackagePath": "staticwebassets\\images\\36436384-f5f9-4395-b9c4-bc54dc473d0d_logo.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\5bbfd7cc-30d1-4b71-838a-af68874d79c6_logo.png",
-      "PackagePath": "staticwebassets\\images\\5bbfd7cc-30d1-4b71-838a-af68874d79c6_logo.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\6500e631-9c1b-4d84-a56b-85a653350dbd_logo.png",
-      "PackagePath": "staticwebassets\\images\\6500e631-9c1b-4d84-a56b-85a653350dbd_logo.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\a4822bdc-e546-429d-82b0-55bc31b420fa_logo.png",
-      "PackagePath": "staticwebassets\\images\\a4822bdc-e546-429d-82b0-55bc31b420fa_logo.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\e4bf5b6f-b484-47c5-ab99-79b10b3885cd_logo.png",
-      "PackagePath": "staticwebassets\\images\\e4bf5b6f-b484-47c5-ab99-79b10b3885cd_logo.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\fa320525-2e07-472f-a873-e78000617c38_logo.png",
-      "PackagePath": "staticwebassets\\images\\fa320525-2e07-472f-a873-e78000617c38_logo.png"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\feeb4047-32fb-4377-b5ae-4048c9f57514_logo.png",
-      "PackagePath": "staticwebassets\\images\\feeb4047-32fb-4377-b5ae-4048c9f57514_logo.png"
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "PackagePath": "staticwebassets\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SEP7.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
