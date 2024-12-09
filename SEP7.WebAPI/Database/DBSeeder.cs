@@ -22,7 +22,8 @@ namespace SEP7.WebAPI.Data
                 var product = new Product
                 {
                     ProductID = "4000-10-10", // Product ID
-                    ProductName = "Toiletpaperholder stainless steel"
+                    ProductName = "Toiletpaperholder stainless steel",
+                    ImageUrl = "Image1.png"
                 };
 
                 // Add the product to the Products table
@@ -87,6 +88,32 @@ namespace SEP7.WebAPI.Data
                 // Handle the case where the product already exists, if necessary
                 Console.WriteLine($"Product with ID {"4000-10-10"} already exists.");
             }
+    
+     var users = new[]
+            {
+                new User
+                {
+                    username = "testuser",
+                    email = "testuser@example.com",
+                    role = "user",
+                    password = "test123"
+                },
+                new User
+                {
+                    username = "testadmin",
+                    email = "testadmin@example.com",
+                    role = "admin",
+                    password = "test123"
+                }
+            };
+
+            context.Users.AddRange(users);
+            context.SaveChanges();
         }
+    
+    
+    
     }
+
+    
 }

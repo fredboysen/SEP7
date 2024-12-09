@@ -2,14 +2,17 @@
 @inject HttpClient Http
 @rendermode InteractiveServer
 
-<h3 class="text-center">CSV File Upload</h3>
+<h3 class="text-center">CSV and Image Upload</h3>
 
 <div class="upload-container">
     <!-- File Input to select CSV file -->
-    <InputFile OnChange="HandleFileSelected" accept=".csv" class="file-input" />
+    <InputFile OnChange="HandleCsvFileSelected" accept=".csv" class="file-input" />
+
+    <!-- File Input to select Image file -->
+    <InputFile OnChange="HandleImageFileSelected" accept="image/*" class="file-input" />
 
     <!-- Button to trigger the file upload -->
-    <button @onclick="UploadFile" class="btn btn-primary upload-btn">Upload</button>
+    <button @onclick="UploadFiles" class="btn btn-primary upload-btn">Upload</button>
 
     @if (isUploading)
     {
@@ -25,58 +28,75 @@
 </div>
 
 @code {
-    private IBrowserFile selectedFile;
+    private IBrowserFile csvFile;
+    private IBrowserFile imageFile;
     private bool isUploading = false;
     private string uploadResult = string.Empty;
     private string alertClass = "alert-success"; // Default to success alert
 
-    // This method is triggered when the user selects a file
-    private void HandleFileSelected(InputFileChangeEventArgs e)
+    // This method is triggered when the user selects a CSV file
+    private void HandleCsvFileSelected(InputFileChangeEventArgs e)
     {
-        selectedFile = e.File;
-        uploadResult = $"File selected: {selectedFile.Name} ({selectedFile.Size} bytes)";
+        csvFile = e.File;
+        uploadResult = $"CSV file selected: {csvFile.Name} ({csvFile.Size} bytes)";
+        alertClass = "alert-info";
+    }
+
+    // This method is triggered when the user selects an image file
+    private void HandleImageFileSelected(InputFileChangeEventArgs e)
+    {
+        imageFile = e.File;
+        uploadResult = $"Image file selected: {imageFile.Name} ({imageFile.Size} bytes)";
         alertClass = "alert-info";
     }
 
     // This method is triggered when the user clicks the upload button
-    private async Task UploadFile()
+    private async Task UploadFiles()
     {
-        if (selectedFile == null)
+        if (csvFile == null || imageFile == null)
         {
-            uploadResult = "No file selected.";
+            uploadResult = "Both CSV and Image files are required.";
             alertClass = "alert-danger";
             return;
         }
 
         isUploading = true;
-        uploadResult = $"Uploading {selectedFile.Name}...";
+        uploadResult = $"Uploading {csvFile.Name} and {imageFile.Name}...";
         alertClass = "alert-info";
 
         var content = new MultipartFormDataContent();
-        var streamContent = new StreamContent(selectedFile.OpenReadStream());
-        content.Add(streamContent, "file", selectedFile.Name);
+
+        // Add CSV file content
+        var csvStreamContent = new StreamContent(csvFile.OpenReadStream());
+        csvStreamContent.Headers.Add("Content-Type", "text/csv");  // Set the correct content type for CSV
+        content.Add(csvStreamContent, "file", csvFile.Name);  // "file" is the parameter expected by the backend
+
+        // Add Image file content
+        var imageStreamContent = new StreamContent(imageFile.OpenReadStream());
+        imageStreamContent.Headers.Add("Content-Type", imageFile.ContentType);  // Set the content type for the image
+        content.Add(imageStreamContent, "imageFile", imageFile.Name);  // "imageFile" is the parameter expected by the backend
 
         try
         {
-            // POST the file to the API endpoint for processing
             var response = await Http.PostAsync("https://localhost:7073/api/Import/upload", content);
 
             if (response.IsSuccessStatusCode)
             {
-                uploadResult = "File uploaded and processed successfully!";
+                uploadResult = "Files uploaded and processed successfully!";
                 alertClass = "alert-success";
             }
             else
             {
-                uploadResult = "Error uploading file.";
+                var errorMessage = await response.Content.ReadAsStringAsync();
+                uploadResult = $"Error uploading files: {errorMessage}";
                 alertClass = "alert-danger";
             }
         }
         catch (Exception ex)
         {
-            // Handle any exceptions that occur during the upload
-            uploadResult = $"Error uploading file: {ex.Message}";
+            uploadResult = $"Error uploading files: {ex.Message}";
             alertClass = "alert-danger";
+            Console.WriteLine($"Error uploading files: {ex.Message}");  // Log error
         }
         finally
         {

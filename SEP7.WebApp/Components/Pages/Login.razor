@@ -1,50 +1,66 @@
 @page "/login"
-
-@using SEP7.WebApp.Components.Layout
-@using SEP7.WebApp.Models
 @using SEP7.WebApp.Services
-@inject IAuthService AuthService
-@inject NavigationManager NavigationManager
-@layout CenteredCardLayout
-@inherits LoginLayout
+@using SEP7.WebAPI.Controllers
+@using SEP7.WebAPI.Models
+@inject HttpClient Http
+@inject NavigationManager navMgr
+@inject IAuthService authService
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+@inherits LayoutComponentBase
 
-<div class="container">
+<PageTitle>Login</PageTitle>
 
-    <!-- Login Form Section -->
-    <EditForm Model="@user" OnValidSubmit="HandleLogin">
-        <form>
-            <input type="text" @bind="user.Username" placeholder="Username" />
-            <input type="password" @bind="user.Password" placeholder="Password" />
-            <button type="submit">Login</button>
-            <button type="button" class="back-button" @onclick="NavigateToHome">Back</button>
-        </form>
-    </EditForm>
+<div class="login-container">
+    <img src="vola.png" alt="App Logo" class="login-logo" />
+    
+    <div>
+        <h3>Login</h3>
+        
+        <!-- Username Field -->
+        <div class="login-field">
+            <label for="username" class="login-label">Username:</label>
+            <input id="username" type="text" @bind="loginUsername" class="login-input" />
+        </div>
+        
+        <!-- Password Field -->
+        <div class="login-field">
+            <label for="password" class="login-label">Password:</label>
+            <input id="password" type="password" @bind="loginPassword" class="login-input" />
+        </div>
+        
+        <!-- Error Message -->
+        @if (!string.IsNullOrEmpty(loginErrorLabel))
+        {
+            <div class="login-field">
+                <p class="login-error-message">@loginErrorLabel</p>
+            </div>
+        }
+        
+        <!-- Login Button -->
+        <div class="login-field">
+            <button class="login-button" @onclick="LoginAsync">Log in</button>
+        </div>
+    </div>
 </div>
 
-@if (!string.IsNullOrEmpty(loginMessage))
-{
-    <p>@loginMessage</p>
-}
-
 @code {
-    private User user = new User();
-    private string loginMessage;
+    private string loginUsername = "";
+    private string loginPassword = "";
+    private string loginErrorLabel = "";
 
-    private async Task HandleLogin()
+    private async Task LoginAsync()
     {
-        var loggedInUser = await AuthService.LoginAsync(user);
-        if (loggedInUser != null)
+        loginErrorLabel = "";
+        try
         {
-            NavigationManager.NavigateTo("/");
+            await authService.LoginAsync(loginUsername, loginPassword);
+            navMgr.NavigateTo("/");
         }
-        else
+        catch (Exception e)
         {
-            loginMessage = "Invalid username or password. Please try again.";
+            Console.WriteLine($"Login failed: {e.Message}");
+            loginErrorLabel = $"Error: {e.Message}";
         }
-    }
-
-    private void NavigateToHome()
-    {
-        NavigationManager.NavigateTo("/"); // Redirects to the home page
     }
 }

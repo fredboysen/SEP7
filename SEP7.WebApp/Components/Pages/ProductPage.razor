@@ -2,6 +2,7 @@
 @inject HttpClient Http
 @using System.Text.Json
 @using System.Net.Http.Json
+@inject NavigationManager NavigationManager
 
 @rendermode InteractiveServer
 
@@ -131,6 +132,19 @@
     private List<MaterialsTotal> MaterialsTotals;
     private string searchProductId = string.Empty;
 
+    // On page initialization, check if a query parameter 'productId' exists
+    protected override void OnInitialized()
+    {
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+        var queryParams = System.Web.HttpUtility.ParseQueryString(uri.Query);
+        searchProductId = queryParams["productId"];
+
+        if (!string.IsNullOrEmpty(searchProductId))
+        {
+            SearchMaterialByProductId();
+        }
+    }
+
     private async Task SearchMaterialByProductId()
     {
         if (!string.IsNullOrEmpty(searchProductId))
@@ -155,38 +169,68 @@
     public class MaterialsTotal
     {
         public int MaterialId { get; set; }
-        public string MaterialName { get; set; } = string.Empty;
+
+    public string MaterialName { get; set; }
+
         public float ADP_Fossil_MJ { get; set; }
+
         public float ADP_Minerals_Metals { get; set; }
+
         public float AP_Mol_H_Eq { get; set; }
+
         public float E_Fi_CTUe { get; set; }
+
         public float E_Fm_CTUe { get; set; }
+
         public float E_Fo_CTUe { get; set; }
+
         public float EP_Terrestrial_Mol_N_Eq { get; set; }
+
         public float EP_Freshwater_kg_P { get; set; }
+
         public float EP_Marine_kg_N { get; set; }
+
         public float ETP_FW_CTUe { get; set; }
+
         public float GWP_Biogenic_kg_CO2 { get; set; }
+
         public float GWP_Fossil_kg_CO2 { get; set; }
+
         public float GWP_LULUC_kg_CO2 { get; set; }
+
         public float GWP_Total_kg_CO2 { get; set; }
+
         public float HT_CI_CTUh { get; set; }
+
         public float HT_CM_CTUh { get; set; }
+
         public float HT_CO_CTUh { get; set; }
+
         public float HT_NCI_CTUh { get; set; }
+
         public float HT_NCM_CTUh { get; set; }
+
         public float HT_NCO_CTUh { get; set; }
+
         public float HTTP_C_CTUh { get; set; }
+
         public float HTTP_NC_CTUh { get; set; }
+
         public float IRP_kBq_U235 { get; set; }
+
         public float LU_Pt { get; set; }
+
         public float ODP_kg_CFC11 { get; set; }
+
         public float PM_Disease_Inc { get; set; }
+
         public float POCP_kg_NMVOC { get; set; }
+
         public float WDP_m3_Depriv { get; set; }
 
-        public string ProductID { get; set; }
-        public virtual Product Product { get; set; }
+
+    public string ProductID { get; set; }
+    public virtual Product Product { get; set; }
     }
 
     public class Product

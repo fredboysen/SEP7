@@ -4,7 +4,11 @@ using Microsoft.OpenApi.Models;
 using SEP7.WebAPI.Data;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-
+using SEP7.WebAPI.Services;
+using SEP7.WebAPI.Auth;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 
 
@@ -53,11 +57,41 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"] ?? "")),
+        ClockSkew = TimeSpan.Zero,
+    };
+});
+
+builder.Services.AddScoped<IAuthService, AuthService>();
+AuthorizationPolicies.AddPolicies(builder.Services);
+
+
 builder.Services.AddDbContext<ApplicationDB>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+
+
+builder.Services.AddRazorComponents()
+    .AddInteractiveServerComponents();
 
 var app = builder.Build();
 
@@ -87,7 +121,8 @@ using (var scope = app.Services.CreateScope())
 }
 app.UseHttpsRedirection();
 
-
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseStaticFiles();
 app.MapControllers();
 app.MapStaticAssets();
