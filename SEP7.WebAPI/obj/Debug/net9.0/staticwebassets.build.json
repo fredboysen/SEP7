@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "sCkSzv87hdqcRjXfXzvZLN4yHuXJOURhb3Yh43SSWrg=",
+  "Hash": "ZgM4hlTUTuneDsHZnapaE8rehL6K+peDQuMEiDWvcCg=",
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SEP7.WebAPI\\wwwroot",
+      "Source": "SEP7.WebAPI",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebAPI",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",

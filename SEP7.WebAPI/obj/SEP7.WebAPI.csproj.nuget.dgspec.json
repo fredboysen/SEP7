@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {}
+    "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+    "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
         "projectName": "SEP7.WebAPI",
-        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -52,6 +52,10 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[33.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -92,6 +96,10 @@
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [

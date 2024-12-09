@@ -10,8 +10,8 @@ using SEP7.Database.Data;
 namespace SEP7.WebAPI.Migrations
 {
     [DbContext(typeof(ApplicationDB))]
-    [Migration("20241207192611_thomis")]
-    partial class thomis
+    [Migration("20241209065012_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,8 +31,8 @@ namespace SEP7.WebAPI.Migrations
                     b.Property<string>("MaterialType")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("ProductID")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
 
                     b.Property<float>("TotalWeight")
                         .HasColumnType("REAL");
@@ -137,8 +137,8 @@ namespace SEP7.WebAPI.Migrations
                     b.Property<float>("POCP_kg_NMVOC")
                         .HasColumnType("REAL");
 
-                    b.Property<int>("ProductID")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
 
                     b.Property<float>("WDP_m3_Depriv")
                         .HasColumnType("REAL");
@@ -153,9 +153,11 @@ namespace SEP7.WebAPI.Migrations
 
             modelBuilder.Entity("SEP7.WebAPI.Models.Product", b =>
                 {
-                    b.Property<int>("ProductID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("ProductName")
                         .IsRequired()
@@ -164,6 +166,31 @@ namespace SEP7.WebAPI.Migrations
                     b.HasKey("ProductID");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("SEP7.WebAPI.Models.User", b =>
+                {
+                    b.Property<int>("user_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("email")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("role")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("username")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("user_id");
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("SEP7.WebAPI.Models.MaterialData", b =>
@@ -176,9 +203,7 @@ namespace SEP7.WebAPI.Migrations
 
                     b.HasOne("SEP7.WebAPI.Models.Product", "Product")
                         .WithMany("MaterialData")
-                        .HasForeignKey("ProductID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProductID");
 
                     b.Navigation("MaterialsTotal");
 
@@ -189,9 +214,7 @@ namespace SEP7.WebAPI.Migrations
                 {
                     b.HasOne("SEP7.WebAPI.Models.Product", "Product")
                         .WithOne("MaterialsTotal")
-                        .HasForeignKey("SEP7.WebAPI.Models.MaterialsTotal", "ProductID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SEP7.WebAPI.Models.MaterialsTotal", "ProductID");
 
                     b.Navigation("Product");
                 });

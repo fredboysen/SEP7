@@ -1,6 +1,13 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using SEP7.WebApp.Services
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject IAuthService authService
+@inject NavigationManager navMgr
+@rendermode InteractiveServer
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">&copy; VOLA EDP </a>
+        <a class="navbar-brand" href="">&copy; VOLA EDP</a>
     </div>
 </div>
 
@@ -20,23 +27,84 @@
             </NavLink>
         </div>
 
-   <div class="nav-item px-3">
+        <div class="nav-item px-3">
             <NavLink class="nav-link" href="upload">
                 <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Upload CSV
             </NavLink>
         </div>
 
-
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="login">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Login
-            </NavLink>
+            @if (isLoggedIn)
+            {
+                <button class="nav-link btn btn-link" @onclick="Logout">
+                    <span class="bi bi-person-circle-nav-menu" aria-hidden="true"></span> Sign Out
+                </button> 
+            }
+            else
+            {
+                <NavLink class="nav-link" href="/login">
+                    <span class="bi bi-person-circle-nav-menu" aria-hidden="true"></span> Login
+                </NavLink>  
+            }
         </div>
     </nav>
 </div>
+   
 
+@code {
+    private bool isLoggedIn;
+    private bool isAdmin;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (authenticationStateProvider == null)
+        {
+            Console.WriteLine("Error: AuthenticationStateProvider is not initialized.");
+            isLoggedIn = false;
+            isAdmin = false;
+            return;
+        }
+
+        await UpdateLoginState();
+        authenticationStateProvider.AuthenticationStateChanged += OnAuthenticationStateChanged;
+    }
+
+    private async Task UpdateLoginState()
+    {
+        try
+        {
+            var authState = await authenticationStateProvider?.GetAuthenticationStateAsync();
+
+            if (authState == null || authState.User?.Identity == null)
+            {
+                isLoggedIn = false;
+                isAdmin = false;
+            }
+            else
+            {
+                isLoggedIn = authState.User.Identity.IsAuthenticated;
+                isAdmin = authState.User.IsInRole("admin");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in UpdateLoginState: {ex.Message}");
+            isLoggedIn = false;
+            isAdmin = false;
+        }
+
+        StateHasChanged();
+    }
+
+    private async void OnAuthenticationStateChanged(Task<AuthenticationState> task)
+    {
+        await UpdateLoginState();
+    }
+
+    private async Task Logout()
+    {
+        await authService.LogoutAsync();
+        await UpdateLoginState();
+        navMgr.NavigateTo("/login");
+    }
+}

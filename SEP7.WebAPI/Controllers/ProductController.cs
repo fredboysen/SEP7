@@ -92,10 +92,25 @@ public async Task<ActionResult<IEnumerable<MaterialsTotal>>> GetProductOverview(
 }
 
 
+  [HttpGet]
+        public async Task<IActionResult> GetProducts()
+        {
+            try
+            {
+                // Retrieve all products from the database, including navigation properties if needed
+                var products = await _context.Products
+                    .Include(p => p.MaterialData) // Eager load MaterialData
+                    .Include(p => p.MaterialsTotal) // Eager load MaterialsTotal
+                    .ToListAsync();
 
-}
-
-
-
-
+                // Return the list of products
+                return Ok(products);
+            }
+            catch (Exception ex)
+            {
+                // Log error (optional)
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+    }
 }

@@ -11,15 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ChartJs.Blazor" Version="1.1.0" />
+   <PackageReference Include="ChartJs.Blazor" Version="1.1.0" />
     <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
     <PackageReference Include="BlazorPro.Spinkit" Version="1.2.0" />
     <PackageReference Include="ChartJs.Blazor.Fork" Version="2.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Radzen.Blazor" Version="5.6.12" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.0" />
     <PackageReference Include="System.Text.Encodings.Web" Version="7.0.0" />
-<ProjectReference Include="C:\Users\Thoma\OneDrive\Skrivebord\Documents\CuriosDriveLibrary\.vscode\BookStores\BlazorServerApp\CuriousDriveRazorLibrary\CuriousDriveRazorLibrary\CuriousDriveRazorLibrary.csproj" />
   </ItemGroup>
 
 </Project>

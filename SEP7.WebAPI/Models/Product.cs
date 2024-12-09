@@ -12,6 +12,7 @@ namespace SEP7.WebAPI.Models
     [Required]
     public string ProductName { get; set; }
 
+    public string ImageUrl {get; set;}
     // Navigation properties
     
     public virtual ICollection<MaterialData> MaterialData { get; set; }
