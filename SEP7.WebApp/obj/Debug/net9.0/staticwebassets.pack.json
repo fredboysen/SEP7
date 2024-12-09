@@ -13,11 +13,19 @@
       "PackagePath": "staticwebassets\\Epd.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
       "PackagePath": "staticwebassets\\Image1.jpg"
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
+=======
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "PackagePath": "staticwebassets\\Image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "PackagePath": "staticwebassets\\Vola.png"
     },
     {

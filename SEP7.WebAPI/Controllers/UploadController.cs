@@ -136,7 +136,7 @@ public async Task<IActionResult> UploadCsvAndImage(IFormFile file, IFormFile ima
                             HT_CI_CTUh = ParseFloat(record.HT_CI_CTUh),
                             HT_CM_CTUh = ParseFloat(record.HT_CM_CTUh),
                             HT_CO_CTUh = ParseFloat(record.HT_CO_CTUh),
-                            HT_NCI_CTUh = ParseFloat(record.HT_NCI_CTUh),
+                            HT_NCI_CTUh = ParseFloat(record.HT_NCI_CTUh),  
                             HT_NCM_CTUh = ParseFloat(record.HT_NCM_CTUh),
                             HT_NCO_CTUh = ParseFloat(record.HT_NCO_CTUh),
                             HTTP_C_CTUh = ParseFloat(record.HTTP_C_CTUh),

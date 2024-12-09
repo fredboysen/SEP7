@@ -1,7 +1,11 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+=======
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "PackagePath": "staticwebassets\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
     },
     {

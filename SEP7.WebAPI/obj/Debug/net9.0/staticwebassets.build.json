@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "3q1dsjTOZBMsryFzuvs3yKcKUcrFIWjnOEc/GlYgpSM=",
+=======
+  "Hash": "KaWVf1BSEMzZf8PQeAdIqr8uBhNkR1TMQ8AcLlJ0tpg=",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
@@ -371,6 +375,7 @@
       "Integrity": "Z6kBsNxM2QV00gI34HL/6lqjRnnO2U8m8Sx06H0PM3o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
     },
     {
@@ -378,6 +383,15 @@
       "SourceId": "SEP7.WebAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "SourceId": "SEP7.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "BasePath": "_content/SEP7.WebAPI",
       "RelativePath": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1405,7 +1419,11 @@
     },
     {
       "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.p91m3otz43.png",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+=======
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1426,7 +1444,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+=======
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         },
         {
           "Name": "Cache-Control",
@@ -1450,7 +1472,11 @@
     },
     {
       "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+=======
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1471,7 +1497,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+=======
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         },
         {
           "Name": "Cache-Control",

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "meCQtwRCMOnmcKsxyGXy1xckud+BAXf8/rA44XTI0wM=",
+=======
+  "Hash": "7ZKyVDUvkByPPLIT8gYuB24i50ChCcQX/h/Uj7ZXjBg=",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
   "Source": "SEP7.WebApp",
   "BasePath": "_content/SEP7.WebApp",
   "Mode": "Default",
@@ -1065,10 +1069,17 @@
       "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\radzen.blazor\\5.6.12\\staticwebassets\\Radzen.Blazor.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
       "SourceId": "SEP7.WebAPI",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "SourceId": "SEP7.WebAPI",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "BasePath": "_content/SEP7.WebAPI",
       "RelativePath": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1083,10 +1094,17 @@
       "Integrity": "E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
     },
     {
       "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+=======
+      "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
@@ -3039,7 +3057,32 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+=======
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "Image1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aam9w78hn4",
+      "Integrity": "EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\",
@@ -11280,7 +11323,11 @@
     },
     {
       "Route": "_content/SEP7.WebAPI/images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.p91m3otz43.png",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+=======
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11305,7 +11352,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+=======
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ],
       "EndpointProperties": [
@@ -11325,7 +11376,11 @@
     },
     {
       "Route": "_content/SEP7.WebAPI/images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+=======
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11350,7 +11405,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+=======
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ],
       "EndpointProperties": [
@@ -12121,8 +12180,158 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "Image1.c8sue2r0r6.jpg",
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+=======
+      "Route": "Image1.jpg",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+        }
+      ]
+    },
+    {
+      "Route": "Image1.aam9w78hn4.jpg",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aam9w78hn4"
+        },
+        {
+          "Name": "label",
+          "Value": "Image1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\xcqkpi03e1-bqjiyaj88i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000148235992"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6745"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jhvPrvWZn8BbeR49W+r+MLNcnTeFyaSXxry9n1ctwy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 12:39:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bqjiyaj88i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "Selectors": [],
       "ResponseHeaders": [
         {

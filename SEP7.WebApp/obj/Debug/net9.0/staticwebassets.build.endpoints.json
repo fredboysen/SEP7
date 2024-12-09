@@ -383,7 +383,11 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "Image1.c8sue2r0r6.jpg",
+=======
+      "Route": "Image1.aam9w78hn4.jpg",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "AssetFile": "Image1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -397,7 +401,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "6727"
+=======
+          "Value": "16030"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         },
         {
           "Name": "Content-Type",
@@ -405,21 +413,37 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Mon, 09 Dec 2024 13:32:05 GMT"
+=======
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:41:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "c8sue2r0r6"
         },
         {
           "Name": "integrity",
           "Value": "sha256-bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM="
+=======
+          "Value": "aam9w78hn4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         },
         {
           "Name": "label",
@@ -442,7 +466,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "6727"
+=======
+          "Value": "16030"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         },
         {
           "Name": "Content-Type",
@@ -450,22 +478,38 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Mon, 09 Dec 2024 13:32:05 GMT"
+=======
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 13:41:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM="
+=======
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "SEP7.WebApp.s1pim70diy.styles.css",
+=======
+      "Route": "SEP7.WebApp.lhrkgjz0vq.styles.css",
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "AssetFile": "SEP7.WebApp.styles.css.gz",
       "Selectors": [
         {
@@ -8122,7 +8166,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+=======
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ],
       "EndpointProperties": [
@@ -8167,7 +8215,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+=======
+          "Value": "Mon, 09 Dec 2024 06:54:31 GMT"
+>>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
         }
       ],
       "EndpointProperties": [
