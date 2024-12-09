@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZgM4hlTUTuneDsHZnapaE8rehL6K+peDQuMEiDWvcCg=",
+  "Hash": "3q1dsjTOZBMsryFzuvs3yKcKUcrFIWjnOEc/GlYgpSM=",
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SEP7.WebAPI\\wwwroot",
       "Source": "SEP7.WebAPI",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
       "BasePath": "_content/SEP7.WebAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "Chart.min.js",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "oXym0/eakpOX3RGc8Ae/UEnjfwmgiQy4xLmEVxlcEJE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJSBlazor.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "geIB4uCc7OihJC6PIN/cOPcS5Q8u3PImNhzIpbGXPyM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJsBlazorInterop.js",
       "AssetKind": "All",
@@ -77,13 +77,13 @@
       "Integrity": "KWMl/JBAgOK4lY6IntljZ43oojdzxpzJ8cDPK9PDDWA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJsBlazorInterop.js.map",
       "AssetKind": "All",
@@ -98,13 +98,13 @@
       "Integrity": "i7hDJAOeEdo49x1b0WP+jT5ntjW6kqDk6pQpFiOXoa0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "moment-with-locales.min.js",
       "AssetKind": "All",
@@ -119,13 +119,13 @@
       "Integrity": "AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/ChartJsBlazorInterop.ts",
       "AssetKind": "All",
@@ -140,13 +140,13 @@
       "Integrity": "9YAc/7zqenCGPhUJWk0x0WpSSTRg68AJbixm1HiQn/w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/ChartJsInterop.ts",
       "AssetKind": "All",
@@ -161,13 +161,13 @@
       "Integrity": "CKKno5zikvogS+VOyrtlqJDAV7otVJ4H5iJ2XHqA6FQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/MomentJsInterop.ts",
       "AssetKind": "All",
@@ -182,13 +182,13 @@
       "Integrity": "0my7KUv2Z5NXtY7VknCp/kxTftbjSiXdG1cwcuAsh98=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/types/Chart.min.d.ts",
       "AssetKind": "All",
@@ -203,13 +203,13 @@
       "Integrity": "AuekiVBNUw2RH02rCPRlUfISK5n0k05W7x6UFjZrfHY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/types/moment.d.ts",
       "AssetKind": "All",
@@ -224,13 +224,13 @@
       "Integrity": "jtQvfIEjFGqu1MuI8zJVQg8ljAIA24UzQ/88Pwyar8A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts"
     },
     {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
+      "Identity": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "tsconfig.json",
       "AssetKind": "All",
@@ -245,13 +245,13 @@
       "Integrity": "LfxvCMuo1G3bD4diavAX3E48eGTYdkXcwNeMGjziNPk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "tsconfig.json.gz",
       "AssetKind": "All",
@@ -259,20 +259,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "zhwxsh5ac9",
       "Integrity": "x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJSBlazor.css.gz",
       "AssetKind": "All",
@@ -280,20 +280,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xsimxa90ak",
       "Integrity": "Tz5WuJn9dwWtYSb6+dVlqRClwnCteKEF1QHMER1pvwQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "Chart.min.js.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "3jlom1vcoi",
       "Integrity": "AROCcVSccYOUscZOgnNbWDSwWyGrCg399RXsmnbwagU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJsBlazorInterop.js.gz",
       "AssetKind": "All",
@@ -322,20 +322,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "kwa1z49aqr",
       "Integrity": "jG8nXIi19XXYStKi0ojEOUb84vHyNZq4fWdw3bwzw58=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJsBlazorInterop.js.map.gz",
       "AssetKind": "All",
@@ -343,20 +343,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "4vn8xytsfl",
       "Integrity": "MHxrjiSuvuDFdZFMgA8cNVISAWncZB3IFFQc+KVJy3U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "moment-with-locales.min.js.gz",
       "AssetKind": "All",
@@ -364,20 +364,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
+      "RelatedAsset": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "3h8iyrkv3h",
       "Integrity": "Z6kBsNxM2QV00gI34HL/6lqjRnnO2U8m8Sx06H0PM3o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+      "OriginalItemSpec": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "SourceId": "SEP7.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebAPI",
+      "RelativePath": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p91m3otz43",
+      "Integrity": "E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
     }
   ],
   "Endpoints": [
     {
       "Route": "_content/ChartJs.Blazor/Chart.min.js",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -414,7 +435,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/Chart.min.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -469,7 +490,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/Chart.min.js.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\kkwjpfsf8x-rd7kpyao0h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -514,7 +535,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -551,7 +572,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -606,7 +627,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJSBlazor.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\9pozex28tv-rxs4m3fo3f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -651,7 +672,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -688,7 +709,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -743,7 +764,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\l7flew2gq1-bv7wdkbct1.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -788,7 +809,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -825,7 +846,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -880,7 +901,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ChartJsBlazorInterop.js.map.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\q71a8qrays-zyqspy8l5n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -925,7 +946,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -962,7 +983,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1017,7 +1038,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/moment-with-locales.min.js.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\uxbqkokfu0-lzs9hmhw5n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1062,7 +1083,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ts/ChartJsBlazorInterop.ts",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1099,7 +1120,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ts/ChartJsInterop.ts",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1136,7 +1157,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ts/MomentJsInterop.ts",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1173,7 +1194,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ts/types/Chart.min.d.ts",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1210,7 +1231,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/ts/types/moment.d.ts",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1247,7 +1268,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/tsconfig.json",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
+      "AssetFile": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1284,7 +1305,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/tsconfig.json",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1339,7 +1360,7 @@
     },
     {
       "Route": "_content/ChartJs.Blazor/tsconfig.json.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\Debug\\net9.0\\compressed\\137ic4jcgc-ft71q750bt.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1379,6 +1400,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-x3IkuPFQe8Jqcjkj3TACCnGkBGNHv50j69aX4Q541vU="
+        }
+      ]
+    },
+    {
+      "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.p91m3otz43.png",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p91m3otz43"
+        },
+        {
+          "Name": "label",
+          "Value": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
+        }
+      ]
+    },
+    {
+      "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
         }
       ]
     }

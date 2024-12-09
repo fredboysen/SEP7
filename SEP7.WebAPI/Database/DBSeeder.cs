@@ -23,7 +23,7 @@ namespace SEP7.WebAPI.Data
                 {
                     ProductID = "4000-10-10", // Product ID
                     ProductName = "Toiletpaperholder stainless steel",
-                    ImageUrl = "Image1.png"
+                    ImageUrl = "Image1.jpg"
                 };
 
                 // Add the product to the Products table

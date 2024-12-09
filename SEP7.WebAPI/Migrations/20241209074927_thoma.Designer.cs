@@ -10,8 +10,8 @@ using SEP7.Database.Data;
 namespace SEP7.WebAPI.Migrations
 {
     [DbContext(typeof(ApplicationDB))]
-    [Migration("20241209065012_Init")]
-    partial class Init
+    [Migration("20241209074927_thoma")]
+    partial class thoma
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -8,124 +8,128 @@
 
 <PageTitle>Materials Totals</PageTitle>
 
-<h1>Materials Totals</h1>
+<div class="materials-page-container">
+    <!-- Page Header -->
+    <h1 class="materials-header">Materials Totals</h1>
 
-<div class="product-search-container">
-    <input type="text" @bind="searchProductId" placeholder="Enter Product ID to search" class="product-search-input" />
-    <button @onclick="SearchMaterialByProductId" class="product-search-button">Search</button>
-</div>
+    <!-- Search Container -->
+    <div class="product-search-container">
+        <input type="text" @bind="searchProductId" placeholder="Enter Product ID to search" class="product-search-input" />
+        <button @onclick="SearchMaterialByProductId" class="product-search-button">Search</button>
+    </div>
 
-<div class="product-materials-container">
-    @if (MaterialsTotals == null)
-    {
-        <p>Loading materials totals...</p>
-    }
-    else if (!MaterialsTotals.Any())
-    {
-        <p>No materials totals found for this Product ID.</p>
-    }
-    else
-    {
-        <!-- First Table - Basic Information -->
-        <div class="product-materials-table-container">
-            <table class="product-materials-table">
-                <thead>
-                    <tr>
-                        <th>Product ID</th>
-                        <th>Product Name</th>
-                        <th>Material ID</th>
-                        <th>Material Name</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var material in MaterialsTotals)
-                    {
-                        <tr>
-                            <td>@material.Product?.ProductID</td>
-                            <td>@material.Product?.ProductName</td>
-                            <td>@material.MaterialId</td>
-                            <td>@material.MaterialName</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Second Table - Material Details (Scrollable) -->
-        <div class="product-materials-details-table-container">
-            <div class="table-wrapper">
-                <table class="product-materials-details-table">
+    <div class="product-materials-container">
+        @if (MaterialsTotals == null)
+        {
+            <p>Loading materials totals...</p>
+        }
+        else if (!MaterialsTotals.Any())
+        {
+            <p>No materials totals found for this Product ID.</p>
+        }
+        else
+        {
+            <!-- First Table - Basic Information -->
+            <div class="product-materials-table-container">
+                <table class="product-materials-table">
                     <thead>
                         <tr>
-                            <th>ADP Fossil MJ</th>
-                            <th>ADP Minerals Metals</th>
-                            <th>AP Mol H Eq</th>
-                            <th>E Fi CTUe</th>
-                            <th>E Fm CTUe</th>
-                            <th>E Fo CTUe</th>
-                            <th>EP Terrestrial Mol N Eq</th>
-                            <th>EP Freshwater kg P</th>
-                            <th>EP Marine kg N</th>
-                            <th>ETP FW CTUe</th>
-                            <th>GWP Biogenic kg CO2</th>
-                            <th>GWP Fossil kg CO2</th>
-                            <th>GWP LULUC kg CO2</th>
-                            <th>GWP Total kg CO2</th>
-                            <th>HT CI CTUh</th>
-                            <th>HT CM CTUh</th>
-                            <th>HT CO CTUh</th>
-                            <th>HT NCI CTUh</th>
-                            <th>HT NCM CTUh</th>
-                            <th>HT NCO CTUh</th>
-                            <th>HTTP C CTUh</th>
-                            <th>HTTP NC CTUh</th>
-                            <th>IRP kBq U235</th>
-                            <th>LU Pt</th>
-                            <th>ODP kg CFC11</th>
-                            <th>PM Disease Inc</th>
-                            <th>POCP kg NMVOC</th>
-                            <th>WDP m3 Depriv</th>
+                            <th>Product ID</th>
+                            <th>Product Name</th>
+                            <th>Material ID</th>
+                            <th>Material Name</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var material in MaterialsTotals)
                         {
                             <tr>
-                                <td>@material.ADP_Fossil_MJ</td>
-                                <td>@material.ADP_Minerals_Metals</td>
-                                <td>@material.AP_Mol_H_Eq</td>
-                                <td>@material.E_Fi_CTUe</td>
-                                <td>@material.E_Fm_CTUe</td>
-                                <td>@material.E_Fo_CTUe</td>
-                                <td>@material.EP_Terrestrial_Mol_N_Eq</td>
-                                <td>@material.EP_Freshwater_kg_P</td>
-                                <td>@material.EP_Marine_kg_N</td>
-                                <td>@material.ETP_FW_CTUe</td>
-                                <td>@material.GWP_Biogenic_kg_CO2</td>
-                                <td>@material.GWP_Fossil_kg_CO2</td>
-                                <td>@material.GWP_LULUC_kg_CO2</td>
-                                <td>@material.GWP_Total_kg_CO2</td>
-                                <td>@material.HT_CI_CTUh</td>
-                                <td>@material.HT_CM_CTUh</td>
-                                <td>@material.HT_CO_CTUh</td>
-                                <td>@material.HT_NCI_CTUh</td>
-                                <td>@material.HT_NCM_CTUh</td>
-                                <td>@material.HT_NCO_CTUh</td>
-                                <td>@material.HTTP_C_CTUh</td>
-                                <td>@material.HTTP_NC_CTUh</td>
-                                <td>@material.IRP_kBq_U235</td>
-                                <td>@material.LU_Pt</td>
-                                <td>@material.ODP_kg_CFC11</td>
-                                <td>@material.PM_Disease_Inc</td>
-                                <td>@material.POCP_kg_NMVOC</td>
-                                <td>@material.WDP_m3_Depriv</td>
+                                <td>@material.Product?.ProductID</td>
+                                <td>@material.Product?.ProductName</td>
+                                <td>@material.MaterialId</td>
+                                <td>@material.MaterialName</td>
                             </tr>
                         }
                     </tbody>
                 </table>
             </div>
-        </div>
-    }
+
+            <!-- Second Table - Material Details (Scrollable) -->
+            <div class="product-materials-details-table-container">
+                <div class="table-wrapper">
+                    <table class="product-materials-details-table">
+                        <thead>
+                            <tr>
+                                <th>ADP Fossil MJ</th>
+                                <th>ADP Minerals Metals</th>
+                                <th>AP Mol H Eq</th>
+                                <th>E Fi CTUe</th>
+                                <th>E Fm CTUe</th>
+                                <th>E Fo CTUe</th>
+                                <th>EP Terrestrial Mol N Eq</th>
+                                <th>EP Freshwater kg P</th>
+                                <th>EP Marine kg N</th>
+                                <th>ETP FW CTUe</th>
+                                <th>GWP Biogenic kg CO2</th>
+                                <th>GWP Fossil kg CO2</th>
+                                <th>GWP LULUC kg CO2</th>
+                                <th>GWP Total kg CO2</th>
+                                <th>HT CI CTUh</th>
+                                <th>HT CM CTUh</th>
+                                <th>HT CO CTUh</th>
+                                <th>HT NCI CTUh</th>
+                                <th>HT NCM CTUh</th>
+                                <th>HT NCO CTUh</th>
+                                <th>HTTP C CTUh</th>
+                                <th>HTTP NC CTUh</th>
+                                <th>IRP kBq U235</th>
+                                <th>LU Pt</th>
+                                <th>ODP kg CFC11</th>
+                                <th>PM Disease Inc</th>
+                                <th>POCP kg NMVOC</th>
+                                <th>WDP m3 Depriv</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var material in MaterialsTotals)
+                            {
+                                <tr>
+                                    <td>@material.ADP_Fossil_MJ</td>
+                                    <td>@material.ADP_Minerals_Metals</td>
+                                    <td>@material.AP_Mol_H_Eq</td>
+                                    <td>@material.E_Fi_CTUe</td>
+                                    <td>@material.E_Fm_CTUe</td>
+                                    <td>@material.E_Fo_CTUe</td>
+                                    <td>@material.EP_Terrestrial_Mol_N_Eq</td>
+                                    <td>@material.EP_Freshwater_kg_P</td>
+                                    <td>@material.EP_Marine_kg_N</td>
+                                    <td>@material.ETP_FW_CTUe</td>
+                                    <td>@material.GWP_Biogenic_kg_CO2</td>
+                                    <td>@material.GWP_Fossil_kg_CO2</td>
+                                    <td>@material.GWP_LULUC_kg_CO2</td>
+                                    <td>@material.GWP_Total_kg_CO2</td>
+                                    <td>@material.HT_CI_CTUh</td>
+                                    <td>@material.HT_CM_CTUh</td>
+                                    <td>@material.HT_CO_CTUh</td>
+                                    <td>@material.HT_NCI_CTUh</td>
+                                    <td>@material.HT_NCM_CTUh</td>
+                                    <td>@material.HT_NCO_CTUh</td>
+                                    <td>@material.HTTP_C_CTUh</td>
+                                    <td>@material.HTTP_NC_CTUh</td>
+                                    <td>@material.IRP_kBq_U235</td>
+                                    <td>@material.LU_Pt</td>
+                                    <td>@material.ODP_kg_CFC11</td>
+                                    <td>@material.PM_Disease_Inc</td>
+                                    <td>@material.POCP_kg_NMVOC</td>
+                                    <td>@material.WDP_m3_Depriv</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+    </div>
 </div>
 
 @code {

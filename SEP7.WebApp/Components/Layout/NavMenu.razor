@@ -11,29 +11,25 @@
     </div>
 </div>
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="nav flex-column">
-        <div class="nav-item px-3">
+<div class="nav-scrollable">
+    <nav class="nav">
+        <div class="nav-item">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+                <span class="bi bi-house-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
-
-        <div class="nav-item px-3">
+        <div class="nav-item">
             <NavLink class="nav-link" href="product-materials">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Materials Usage
+                <span class="bi bi-plus-circle-nav-menu" aria-hidden="true"></span> Materials Usage
             </NavLink>
         </div>
-
-        <div class="nav-item px-3">
+        <div class="nav-item">
             <NavLink class="nav-link" href="upload">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Upload CSV
+                <span class="bi-cloud-upload-nav-menu" aria-hidden="true"></span> Upload CSV
             </NavLink>
         </div>
-
-        <div class="nav-item px-3">
+        <div class="nav-item">
             @if (isLoggedIn)
             {
                 <button class="nav-link btn btn-link" @onclick="Logout">
@@ -49,7 +45,6 @@
         </div>
     </nav>
 </div>
-   
 
 @code {
     private bool isLoggedIn;

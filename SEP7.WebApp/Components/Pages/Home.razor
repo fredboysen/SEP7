@@ -1,10 +1,10 @@
 ﻿@page "/"
 @inject HttpClient Http
-@rendermode InteractiveServer
 @inject NavigationManager NavigationManager
 
-<h3 class="text-center">Products</h3>
+<h2 class="home-header">Our Products</h2>
 
+<!-- Product Section -->
 <div class="product-container">
     @if (isLoading)
     {
@@ -22,6 +22,7 @@
                 <img src="@GetProductImage(product)" alt="@product.ProductName" class="product-image" />
                 <div class="product-details">
                     <h4>@product.ProductName</h4>
+                    <p>@product.Description</p> <!-- Placeholder for a product description -->
                     <button class="btn btn-primary" @onclick="() => NavigateToProductDetails(product.ProductID)">
                         View Details
                     </button>
@@ -30,6 +31,68 @@
         }
     }
 </div>
+
+<!-- Information Section -->
+<section class="info-section">
+    <div class="info-box">
+        <h3>What is EPD Reporting?</h3>
+        <p>
+            EPD (Environmental Product Declarations) is a standardized way of conveying the environmental impact of products. 
+            It helps businesses demonstrate their sustainability efforts and meet regulatory requirements.
+        </p>
+    </div>
+    <div class="info-box">
+        <h3>What Are ESG Values?</h3>
+        <p>
+            ESG stands for Environmental, Social, and Governance. Companies that follow ESG principles align their practices
+            with sustainability, ethical social responsibility, and strong governance values.
+        </p>
+    </div>
+    
+</section>
+
+<!-- Product Gallery Section -->
+<section class="gallery-section">
+    <h3>Products overview</h3>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Product 1" />
+        <img src="https://via.placeholder.com/200" alt="Product 2" />
+        <img src="https://via.placeholder.com/200" alt="Product 3" />
+        <img src="https://via.placeholder.com/200" alt="Product 4" />
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section class="about-section">
+    <h3>VOLA &copy;</h3>
+    <p>
+        At VOLA, we specialize in innovative, sustainable engineering. Our team of experts ensures
+        that every product is environmentally friendly, aligning with ESG principles to benefit our customers and the planet.
+    </p>
+</section>
+
+<!-- Contact Form Section -->
+<section class="contact-section">
+    <h3>Get in Touch</h3>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="Your Name" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="Your Email" />
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+</section>
 
 @code {
     private List<Product> products = new();
@@ -56,24 +119,20 @@
         }
     }
 
-    // Placeholder function to get product image URL
     private string GetProductImage(Product product)
     {
-        // Replace with logic to fetch product-specific image URLs
-        return "https://via.placeholder.com/150"; // Default placeholder image
+        return "https://via.placeholder.com/150"; // Replace with actual logic
     }
 
     private void NavigateToProductDetails(string productId)
     {
-        // Redirect user to the product details page with the ProductID as a query parameter
         NavigationManager.NavigateTo($"/product-materials?productId={productId}");
     }
 
-    // Product model (ensure this matches your backend structure)
     private class Product
     {
         public string ProductID { get; set; }
         public string ProductName { get; set; }
-        public string ImageUrl { get; set; } // Add ImageUrl if your API provides it
+        public string Description { get; set; } // Added a description property
     }
 }
