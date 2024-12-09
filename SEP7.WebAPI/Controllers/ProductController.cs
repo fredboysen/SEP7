@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SEP7.Database.Data;
 using SEP7.WebAPI.Models;
 
+
 namespace SEP7.WebAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -16,20 +17,22 @@ namespace SEP7.WebAPI.Controllers
             _context = context;
         }
 
+        // Modified endpoint to handle search by Product Group
+        [HttpGet("productGroup/{productGroup}")]
+        public async Task<IActionResult> GetMaterialsTotalByProductGroup(string productGroup)
+        {
+            // Use StartsWith to find all products where the ProductID begins with the search term
+            var materialsTotals = await _context.MaterialsTotals
+                .Where(mt => mt.ProductID.StartsWith(productGroup))  // Search by ProductID prefix
+                .Include(mt => mt.Product)  // Include Product navigation property
+                .ToListAsync();
 
-    [HttpGet("product/{productId}")]
-public async Task<IActionResult> GetMaterialsTotalByProduct(string productId)
-{
-    var materialsTotals = await _context.MaterialsTotals
-        .Where(mt => mt.ProductID == productId)
-        .Include(mt => mt.Product)
-        .ToListAsync();
+            if (!materialsTotals.Any())
+            {
+                return NotFound("No MaterialsTotal found for this product group.");
+            }
 
-    if (!materialsTotals.Any())
-    {
-        return NotFound("No MaterialsTotal found for this product.");
-    }
-
+            // Selecting relevant fields to return
             var result = materialsTotals.Select(mt => new
             {
                 mt.MaterialId,
@@ -73,7 +76,8 @@ public async Task<IActionResult> GetMaterialsTotalByProduct(string productId)
         }
 
 
-  [HttpGet]
+        // Existing endpoint to get all products
+        [HttpGet]
         public async Task<IActionResult> GetProducts()
         {
             try
@@ -93,5 +97,27 @@ public async Task<IActionResult> GetMaterialsTotalByProduct(string productId)
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+
+[HttpDelete("{productId}")]
+public async Task<IActionResult> DeleteProduct(string productId)
+{
+    var product = await _context.Products
+        .Include(p => p.MaterialData)  // Include related data if necessary
+        .Include(p => p.MaterialsTotal)  // Include related MaterialsTotal
+        .FirstOrDefaultAsync(p => p.ProductID == productId);
+
+    if (product == null)
+    {
+        return NotFound("Product not found.");
     }
+
+    // Remove product (cascading deletes will take care of related data)
+    _context.Products.Remove(product);
+    await _context.SaveChangesAsync();
+
+    return NoContent(); // Return a successful response
 }
+}
+}
+
+

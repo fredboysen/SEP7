@@ -34,7 +34,23 @@
                 <span class="bi-cloud-upload-nav-menu" aria-hidden="true"></span> Upload CSV
             </NavLink>
         </div>
+        
         <div class="nav-item">
+          
+              <div class="nav-item">
+            <NavLink class="nav-link" href="product-manager">
+            
+                <span class="bi-cloud-upload-nav-menu" aria-hidden="true"></span> Manage Product Data
+                
+            </NavLink>
+            
+        </div>
+</div>
+
+        <div class="nav-item">
+
+
+
             @if (isLoggedIn)
             {
                 <button class="nav-link btn btn-link" @onclick="Logout">

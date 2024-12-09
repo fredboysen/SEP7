@@ -30,6 +30,9 @@ public async Task<ActionResult<List<MaterialsTotal>>> GetMaterialsTotals()
     // Directly return the list without any wrapper
     return Ok(materialsTotals);
 }
+}
 
-}
-}
+        }
+    
+
+
