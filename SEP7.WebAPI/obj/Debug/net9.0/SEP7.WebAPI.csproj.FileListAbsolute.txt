@@ -321,3 +321,11 @@ C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.pdb
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.genruntimeconfig.cache
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\ref\SEP7.WebAPI.dll
 >>>>>>> 9f7c5360115836a23e711d47967d1f84af2546c1
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.csproj.AssemblyReference.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.AssemblyInfoInputs.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.AssemblyInfo.cs
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.sourcelink.json
