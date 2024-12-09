@@ -1,6 +1,8 @@
 ﻿@page "/"
 @inject HttpClient Http
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
 
 <h2 class="home-header">Our Products</h2>
 
@@ -121,22 +123,18 @@
 
     private string GetProductImage(Product product)
     {
-<<<<<<< HEAD
-        return "https://via.placeholder.com/150"; // Replace with actual logic
-=======
        return product.ImageUrl;
->>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
     }
 
-    private void NavigateToProductDetails(string productId)
+  private void NavigateToProductDetails(string productId)
     {
         NavigationManager.NavigateTo($"/product-materials?productId={productId}");
     }
-
     private class Product
     {
         public string ProductID { get; set; }
         public string ProductName { get; set; }
-        public string Description { get; set; } // Added a description property
+        public string Description { get; set; }
+          public string ImageUrl {get; set;}
     }
 }

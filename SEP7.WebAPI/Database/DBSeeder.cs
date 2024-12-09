@@ -2,7 +2,6 @@ using SEP7.WebAPI.Models;
 using SEP7.Database.Data;
 using Microsoft.EntityFrameworkCore;
 
-
 namespace SEP7.WebAPI.Data
 {
     public class DbSeeder
@@ -88,8 +87,9 @@ namespace SEP7.WebAPI.Data
                 // Handle the case where the product already exists, if necessary
                 Console.WriteLine($"Product with ID {"4000-10-10"} already exists.");
             }
-    
-     var users = new[]
+            
+            // Add Users data
+            var users = new[]
             {
                 new User
                 {
@@ -108,12 +108,137 @@ namespace SEP7.WebAPI.Data
             };
 
             context.Users.AddRange(users);
-            context.SaveChanges();
-        }
-    
-    
-    
-    }
+            await context.SaveChangesAsync();  // Save User records
 
-    
+            // Step 4: Seed the HQ_Usage data
+      var usageData = new[]
+            {
+                new HQ_Usage
+                {
+                    UsageType = "Electricity",
+                    Year = "2023",
+                    EnergyConsumption = 3509473,
+                    EnergyType = "kWh",
+                    EnergyCost = 3796540,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 237,
+                    UnitPrice = 1.08
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Solarpanels",
+                    Year = "2023",
+                    EnergyConsumption = 517875,
+                    EnergyType = "kWh",
+                    EnergyCost = 0,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 0,
+                    UnitPrice = 0
+                },
+                new HQ_Usage
+                {
+                    UsageType = "DistrictHeating",
+                    Year = "2023",
+                    EnergyConsumption = 217,
+                    EnergyType = "MWh",
+                    EnergyCost = 115490,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 15,
+                    UnitPrice = 0.53
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Natural Gas",
+                    Year = "2023",
+                    EnergyConsumption = 8604,
+                    EnergyType = "Nm_2",
+                    EnergyCost = 44100,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 19,
+                    UnitPrice = 0.47
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Propan",
+                    Year = "2023",
+                    EnergyConsumption = 3148,
+                    EnergyType = "kg",
+                    EnergyCost = 36490,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 93,
+                    UnitPrice = 0.91
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Hydrogen",
+                    Year = "2023",
+                    EnergyConsumption = 708,
+                    EnergyType = "kg",
+                    EnergyCost = 332380,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 0,
+                    UnitPrice = 14.07
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Oil",
+                    Year = "2023",
+                    EnergyConsumption = 38353,
+                    EnergyType = "Litres",
+                    EnergyCost = 414127,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 104,
+                    UnitPrice = 1.06
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Petrol",
+                    Year = "2023",
+                    EnergyConsumption = 34672,
+                    EnergyType = "Litres",
+                    EnergyCost = 420151,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 83,
+                    UnitPrice = 1.33
+                },
+                new HQ_Usage
+                {
+                    UsageType = "Diesel",
+                    Year = "2023",
+                    EnergyConsumption = 13301,
+                    EnergyType = "litres",
+                    EnergyCost = 147263,
+                    Currency = "DKK",
+                    Co2_Emissions_Tons = 35,
+                    UnitPrice = 11.11
+                }
+            };
+
+            foreach (var usage in usageData)
+            {
+                // Check if the record already exists
+                var existingUsage = await context.HQ_Usages
+                    .FirstOrDefaultAsync(u => u.UsageType == usage.UsageType && u.Year == usage.Year);
+
+                if (existingUsage == null)
+                {
+                    // Add the new record if it does not exist
+                    context.HQ_Usages.Add(usage);
+                    await context.SaveChangesAsync();
+                }
+                else
+                {
+                    // Optionally update the existing record if needed
+                    existingUsage.EnergyConsumption = usage.EnergyConsumption;
+                    existingUsage.EnergyType = usage.EnergyType;
+                    existingUsage.EnergyCost = usage.EnergyCost;
+                    existingUsage.Currency = usage.Currency;
+                    existingUsage.Co2_Emissions_Tons = usage.Co2_Emissions_Tons;
+                    existingUsage.UnitPrice = usage.UnitPrice;
+
+                    await context.SaveChangesAsync();
+                }
+            }
+    }
+}
 }

@@ -16,6 +16,37 @@ namespace SEP7.WebAPI.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
 
+            modelBuilder.Entity("SEP7.WebAPI.Models.HQ_Usage", b =>
+                {
+                    b.Property<string>("UsageType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Year")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Co2_Emissions_Tons")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Currency")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("EnergyConsumption")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("EnergyCost")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("EnergyType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("UnitPrice")
+                        .HasColumnType("REAL");
+
+                    b.HasKey("UsageType", "Year");
+
+                    b.ToTable("HQ_Usages");
+                });
+
             modelBuilder.Entity("SEP7.WebAPI.Models.MaterialData", b =>
                 {
                     b.Property<int>("MaterialDataId")

@@ -1,0 +1,77 @@
+@page "/product-manager"
+@inject HttpClient Http
+@rendermode InteractiveServer
+
+
+<h3>Product Manager</h3>
+
+<!-- Display List of Products -->
+@if (Products != null && Products.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Image</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Products)
+            {
+                <tr>
+                    <td>@product.ProductID</td>
+                    <td>@product.ProductName</td>
+                    <td><img src="@product.ImageUrl" alt="Image" style="width: 50px;" /></td>
+                    <td>
+                        <!-- Delete Button -->
+                        <button class="btn btn-danger" @onclick="() => DeleteProduct(product.ProductID)">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No products available.</p>
+}
+
+@code {
+    private List<Product> Products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        Products = await Http.GetFromJsonAsync<List<Product>>("api/Product");
+    }
+
+    private async Task DeleteProduct(string productId)
+    {
+        // Directly send DELETE request without confirmation
+        var response = await Http.DeleteAsync($"api/Product/{productId}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            // Reload products after successful deletion
+            await LoadProducts();
+        }
+        else
+        {
+            // Handle error, maybe show an alert
+            Console.Error.WriteLine("Failed to delete product");
+        }
+    }
+
+    public class Product
+    {
+        public string ProductID { get; set; }
+        public string ProductName { get; set; }
+        public string ImageUrl { get; set; }
+    }
+}

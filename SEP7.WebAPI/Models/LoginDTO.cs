@@ -1,6 +1,6 @@
    
-   
-   namespace SEP7.WebAPI.Models
+    
+  namespace SEP7.WebAPI.Models
    {
    
     public class LoginDTO
