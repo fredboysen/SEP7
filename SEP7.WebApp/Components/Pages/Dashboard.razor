@@ -1,0 +1,69 @@
+﻿@page "/dashboard"
+@using Microsoft.JSInterop;
+@using Microsoft.AspNetCore.Components;
+@using System;
+@using System.Collections.Generic;
+@using System.Threading.Tasks;
+@using System.Linq;
+
+<h3 class="dashboard-title">Dashboard</h3>
+
+<div class="dashboard-container">
+    <!-- Top Section: Pie Chart and Bar Chart -->
+    <div class="top-section">
+        <!-- Pie Chart -->
+        <RadzenChart class="unique-pie-chart">
+            <RadzenPieSeries Data="pieChartData" ValueProperty="Value" CategoryProperty="Category" />
+        </RadzenChart>
+
+        <!-- Bar Chart -->
+        <RadzenChart class="unique-bar-chart">
+            <RadzenBarSeries Data="barChartData" ValueProperty="Value" CategoryProperty="Category" />
+        </RadzenChart>
+    </div>
+
+    <!-- Bottom Section: Line Chart -->
+    <div class="bottom-section">
+        <RadzenChart class="unique-line-chart">
+            <RadzenLineSeries Data="lineChartData" ValueProperty="Value" CategoryProperty="Category" />
+        </RadzenChart>
+    </div>
+</div>
+
+@code {
+    // Pie Chart Data
+    private List<ChartData> pieChartData = new()
+    {
+        new ChartData { Category = "Red", Value = 30 },
+        new ChartData { Category = "Blue", Value = 20 },
+        new ChartData { Category = "Green", Value = 25 },
+        new ChartData { Category = "Yellow", Value = 25 }
+    };
+
+    // Bar Chart Data
+    private List<ChartData> barChartData = new()
+    {
+        new ChartData { Category = "Q1", Value = 100000 },
+        new ChartData { Category = "Q2", Value = 120000 },
+        new ChartData { Category = "Q3", Value = 90000 },
+        new ChartData { Category = "Q4", Value = 140000 }
+    };
+
+    // Line Chart Data
+    private List<ChartData> lineChartData = new()
+    {
+        new ChartData { Category = "Jan", Value = 5000 },
+        new ChartData { Category = "Feb", Value = 8000 },
+        new ChartData { Category = "Mar", Value = 7500 },
+        new ChartData { Category = "Apr", Value = 10000 },
+        new ChartData { Category = "May", Value = 9500 },
+        new ChartData { Category = "Jun", Value = 12000 }
+    };
+
+    // Data Model
+    private class ChartData
+    {
+        public string Category { get; set; }
+        public double Value { get; set; }
+    }
+}

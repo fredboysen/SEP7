@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject HttpClient Http
+@rendermode InteractiveServer
 @inject NavigationManager NavigationManager
 
 <h2 class="home-header">Our Products</h2>
@@ -18,16 +19,15 @@
     {
         @foreach (var product in products)
         {
-            <div class="product-card">
-                <img src="@GetProductImage(product)" alt="@product.ProductName" class="product-image" />
-                <div class="product-details">
-                    <h4>@product.ProductName</h4>
-                    <p>@product.Description</p> <!-- Placeholder for a product description -->
-                    <button class="btn btn-primary" @onclick="() => NavigateToProductDetails(product.ProductID)">
-                        View Details
-                    </button>
-                </div>
-            </div>
+           <div class="product-card">
+    <a @onclick="() => NavigateToProductDetails(product.ProductID)">
+        <img src="@GetProductImage(product)" alt="@product.ProductName" class="product-image" />
+    </a>
+    <div class="product-details">
+        <h4>@product.ProductName</h4>
+        <p>@product.Description</p> <!-- Placeholder for a product description -->
+    </div>
+</div>
         }
     }
 </div>
@@ -121,11 +121,7 @@
 
     private string GetProductImage(Product product)
     {
-<<<<<<< HEAD
-        return "https://via.placeholder.com/150"; // Replace with actual logic
-=======
        return product.ImageUrl;
->>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
     }
 
     private void NavigateToProductDetails(string productId)
@@ -137,6 +133,7 @@
     {
         public string ProductID { get; set; }
         public string ProductName { get; set; }
-        public string Description { get; set; } // Added a description property
+        public string Description { get; set; }
+        public string ImageUrl {get; set;}
     }
 }

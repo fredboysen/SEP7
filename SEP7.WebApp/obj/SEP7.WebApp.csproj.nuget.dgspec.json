@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {}
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
         "projectName": "SEP7.WebAPI",
-        "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -45,10 +45,6 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "ChartJs.Blazor": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
             "CsvHelper": {
               "target": "Package",
               "version": "[33.0.1, )"
@@ -125,17 +121,17 @@
         }
       }
     },
-    "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {
+    "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
         "projectName": "SEP7.WebApp",
-        "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
-        "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\",
+        "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -148,8 +144,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
-                "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
+              "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+                "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
               }
             }
           }
@@ -170,21 +166,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "BlazorPro.Spinkit": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            },
             "Blazored.LocalStorage": {
               "target": "Package",
               "version": "[4.5.0, )"
-            },
-            "ChartJs.Blazor": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
-            "ChartJs.Blazor.Fork": {
-              "target": "Package",
-              "version": "[2.0.2, )"
             },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -196,7 +180,7 @@
             },
             "Radzen.Blazor": {
               "target": "Package",
-              "version": "[5.6.12, )"
+              "version": "[5.6.13, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

@@ -8,30 +8,16 @@
     ".NETCoreApp,Version=v9.0": {
       "SEP7.WebApp/1.0.0": {
         "dependencies": {
-          "BlazorPro.Spinkit": "1.2.0",
           "Blazored.LocalStorage": "4.5.0",
-          "ChartJs.Blazor": "1.1.0",
-          "ChartJs.Blazor.Fork": "2.0.2",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Newtonsoft.Json": "13.0.3",
-          "Radzen.Blazor": "5.6.12",
+          "Radzen.Blazor": "5.6.13",
           "SEP7.WebAPI": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.3.0",
           "System.Text.Encodings.Web": "7.0.0"
         },
         "runtime": {
           "SEP7.WebApp.dll": {}
-        }
-      },
-      "BlazorComponentUtilities/1.6.0": {
-        "dependencies": {
-          "System.Runtime": "4.3.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/BlazorComponentUtilities.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.0.0"
-          }
         }
       },
       "Blazored.LocalStorage/4.5.0": {
@@ -42,39 +28,6 @@
           "lib/net8.0/Blazored.LocalStorage.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "BlazorPro.Spinkit/1.2.0": {
-        "dependencies": {
-          "BlazorComponentUtilities": "1.6.0",
-          "Microsoft.AspNetCore.Components": "9.0.0",
-          "Microsoft.AspNetCore.Components.Web": "9.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/BlazorPro.Spinkit.dll": {
-            "assemblyVersion": "1.2.0.0",
-            "fileVersion": "1.2.0.0"
-          }
-        }
-      },
-      "ChartJs.Blazor/1.1.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "9.0.0",
-          "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "13.0.3"
-        }
-      },
-      "ChartJs.Blazor.Fork/2.0.2": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "9.0.0",
-          "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.1/ChartJs.Blazor.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.0"
           }
         }
       },
@@ -166,7 +119,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.Sqlite.Core/9.0.0": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.10"
@@ -374,8 +326,6 @@
           "System.Buffers": "4.5.0"
         }
       },
-      "Microsoft.NETCore.Platforms/1.1.1": {},
-      "Microsoft.NETCore.Targets/1.1.3": {},
       "Microsoft.OpenApi/1.6.22": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -392,7 +342,7 @@
           }
         }
       },
-      "Radzen.Blazor/5.6.12": {
+      "Radzen.Blazor/5.6.13": {
         "dependencies": {
           "DartSassBuilder": "1.0.0",
           "Microsoft.AspNetCore.Components": "9.0.0",
@@ -401,8 +351,8 @@
         },
         "runtime": {
           "lib/net9.0/Radzen.Blazor.dll": {
-            "assemblyVersion": "5.6.12.0",
-            "fileVersion": "5.6.12.0"
+            "assemblyVersion": "5.6.13.0",
+            "fileVersion": "5.6.13.0"
           }
         }
       },
@@ -620,17 +570,10 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Runtime/4.3.1": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "1.1.1",
-          "Microsoft.NETCore.Targets": "1.1.3"
-        }
-      },
       "System.Text.Encodings.Web/7.0.0": {},
       "System.Text.Json/9.0.0": {},
       "SEP7.WebAPI/1.0.0": {
         "dependencies": {
-          "ChartJs.Blazor": "1.1.0",
           "CsvHelper": "33.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
@@ -657,40 +600,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BlazorComponentUtilities/1.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lMs6tJpkgYWmze2+hEp0Kg4VeIuZPkS6ekt7k+18tE+4iMAy3xlgM5XJw1fzOZjpYQj3X9rex6T3Eoij52tyXw==",
-      "path": "blazorcomponentutilities/1.6.0",
-      "hashPath": "blazorcomponentutilities.1.6.0.nupkg.sha512"
-    },
     "Blazored.LocalStorage/4.5.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
       "path": "blazored.localstorage/4.5.0",
       "hashPath": "blazored.localstorage.4.5.0.nupkg.sha512"
-    },
-    "BlazorPro.Spinkit/1.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-foGXeN8xbM/OMwsApLNtlOl07blfY8ruYN56JeGha+omRI34abu2AxOyeLVnhuuEdEfcYMOEJlxK7PG0RDirtg==",
-      "path": "blazorpro.spinkit/1.2.0",
-      "hashPath": "blazorpro.spinkit.1.2.0.nupkg.sha512"
-    },
-    "ChartJs.Blazor/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MUGYzS5FSx9r17sPVRlREPWU+1mFtggFaQtGKifQg30I48tx3OEDH3JZd07r+jKwtpN/h89HVUYy3IT2FS8ZEw==",
-      "path": "chartjs.blazor/1.1.0",
-      "hashPath": "chartjs.blazor.1.1.0.nupkg.sha512"
-    },
-    "ChartJs.Blazor.Fork/2.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-1aJR2uX3Al1OnWsTOIza2UV4oDZcmspOhliXQ2f9rpAOCuwT0BPbN0eFYT3Fzp5aWU9+9tfyhPlQO48UwpfKVQ==",
-      "path": "chartjs.blazor.fork/2.0.2",
-      "hashPath": "chartjs.blazor.fork.2.0.2.nupkg.sha512"
     },
     "CsvHelper/33.0.1": {
       "type": "package",
@@ -789,13 +704,6 @@
       "sha512": "sha512-FqUK5j1EOPNuFT7IafltZQ3cakqhSwVzH5ZW1MhZDe4pPXs9sJ2M5jom1Omsu+mwF2tNKKlRAzLRHQTZzbd+6Q==",
       "path": "microsoft.aspnetcore.openapi/9.0.0",
       "hashPath": "microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/9.0.0": {
       "type": "package",
@@ -986,20 +894,6 @@
       "path": "microsoft.net.http.headers/2.2.0",
       "hashPath": "microsoft.net.http.headers.2.2.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/1.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TMBuzAHpTenGbGgk0SMTwyEkyijY/Eae4ZGsFNYJvAr/LDn1ku3Etp3FPxChmDp5HHF3kzJuoaa08N0xjqAJfQ==",
-      "path": "microsoft.netcore.platforms/1.1.1",
-      "hashPath": "microsoft.netcore.platforms.1.1.1.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Targets/1.1.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
-      "path": "microsoft.netcore.targets/1.1.3",
-      "hashPath": "microsoft.netcore.targets.1.1.3.nupkg.sha512"
-    },
     "Microsoft.OpenApi/1.6.22": {
       "type": "package",
       "serviceable": true,
@@ -1014,12 +908,12 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "Radzen.Blazor/5.6.12": {
+    "Radzen.Blazor/5.6.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R8Ohn1ivN0TtQ3eHPzhoVTit/MjAwoBFR+/Ka9FgH/Vk4peIrpEp4T/NPG68hBTvSkAh810BVXHcdyu4OKUweg==",
-      "path": "radzen.blazor/5.6.12",
-      "hashPath": "radzen.blazor.5.6.12.nupkg.sha512"
+      "sha512": "sha512-3+7Tnxd/nyuRR15G/la7W+UQ1Xo8lE/GE5tLwf0Q1cVhHbq8U8jo7CYNVcRgRh1xmTRyEzm2cuZ6yNAEDSoRmQ==",
+      "path": "radzen.blazor/5.6.13",
+      "hashPath": "radzen.blazor.5.6.13.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
       "type": "package",
@@ -1111,13 +1005,6 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
-    },
-    "System.Runtime/4.3.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
-      "path": "system.runtime/4.3.1",
-      "hashPath": "system.runtime.4.3.1.nupkg.sha512"
     },
     "System.Text.Encodings.Web/7.0.0": {
       "type": "package",

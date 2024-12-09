@@ -11,35 +11,33 @@
 
 <PageTitle>Login</PageTitle>
 
-<div class="login-container">
-    <img src="vola.png" alt="App Logo" class="login-logo" />
-    
-    <div>
-        <h3>Login</h3>
+<div class="custom-login-container">
+    <div class="custom-login-box">
+        <img src="vola.png" alt="App Logo" class="custom-login-logo" />
+        
+        <h3 class="custom-login-title">Login</h3>
         
         <!-- Username Field -->
-        <div class="login-field">
-            <label for="username" class="login-label">Username:</label>
-            <input id="username" type="text" @bind="loginUsername" class="login-input" />
+        <div class="custom-login-field">
+            <label for="username" class="custom-login-label">Username:</label>
+            <input id="username" type="text" @bind="loginUsername" class="custom-login-input" />
         </div>
         
         <!-- Password Field -->
-        <div class="login-field">
-            <label for="password" class="login-label">Password:</label>
-            <input id="password" type="password" @bind="loginPassword" class="login-input" />
+        <div class="custom-login-field">
+            <label for="password" class="custom-login-label">Password:</label>
+            <input id="password" type="password" @bind="loginPassword" class="custom-login-input" />
         </div>
         
         <!-- Error Message -->
         @if (!string.IsNullOrEmpty(loginErrorLabel))
         {
-            <div class="login-field">
-                <p class="login-error-message">@loginErrorLabel</p>
-            </div>
+            <p class="custom-login-error">@loginErrorLabel</p>
         }
         
         <!-- Login Button -->
-        <div class="login-field">
-            <button class="login-button" @onclick="LoginAsync">Log in</button>
+        <div class="custom-login-field">
+            <button class="custom-login-button" @onclick="LoginAsync">Log in</button>
         </div>
     </div>
 </div>

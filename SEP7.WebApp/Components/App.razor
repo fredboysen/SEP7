@@ -16,14 +16,14 @@
     <ImportMap />
     <link rel="icon" type="image/png" href="favicon.png" />
     <HeadOutlet @rendermode="new InteractiveServerRenderMode(prerender: false)" />
+    
 </head>
 
 <body>
 <Routes @rendermode="new InteractiveServerRenderMode(prerender: false)" />
       <script src="_framework/blazor.web.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
-<!-- This is the glue between Blazor and Chart.js -->
-<script src="_content/ChartJs.Blazor.Fork/ChartJsBlazorInterop.js"></script>
+   <script src="_content/Radzen.Blazor/Radzen.Blazor.js?v=@(typeof(Radzen.Colors).Assembly.GetName().Version)"></script>
+
 
 </body>
 

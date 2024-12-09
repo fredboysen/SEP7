@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Thoma\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
-      "PackagePath": "staticwebassets\\ChartJsBlazorInterop.js"
-    },
-    {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\SEP7.WebApp.s1pim70diy.bundle.scp.css"
     },
@@ -13,19 +9,11 @@
       "PackagePath": "staticwebassets\\Epd.jpg"
     },
     {
-<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
       "PackagePath": "staticwebassets\\Image1.jpg"
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
-=======
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
-      "PackagePath": "staticwebassets\\Image1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
->>>>>>> b5b4016977b2ab49e7cb4549ac793a3c4f488fb0
       "PackagePath": "staticwebassets\\Vola.png"
     },
     {
@@ -163,10 +151,6 @@
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\MudBlazor.min.js"
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",

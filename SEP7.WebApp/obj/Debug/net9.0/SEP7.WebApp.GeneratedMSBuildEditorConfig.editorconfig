@@ -24,12 +24,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Charts.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGFydHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Home.razor]
