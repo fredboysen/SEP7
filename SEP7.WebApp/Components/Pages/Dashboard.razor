@@ -9,23 +9,21 @@
 <h3 class="dashboard-title">Dashboard</h3>
 
 <div class="dashboard-container">
-    <!-- Top Section: Pie Chart and Bar Chart -->
+  
     <div class="top-section">
-        <!-- Pie Chart -->
+        
         <RadzenChart class="unique-pie-chart">
             <RadzenPieSeries Data="pieChartData" ValueProperty="Value" CategoryProperty="Category" />
         </RadzenChart>
 
-        <!-- Bar Chart -->
-        <RadzenChart class="unique-bar-chart">
-            <RadzenBarSeries Data="barChartData" ValueProperty="Value" CategoryProperty="Category" />
+        <RadzenChart class="unique-column-chart">
+            <RadzenColumnSeries Data="barChartData" ValueProperty="Value" CategoryProperty="Category" Fill="Blue" />
         </RadzenChart>
     </div>
-
-    <!-- Bottom Section: Line Chart -->
+  
     <div class="bottom-section">
         <RadzenChart class="unique-line-chart">
-            <RadzenLineSeries Data="lineChartData" ValueProperty="Value" CategoryProperty="Category" />
+            <RadzenLineSeries Data="lineChartData" ValueProperty="Value" CategoryProperty="Category" Stroke="blue"  />
         </RadzenChart>
     </div>
 </div>
@@ -40,13 +38,14 @@
         new ChartData { Category = "Yellow", Value = 25 }
     };
 
-    // Bar Chart Data
+    // Column Chart Data
     private List<ChartData> barChartData = new()
     {
         new ChartData { Category = "Q1", Value = 100000 },
         new ChartData { Category = "Q2", Value = 120000 },
-        new ChartData { Category = "Q3", Value = 90000 },
-        new ChartData { Category = "Q4", Value = 140000 }
+        new ChartData { Category = "Q3", Value = 95000 },
+        new ChartData { Category = "Q4", Value = 140000 },
+        new ChartData { Category = "Q5", Value = 140000 }
     };
 
     // Line Chart Data

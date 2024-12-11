@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEP7.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94968c0ae60ea1bdb0f192c2ef7e1618ef44ee16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32961677377109f0c514b48a289ebb638daf18ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEP7.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEP7.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

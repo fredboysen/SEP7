@@ -63,7 +63,6 @@ h1:focus {
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-/* dashboard.css */
 
 /* Dashboard Container */
 .dashboard-container {
@@ -142,9 +141,8 @@ h1:focus {
 
 /*UPLOAD PAGE*/
 
-/* Styling for the entire upload container */
 .upload-container {
-    max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9;
@@ -152,17 +150,54 @@ h1:focus {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for the file input */
+
+
 .file-input {
     width: 100%;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border: 1px solid #fffdfd;
     border-radius: 4px;
 }
 
-/* Styling for the Upload button */
+/* Input groups */
+.input-group {
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+
+.input-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #555;
+    font-size: 1.2rem; 
+    transition: all 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.input-label:hover {
+    background: #eaeaea;
+}
+
+
+.input-icon {
+    width: 28px; 
+    height: 28px;
+}
+
+
 .upload-btn {
     width: 100%;
     padding: 12px;
@@ -184,7 +219,7 @@ h1:focus {
     background-color: #0056b3;
 }
 
-/* Styling for the upload status and alert messages */
+
 .upload-status {
     margin-top: 20px;
     font-weight: bold;
@@ -616,24 +651,104 @@ h1:focus {
 /* -------------------------------------------------------------------- */
 /* Upload Page CSS */
 
+
+.upload-title {
+    color: #4f4db0; 
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .upload-container {
-    margin: 20px auto;
-    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: linear-gradient(to right, #4f4db0, #3db6ef); 
+}
+
+.upload-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
     text-align: center;
 }
 
+.icon-section {
+    margin-bottom: 20px;
+}
+
+.upload-icon {
+    width: 100px;
+    height: auto;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.input-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #555;
+    transition: all 0.3s;
+}
+
+.input-label:hover {
+    background: #eaeaea;
+}
+
+.input-icon {
+    width: 20px;
+    height: 20px;
+}
+
 .file-input {
-    margin-bottom: 10px;
-    display: block;
-    width: 100%;
+    display: none;
 }
 
 .upload-btn {
     width: 100%;
+    padding: 10px;
+    background-color: #4f4db0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.upload-btn:hover {
+    background-color: #3db6ef;
 }
 
 .alert {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.alert-success {
+    color: #28a745;
+}
+
+.alert-danger {
+    color: #dc3545;
+}
+
+.upload-status {
     margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 /* -------------------------------------------------- */
@@ -647,19 +762,19 @@ h1:focus {
 }
 
 .product-card a {
-    text-decoration: none; /* Remove default link styling */
-    display: block; /* Make the image behave as a block */
-    cursor: pointer; /* Change the mouse pointer to indicate it's clickable */
+    text-decoration: none; 
+    display: block; 
+    cursor: pointer; 
 }
 
 .product-card a:hover .product-image {
-    transform: scale(1.05); /* Add a slight zoom effect on hover */
-    transition: transform 0.3s ease; /* Smooth transition for the zoom */
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
 }
 
 .product-card {
     background: linear-gradient(to bottom, #ffffff, #f8f9fa); 
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 15px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
     overflow: hidden;
     padding: 1.5rem;
@@ -723,7 +838,7 @@ h1:focus {
     margin: 2rem 0;
 }
 
-/* Product Section */
+
 .product-container {
     display: flex;
     flex-wrap: wrap;
@@ -741,11 +856,7 @@ h1:focus {
     width: 250px;
 }
 
-.product-image {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-}
+
 
 .product-details h4 {
     font-size: 1.2rem;
@@ -758,7 +869,7 @@ h1:focus {
     margin: 0.5rem 0;
 }
 
-/* Information Section */
+
 .info-section {
     display: flex;
     justify-content: space-around;
@@ -785,7 +896,7 @@ h1:focus {
     color: #7f8c8d;
 }
 
-/* Gallery Section */
+
 .gallery-section {
     padding: 2rem;
     text-align: center;
@@ -805,7 +916,7 @@ h1:focus {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* About Section */
+
 .about-section {
     padding: 2rem;
     background: #f9f9f9;
@@ -824,7 +935,7 @@ h1:focus {
     line-height: 1.6;
 }
 
-/* Contact Section */
+
 .contact-section {
     padding: 2rem;
     text-align: center;
@@ -880,44 +991,63 @@ h1:focus {
 
 
 --------------------------------------------------- ----------------------------------------------------------
-/*Material Details*/
+/* Material Details Page */
 
-/* Main Container for Materials Totals Page */
-.product-materials-container {
-    margin-top: 4rem; /* Ensure space below the navbar */
-    padding: 20px;
-    background-color: #f9f9f9; /* Light background */
-    color: #333; /* Text color */
-    min-height: 100vh; /* Full page height */
-    box-sizing: border-box; /* Include padding in height calculations */
+
+.materials-page-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    margin: 0 auto; 
+    padding: 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
-/* Search Bar Styling */
+.materials-header {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin: 0; /* Removes default margin */
+    color: #333; /* Ensures readability */
+
+}
+
+
+/* Center Tables */
+.product-materials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search Container */
 .product-search-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
     gap: 10px;
-    margin-bottom: 20px; /* Space below the search bar */
 }
 
+/* Search Inputs */
 .product-search-input {
     padding: 10px;
     width: 300px;
     font-size: 1rem;
-    border: 2px solid #ff6f03;
+    border: 2px solid #74ebd5;
     border-radius: 5px;
-    transition: border-color 0.3s ease;
 }
 
 .product-search-input:focus {
     outline: none;
-    border-color: #000000; /* Black border on focus */
+    border-color: #000;
 }
 
 .product-search-button {
     padding: 10px 20px;
-    background-color: #ff6f03;
+    background: linear-gradient(to right, #74ebd5, #9face6);
     color: white;
     font-size: 1rem;
     border: none;
@@ -927,179 +1057,139 @@ h1:focus {
 }
 
 .product-search-button:hover {
-    background-color: #e65c00; /* Darker orange */
+    background: linear-gradient(to right, #0d856f, #1935af);
 }
 
-/* Table Container */
-.product-materials-table-container {
-    width: 50%;
-    max-width: 1200px;
-    margin: 0 auto; /* Center the table */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
-}
-
-/* Main Table Styling */
-.product-materials-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-.product-materials-table th,
-.product-materials-table td {
-    padding: 8px;
-    text-align: left;
-    font-size: 1rem;
-    border: 1px solid #ddd; /* Add border for separation */
-}
-
-.product-materials-table th {
-    background-color: #ff6f03;
-    color: white;
-}
-
-.product-materials-table td {
-    background-color: #f9f9f9;
-}
-
-.product-materials-table tr:nth-child(even) td {
-    background-color: #f1f1f1; /* Light gray for alternate rows */
-}
-
-.product-materials-table tr:hover td {
-    background-color: #e0f7fa; /* Subtle hover effect */
-}
-
-/* Second Table (Scrollable Details) */
+/* Tables */
+.product-materials-table-container,
 .product-materials-details-table-container {
-    margin-top: 2px; /* Space above the second table */
-    overflow-x: auto; /* Enable horizontal scrolling for large tables */
-}
-
-.product-materials-details-table {
-    width: 100%;
-    min-width: 1000px; /* Prevent the table from being too narrow */
-    border-collapse: collapse;
-    background-color: white;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow-x: auto;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.product-materials-details-table th,
-.product-materials-details-table td {
-    padding: 12px;
-    text-align: left;
-    font-size: 0.8rem;
-    border: 1px solid #2b1e1e; /* Add border for separation */
+.product-materials-table,
+.product-materials-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
 }
 
+.product-materials-table th,
 .product-materials-details-table th {
-    background-color: #ff6f03;
+    background-color: rgb(65, 133, 236);
     color: white;
+    font-size: 0.7rem;
+    padding: 10px;
+    text-align: left;
 }
 
+.product-materials-table td,
 .product-materials-details-table td {
-    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.9rem;
 }
 
-.product-materials-details-table tr:nth-child(even) td {
-    background-color: #f1f1f1;
-}
-
+.product-materials-table tr:hover td,
 .product-materials-details-table tr:hover td {
     background-color: #e0f7fa;
 }
+----------------------------------------------------------------
 
-/* Loading/Empty Message Styling */
-.product-materials-container p {
-    font-size: 1.2rem;
+/* General Container Styling */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
-    color: #888;
+}
+
+/* Table Styling */
+.table-container {
+    max-height: 500px; /* Adjust height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    border-radius: 10px;
+    border: none; /* Remove border around the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #74ebd5, #9face6); /* Gradient background for container */
+    padding: 10px; /* Padding for better spacing */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+.table th {
+    background-color: #3498db; /* Blue color for header */
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* No Products Message */
+.no-products-message {
+    font-size: 1.2rem;
+    color: #555;
     margin-top: 20px;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .product-search-container {
-        flex-direction: column; /* Stack the search input and button */
-        gap: 15px;
-    }
-
-    .product-materials-table,
-    .product-materials-details-table {
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
-    }
-}
-
-
---------------------------------------------------------------------------- 
-.charts-header {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.charts-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-}
-
-.chart-box {
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    height: 400px;
-}
-
-.chart-box h3 {
-    text-align: center;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-    color: #666;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
 ----------------------------------------------------------------
+/* Charts page */
 .dashboard-title {
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 100%x;
+    margin-bottom: 5px;
 }
 
 .dashboard-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
 }
 
 .top-section {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 200px;
     width: 100%;
 }
 
 .unique-pie-chart {
     width: 300px;
     height: 300px;
-    border: 2px solid #ccc;
+    border: 2px solid #ffffff;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
-.unique-bar-chart {
-    width: 500px;
-    height: 300px;
-    border: 2px solid #ccc;
+.unique-column-chart {
+    width: 700px;
+    height: 35vh;
+    border: 2px solid #ffffff;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
+   
 }
+
 
 .bottom-section {
     display: flex;
@@ -1108,9 +1198,37 @@ h1:focus {
 }
 
 .unique-line-chart {
-    width: 800px;
-    height: 300px;
-    border: 2px solid #ccc;
+    width: 1000px;
+    height: 400px;
+    border: 2px solid #ffffff;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
+
+/* Pie Chart */
+.unique-pie-chart .rz-series-item-0 {
+    fill: red;
+    stroke: blue;
+    stroke-width: 2px;
+}
+.unique-pie-chart .rz-series-item-1 {
+    fill: green;
+    stroke: black;
+    stroke-width: 2px;
+}
+.unique-pie-chart .rz-series-item-2 {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 2px;
+}
+.unique-pie-chart .rz-series-item-3 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+
+
+
+

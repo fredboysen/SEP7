@@ -768,7 +768,7 @@
           }
         }
       },
-      "Radzen.Blazor/5.6.13": {
+      "Radzen.Blazor/5.6.15": {
         "type": "package",
         "dependencies": {
           "DartSassBuilder": "1.0.0",
@@ -2367,10 +2367,10 @@
         "packageIcon.png"
       ]
     },
-    "Radzen.Blazor/5.6.13": {
-      "sha512": "3+7Tnxd/nyuRR15G/la7W+UQ1Xo8lE/GE5tLwf0Q1cVhHbq8U8jo7CYNVcRgRh1xmTRyEzm2cuZ6yNAEDSoRmQ==",
+    "Radzen.Blazor/5.6.15": {
+      "sha512": "Mvq+JzdcFNu1og1olNGBX3z0mMvHBQvNSp67KWjdEpKVNyWY2C6pjpVYaRQEsUITmrT7vblO6ULCsv5LFFEasg==",
       "type": "package",
-      "path": "radzen.blazor/5.6.13",
+      "path": "radzen.blazor/5.6.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2390,7 +2390,7 @@
         "lib/net8.0/Radzen.Blazor.xml",
         "lib/net9.0/Radzen.Blazor.dll",
         "lib/net9.0/Radzen.Blazor.xml",
-        "radzen.blazor.5.6.13.nupkg.sha512",
+        "radzen.blazor.5.6.15.nupkg.sha512",
         "radzen.blazor.nuspec",
         "staticwebassets/Radzen.Blazor.js",
         "staticwebassets/css/dark-base.css",
@@ -2877,7 +2877,7 @@
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "MudBlazor >= 7.15.0",
       "Newtonsoft.Json >= 13.0.3",
-      "Radzen.Blazor >= 5.6.13",
+      "Radzen.Blazor >= 5.6.15",
       "SEP7.WebAPI >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 8.3.0",
       "System.Text.Encodings.Web >= 7.0.0"
@@ -2949,7 +2949,7 @@
           },
           "Radzen.Blazor": {
             "target": "Package",
-            "version": "[5.6.13, )"
+            "version": "[5.6.15, )"
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
@@ -2982,13 +2982,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -23,7 +23,7 @@
                 <tr>
                     <td>@product.ProductID</td>
                     <td>@product.ProductName</td>
-                    <td><img src="@product.ImageUrl" alt="Image" style="width: 50px;" /></td>
+                    <td><img src="@product.ImageUrl" alt="Image" style="width: 75px;" class="product-manager-image" /></td>
                     <td>
                         <!-- Delete Button -->
                         <button class="btn btn-danger" @onclick="() => DeleteProduct(product.ProductID)">Delete</button>

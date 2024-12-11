@@ -33,6 +33,7 @@ builder.Services.AddAuthentication().AddCookie(options =>
 });
 
 
+
 builder.Services.AddScoped<IAuthService, JwtAuthService>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
 AuthorizationPolicies.AddPolicies(builder.Services);

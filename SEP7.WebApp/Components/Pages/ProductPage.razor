@@ -21,7 +21,7 @@
     <div class="product-materials-container">
         @if (MaterialsTotals == null)
         {
-            <p>Loading materials totals...</p>
+            <p>Welcome! Use the search bar above to explore product materials.</p>
         }
         else if (!MaterialsTotals.Any())
         {
@@ -54,7 +54,7 @@
                 </table>
             </div>
 
-            <!-- Second Table - Material Details (Scrollable) -->
+            <!-- Second Table - Material Details -->
             <div class="product-materials-details-table-container">
                 <div class="table-wrapper">
                     <table class="product-materials-details-table">
@@ -131,32 +131,32 @@
                 </div>
             </div>
 
-            <!-- Third Table - Variance Data (Newly Added) -->
+            <!-- Third Table - Variance Data -->
             <div class="product-materials-details-table-container">
-                  <div class="table-wrapper">
-                <h2>Material Variance</h2>
-                <table class="product-materials-details-table">
-                    <thead>
-                        <tr>
-                            <th>Field</th>
-                            <th>Min Value</th>
-                            <th>Max Value</th>
-                            <th>Percentage Variance</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var variance in MaterialVarianceResults)
-                        {
+                <div class="table-wrapper">
+                    <h2>Material Variance</h2>
+                    <table class="product-materials-details-table">
+                        <thead>
                             <tr>
-                                <td>@variance.FieldName</td>
-                                <td>@variance.MinValue</td>
-                                <td>@variance.MaxValue</td>
-                                <td>@variance.PercentageVariance %</td>
+                                <th>Field</th>
+                                <th>Min Value</th>
+                                <th>Max Value</th>
+                                <th>Percentage Variance</th>
                             </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
+                        </thead>
+                        <tbody>
+                            @foreach (var variance in MaterialVarianceResults)
+                            {
+                                <tr>
+                                    <td>@variance.FieldName</td>
+                                    <td>@variance.MinValue</td>
+                                    <td>@variance.MaxValue</td>
+                                    <td>@variance.PercentageVariance %</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
             </div>
         }
     </div>
@@ -190,10 +190,8 @@
                     PropertyNameCaseInsensitive = true
                 };
 
-                // Fetch materials totals for the selected product ID
                 MaterialsTotals = await Http.GetFromJsonAsync<List<MaterialsTotal>>($"https://localhost:7073/api/Product/productGroup/{searchProductId}", options);
 
-                // Fetch the variance data for the selected product group
                 MaterialVarianceResults = await Http.GetFromJsonAsync<List<MaterialVarianceResult>>($"https://localhost:7073/api/MaterialVariance/variance?productId={searchProductId}", options);
             }
             catch (Exception ex)
@@ -203,7 +201,6 @@
         }
     }
 
-    // Model to represent variance data
     public class MaterialVarianceResult
     {
         public string FieldName { get; set; }
