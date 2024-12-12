@@ -11,10 +11,10 @@ namespace SEP7.WebAPI.Models
     [Key]
     public int MaterialDataId { get; set; }
 
-    [ForeignKey("Product")]  // Explicit Foreign Key
+    [ForeignKey("Product")]  
     public string ProductID { get; set; }
 
-    [ForeignKey("MaterialsTotal")]  // Explicit Foreign Key
+    [ForeignKey("MaterialsTotal")]  
     public int MaterialId { get; set; }
 
     public string MaterialType { get; set; }

@@ -1,68 +1,203 @@
 ﻿@page "/dashboard"
-@using Microsoft.JSInterop;
-@using Microsoft.AspNetCore.Components;
-@using System;
-@using System.Collections.Generic;
-@using System.Threading.Tasks;
-@using System.Linq;
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject HttpClient Http
 
-<h3 class="dashboard-title">Dashboard</h3>
+<h3 class="dashboard-title">GWP Total by Product</h3>
 
 <div class="dashboard-container">
-  
+    
     <div class="top-section">
         
         <RadzenChart class="unique-pie-chart">
-            <RadzenPieSeries Data="pieChartData" ValueProperty="Value" CategoryProperty="Category" />
+            <RadzenPieSeries Data="pieChartData" ValueProperty="Value" CategoryProperty="Category" Title="GWP Total by Product" />
         </RadzenChart>
 
+        
         <RadzenChart class="unique-column-chart">
-            <RadzenColumnSeries Data="barChartData" ValueProperty="Value" CategoryProperty="Category" Fill="Blue" />
+            <RadzenColumnSeries Data="barChartData" ValueProperty="GWP_Total_kg_CO2" CategoryProperty="ProductName" Fill="Blue" Title="GWP Total Kg/CO2" />
         </RadzenChart>
     </div>
-  
+
+    
     <div class="bottom-section">
+        
         <RadzenChart class="unique-line-chart">
-            <RadzenLineSeries Data="lineChartData" ValueProperty="Value" CategoryProperty="Category" Stroke="blue"  />
+            <RadzenLineSeries Data="lineChartData" ValueProperty="Value" CategoryProperty="Category" Stroke="blue" Title="Total Energy Consumption (kWh) Over Years VOLA HQ" />
         </RadzenChart>
+
+        
+        <div class="energy-usage-section">
+            <h4>VOLA HQ: Energy Usage by Type</h4>
+            <RadzenChart class="energy-usage-bar-chart">
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="Electricity" CategoryProperty="Year" Title="Electricity" Fill="Blue" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="DistrictHeating" CategoryProperty="Year" Title="District Heating" Fill="Green" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="NaturalGas" CategoryProperty="Year" Title="Natural Gas" Fill="Red" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="Propane" CategoryProperty="Year" Title="Propane" Fill="Orange" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="Hydrogen" CategoryProperty="Year" Title="Hydrogen" Fill="Purple" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="Oil" CategoryProperty="Year" Title="Oil" Fill="Yellow" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="Petrol" CategoryProperty="Year" Title="Petrol" Fill="Brown" />
+                <RadzenColumnSeries Data="hqUsageDataYear" ValueProperty="Diesel" CategoryProperty="Year" Title="Diesel" Fill="Gray" />
+            </RadzenChart>
+        </div>
     </div>
 </div>
 
 @code {
-    // Pie Chart Data
-    private List<ChartData> pieChartData = new()
-    {
-        new ChartData { Category = "Red", Value = 30 },
-        new ChartData { Category = "Blue", Value = 20 },
-        new ChartData { Category = "Green", Value = 25 },
-        new ChartData { Category = "Yellow", Value = 25 }
-    };
+    private List<ChartData> pieChartData = new();
+    private List<BarChartData> barChartData = new();
+    private List<ChartData> lineChartData = new();
+    private List<BarChartDataByYear> hqUsageDataYear = new();
 
-    // Column Chart Data
-    private List<ChartData> barChartData = new()
-    {
-        new ChartData { Category = "Q1", Value = 100000 },
-        new ChartData { Category = "Q2", Value = 120000 },
-        new ChartData { Category = "Q3", Value = 95000 },
-        new ChartData { Category = "Q4", Value = 140000 },
-        new ChartData { Category = "Q5", Value = 140000 }
-    };
+    private CancellationTokenSource _cts = new();
 
-    // Line Chart Data
-    private List<ChartData> lineChartData = new()
+    protected override async Task OnInitializedAsync()
     {
-        new ChartData { Category = "Jan", Value = 5000 },
-        new ChartData { Category = "Feb", Value = 8000 },
-        new ChartData { Category = "Mar", Value = 7500 },
-        new ChartData { Category = "Apr", Value = 10000 },
-        new ChartData { Category = "May", Value = 9500 },
-        new ChartData { Category = "Jun", Value = 12000 }
-    };
+        try
+        {
+            await LoadDataAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error during initialization: {ex.Message}");
+        }
+    }
 
-    // Data Model
+    private async Task LoadDataAsync()
+    {
+        try
+        {
+            var hqUsageData = await Http.GetFromJsonAsync<List<HQUsage>>("https://localhost:7073/api/HQ_Usage", _cts.Token);
+            var products = await Http.GetFromJsonAsync<List<Product>>("http://localhost:5123/api/Totals/GetTotals", _cts.Token);
+
+            if (hqUsageData != null && products != null)
+            {
+                pieChartData = TransformPieChartData(products);
+                barChartData = TransformBarChartData(products);
+                lineChartData = TransformLineChartData(hqUsageData);
+                hqUsageDataYear = TransformEnergyUsageData(hqUsageData);
+                await InvokeAsync(StateHasChanged);
+            }
+        }
+        catch (TaskCanceledException)
+        {
+            Console.WriteLine("Task was canceled due to component disposal.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading data: {ex.Message}");
+        }
+    }
+
+    private List<ChartData> TransformPieChartData(List<Product> products)
+    {
+        
+        return products.Select(product => new ChartData
+        {
+            Category = product.product.productName, 
+            Value = product.gwP_Total_kg_CO2 
+        }).ToList();
+    }
+
+    private List<BarChartData> TransformBarChartData(List<Product> products)
+    {
+        
+        return products.Select(product => new BarChartData
+        {
+            ProductName = product.product.productName, 
+            GWP_Total_kg_CO2 = product.gwP_Total_kg_CO2 
+        }).ToList();
+    }
+
+    private List<ChartData> TransformLineChartData(List<HQUsage> hqUsageData)
+    {
+        return hqUsageData
+            .GroupBy(x => x.Year)
+            .Select(group => new ChartData
+            {
+                Category = group.Key,
+                Value = group.Sum(x => x.EnergyConsumption)
+            })
+            .OrderBy(data => data.Category)
+            .ToList();
+    }
+
+    private List<BarChartDataByYear> TransformEnergyUsageData(List<HQUsage> hqUsageData)
+    {
+        return hqUsageData
+            .GroupBy(x => x.Year)
+            .Select(group => new BarChartDataByYear
+            {
+                Year = group.Key,
+                Electricity = group.Sum(x => x.Electricity),
+                DistrictHeating = group.Sum(x => x.DistrictHeating),
+                NaturalGas = group.Sum(x => x.NaturalGas),
+                Propane = group.Sum(x => x.Propane),
+                Hydrogen = group.Sum(x => x.Hydrogen),
+                Oil = group.Sum(x => x.Oil),
+                Petrol = group.Sum(x => x.Petrol),
+                Diesel = group.Sum(x => x.Diesel)
+            })
+            .OrderBy(data => data.Year)
+            .ToList();
+    }
+
+    public void Dispose()
+    {
+        _cts.Cancel();
+        _cts.Dispose();
+    }
+
     private class ChartData
     {
         public string Category { get; set; }
         public double Value { get; set; }
+    }
+
+    private class BarChartData
+    {
+        public string ProductName { get; set; }
+        public double GWP_Total_kg_CO2 { get; set; }
+    }
+
+    private class BarChartDataByYear
+    {
+        public string Year { get; set; }
+        public double Electricity { get; set; }
+        public double DistrictHeating { get; set; }
+        public double NaturalGas { get; set; }
+        public double Propane { get; set; }
+        public double Hydrogen { get; set; }
+        public double Oil { get; set; }
+        public double Petrol { get; set; }
+        public double Diesel { get; set; }
+    }
+
+    private class HQUsage
+    {
+        public string Year { get; set; }
+        public int EnergyConsumption { get; set; }
+
+        public double Electricity { get; set; }
+        public double DistrictHeating { get; set; }
+        public double NaturalGas { get; set; }
+        public double Propane { get; set; }
+        public double Hydrogen { get; set; }
+        public double Oil { get; set; }
+        public double Petrol { get; set; }
+        public double Diesel { get; set; }
+    }
+
+    private class Product
+    {
+        public string productID { get; set; }
+        public double gwP_Total_kg_CO2 { get; set; }
+        public ProductDetails product { get; set; }
+    }
+
+    private class ProductDetails
+    {
+        public string productName { get; set; }
+        public string imageUrl { get; set; }
     }
 }

@@ -5,20 +5,23 @@ namespace SEP7.WebAPI.Models
 {
     public class HQ_Usage
     {
-        public string UsageType { get; set; }  // The type of energy usage (e.g., Electricity, Natural Gas, etc.)
+        public string Year { get; set; }  
 
-        public string Year { get; set; }  // The year for the usage data (e.g., 2023)
+        public int EnergyConsumption { get; set; }  
 
-        public int EnergyConsumption { get; set; }  // Energy consumed (e.g., kWh, MWh, etc.)
+        public int Electricity { get; set; }  
 
-        public string EnergyType { get; set; }  // Type of energy (e.g., kWh, Nm_2, Litres, etc.)
+        public int Solarpanels { get; set; }  
 
-        public int EnergyCost { get; set; }  // The total cost of the energy consumed
+        public int DistrictHeating { get; set; }  
 
-        public string Currency { get; set; }  // The currency used for the energy cost (e.g., DKK)
+        public int NaturalGas { get; set; }  
 
-        public int Co2_Emissions_Tons { get; set; }  // The CO2 emissions in tons
+        public int Propan { get; set; } 
+         public int Hydrogen { get; set; } 
+         public int Oil { get; set; } 
+         public int Petrol { get; set; } 
+          public int Diesel { get; set; } 
 
-        public double UnitPrice { get; set; }  // The price per unit of energy (e.g., per kWh, per litre)
     }
 }

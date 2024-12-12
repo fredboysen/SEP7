@@ -5,7 +5,7 @@
 namespace SEP7.WebAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class thoma : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,18 +14,21 @@ namespace SEP7.WebAPI.Migrations
                 name: "HQ_Usages",
                 columns: table => new
                 {
-                    UsageType = table.Column<string>(type: "TEXT", nullable: false),
                     Year = table.Column<string>(type: "TEXT", nullable: false),
                     EnergyConsumption = table.Column<int>(type: "INTEGER", nullable: false),
-                    EnergyType = table.Column<string>(type: "TEXT", nullable: true),
-                    EnergyCost = table.Column<int>(type: "INTEGER", nullable: false),
-                    Currency = table.Column<string>(type: "TEXT", nullable: true),
-                    Co2_Emissions_Tons = table.Column<int>(type: "INTEGER", nullable: false),
-                    UnitPrice = table.Column<double>(type: "REAL", nullable: false)
+                    Electricity = table.Column<int>(type: "INTEGER", nullable: false),
+                    Solarpanels = table.Column<int>(type: "INTEGER", nullable: false),
+                    DistrictHeating = table.Column<int>(type: "INTEGER", nullable: false),
+                    NaturalGas = table.Column<int>(type: "INTEGER", nullable: false),
+                    Propan = table.Column<int>(type: "INTEGER", nullable: false),
+                    Hydrogen = table.Column<int>(type: "INTEGER", nullable: false),
+                    Oil = table.Column<int>(type: "INTEGER", nullable: false),
+                    Petrol = table.Column<int>(type: "INTEGER", nullable: false),
+                    Diesel = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HQ_Usages", x => new { x.UsageType, x.Year });
+                    table.PrimaryKey("PK_HQ_Usages", x => x.Year);
                 });
 
             migrationBuilder.CreateTable(
@@ -64,34 +67,34 @@ namespace SEP7.WebAPI.Migrations
                     MaterialId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     MaterialName = table.Column<string>(type: "TEXT", nullable: false),
-                    ADP_Fossil_MJ = table.Column<float>(type: "REAL", nullable: false),
-                    ADP_Minerals_Metals = table.Column<float>(type: "REAL", nullable: false),
-                    AP_Mol_H_Eq = table.Column<float>(type: "REAL", nullable: false),
-                    E_Fi_CTUe = table.Column<float>(type: "REAL", nullable: false),
-                    E_Fm_CTUe = table.Column<float>(type: "REAL", nullable: false),
-                    E_Fo_CTUe = table.Column<float>(type: "REAL", nullable: false),
-                    EP_Terrestrial_Mol_N_Eq = table.Column<float>(type: "REAL", nullable: false),
-                    EP_Freshwater_kg_P = table.Column<float>(type: "REAL", nullable: false),
-                    EP_Marine_kg_N = table.Column<float>(type: "REAL", nullable: false),
-                    ETP_FW_CTUe = table.Column<float>(type: "REAL", nullable: false),
-                    GWP_Biogenic_kg_CO2 = table.Column<float>(type: "REAL", nullable: false),
-                    GWP_Fossil_kg_CO2 = table.Column<float>(type: "REAL", nullable: false),
-                    GWP_LULUC_kg_CO2 = table.Column<float>(type: "REAL", nullable: false),
-                    GWP_Total_kg_CO2 = table.Column<float>(type: "REAL", nullable: false),
-                    HT_CI_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HT_CM_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HT_CO_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HT_NCI_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HT_NCM_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HT_NCO_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HTTP_C_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    HTTP_NC_CTUh = table.Column<float>(type: "REAL", nullable: false),
-                    IRP_kBq_U235 = table.Column<float>(type: "REAL", nullable: false),
-                    LU_Pt = table.Column<float>(type: "REAL", nullable: false),
-                    ODP_kg_CFC11 = table.Column<float>(type: "REAL", nullable: false),
-                    PM_Disease_Inc = table.Column<float>(type: "REAL", nullable: false),
-                    POCP_kg_NMVOC = table.Column<float>(type: "REAL", nullable: false),
-                    WDP_m3_Depriv = table.Column<float>(type: "REAL", nullable: false),
+                    ADP_Fossil_MJ = table.Column<double>(type: "REAL", nullable: false),
+                    ADP_Minerals_Metals = table.Column<double>(type: "REAL", nullable: false),
+                    AP_Mol_H_Eq = table.Column<double>(type: "REAL", nullable: false),
+                    E_Fi_CTUe = table.Column<double>(type: "REAL", nullable: false),
+                    E_Fm_CTUe = table.Column<double>(type: "REAL", nullable: false),
+                    E_Fo_CTUe = table.Column<double>(type: "REAL", nullable: false),
+                    EP_Terrestrial_Mol_N_Eq = table.Column<double>(type: "REAL", nullable: false),
+                    EP_Freshwater_kg_P = table.Column<double>(type: "REAL", nullable: false),
+                    EP_Marine_kg_N = table.Column<double>(type: "REAL", nullable: false),
+                    ETP_FW_CTUe = table.Column<double>(type: "REAL", nullable: false),
+                    GWP_Biogenic_kg_CO2 = table.Column<double>(type: "REAL", nullable: false),
+                    GWP_Fossil_kg_CO2 = table.Column<double>(type: "REAL", nullable: false),
+                    GWP_LULUC_kg_CO2 = table.Column<double>(type: "REAL", nullable: false),
+                    GWP_Total_kg_CO2 = table.Column<double>(type: "REAL", nullable: false),
+                    HT_CI_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HT_CM_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HT_CO_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HT_NCI_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HT_NCM_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HT_NCO_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HTTP_C_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    HTTP_NC_CTUh = table.Column<double>(type: "REAL", nullable: false),
+                    IRP_kBq_U235 = table.Column<double>(type: "REAL", nullable: false),
+                    LU_Pt = table.Column<double>(type: "REAL", nullable: false),
+                    ODP_kg_CFC11 = table.Column<double>(type: "REAL", nullable: false),
+                    PM_Disease_Inc = table.Column<double>(type: "REAL", nullable: false),
+                    POCP_kg_NMVOC = table.Column<double>(type: "REAL", nullable: false),
+                    WDP_m3_Depriv = table.Column<double>(type: "REAL", nullable: false),
                     ProductID = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>

@@ -5,7 +5,7 @@
 
 <h3>Product Manager</h3>
 
-<!-- Display List of Products -->
+
 @if (Products != null && Products.Any())
 {
     <table class="table table-striped">
@@ -25,7 +25,7 @@
                     <td>@product.ProductName</td>
                     <td><img src="@product.ImageUrl" alt="Image" style="width: 75px;" class="product-manager-image" /></td>
                     <td>
-                        <!-- Delete Button -->
+                        
                         <button class="btn btn-danger" @onclick="() => DeleteProduct(product.ProductID)">Delete</button>
                     </td>
                 </tr>
@@ -53,17 +53,17 @@ else
 
     private async Task DeleteProduct(string productId)
     {
-        // Directly send DELETE request without confirmation
+        
         var response = await Http.DeleteAsync($"api/Product/{productId}");
 
         if (response.IsSuccessStatusCode)
         {
-            // Reload products after successful deletion
+            
             await LoadProducts();
         }
         else
         {
-            // Handle error, maybe show an alert
+            
             Console.Error.WriteLine("Failed to delete product");
         }
     }

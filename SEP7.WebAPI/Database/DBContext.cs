@@ -21,11 +21,9 @@ namespace SEP7.Database.Data
 
 protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure composite primary key
             modelBuilder.Entity<HQ_Usage>()
-                .HasKey(h => new { h.UsageType, h.Year });  // Composite key
+                .HasKey(h => new { h.Year });  // Composite key
 
-            // Optionally, you can configure more settings here if needed
         }
 
     }

@@ -14,6 +14,12 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
     
 
+builder.Services.AddHttpClient("WebAPI", client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7073");  
+});
+
+
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7073/") });
 
 builder.Services.AddCors();
@@ -38,7 +44,12 @@ builder.Services.AddScoped<IAuthService, JwtAuthService>();
 builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthProvider>();
 AuthorizationPolicies.AddPolicies(builder.Services);
 
-
+builder.Services.AddServerSideBlazor()
+    .AddCircuitOptions(options =>
+    {
+        options.DisconnectedCircuitRetentionPeriod = TimeSpan.FromMinutes(5);
+        options.JSInteropDefaultCallTimeout = TimeSpan.FromSeconds(60);
+    });
 
 var app = builder.Build();
 

@@ -500,7 +500,7 @@ h1:focus {
 
 .product-materials-details-table {
     width: 100%;
-    min-width: 1000px; /* Ensures the table stays large enough */
+    min-width: 1000px; 
     border-collapse: collapse;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -562,8 +562,8 @@ h1:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full screen height */
-    background: linear-gradient(to bottom right, #df8a0b, #140594d7); /* Subtle gradient */
+    height: 100vh; 
+    background: linear-gradient(to bottom right, #df8a0b, #140594d7); 
     padding: 20px;
 }
 
@@ -580,7 +580,7 @@ h1:focus {
 
 /* Logo styling */
 .custom-login-logo {
-    width: 100px; /* Adjust width */
+    width: 100px; 
     margin-bottom: 20px;
 }
 
@@ -1006,9 +1006,9 @@ h1:focus {
 }
 
 .materials-header {
-    font-size: 2.5rem; /* Adjust font size as needed */
-    margin: 0; /* Removes default margin */
-    color: #333; /* Ensures readability */
+    font-size: 2.5rem; 
+    margin: 0; 
+    color: #333; 
 
 }
 
@@ -1116,13 +1116,13 @@ h1:focus {
 
 /* Table Styling */
 .table-container {
-    max-height: 500px; /* Adjust height as needed */
-    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 500px; 
+    overflow-y: auto; 
     border-radius: 10px;
-    border: none; /* Remove border around the container */
+    border: none; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #74ebd5, #9face6); /* Gradient background for container */
-    padding: 10px; /* Padding for better spacing */
+    background: linear-gradient(to right, #74ebd5, #9face6); 
+    padding: 10px; 
 }
 
 .table {
@@ -1132,7 +1132,7 @@ h1:focus {
 }
 
 .table th {
-    background-color: #3498db; /* Blue color for header */
+    background-color: #3498db; 
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
@@ -1173,16 +1173,16 @@ h1:focus {
     width: 100%;
 }
 
-.unique-pie-chart {
-    width: 300px;
-    height: 300px;
+.unique-pie-chart { 
+    width: 450px;
+    height: 450px;
     border: 2px solid #ffffff;
     border-radius: 8px;
     background-color: #ffffff;
 }
 
 .unique-column-chart {
-    width: 700px;
+    width: 1500px;
     height: 35vh;
     border: 2px solid #ffffff;
     border-radius: 8px;
@@ -1227,6 +1227,62 @@ h1:focus {
     stroke-width: 2px;
 }
 
+.unique-pie-chart .rz-series-item-4 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+.unique-pie-chart .rz-series-item-5 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+.unique-pie-chart .rz-series-item-6 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+.unique-pie-chart .rz-series-item-7 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+.unique-pie-chart .rz-series-item-8 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+
+.unique-pie-chart .rz-series-item-9 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+
+.unique-pie-chart .rz-series-item-10 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
+
+
+.unique-pie-chart .rz-series-item-11 {
+    fill: purple;
+    stroke: pink;
+    stroke-width: 2px;
+}
 
 
 

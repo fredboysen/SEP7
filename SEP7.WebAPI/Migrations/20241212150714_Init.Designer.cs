@@ -10,8 +10,8 @@ using SEP7.Database.Data;
 namespace SEP7.WebAPI.Migrations
 {
     [DbContext(typeof(ApplicationDB))]
-    [Migration("20241211190135_thoma")]
-    partial class thoma
+    [Migration("20241212150714_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,31 +21,40 @@ namespace SEP7.WebAPI.Migrations
 
             modelBuilder.Entity("SEP7.WebAPI.Models.HQ_Usage", b =>
                 {
-                    b.Property<string>("UsageType")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Year")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Co2_Emissions_Tons")
+                    b.Property<int>("Diesel")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Currency")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("DistrictHeating")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Electricity")
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("EnergyConsumption")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("EnergyCost")
+                    b.Property<int>("Hydrogen")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("EnergyType")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("NaturalGas")
+                        .HasColumnType("INTEGER");
 
-                    b.Property<double>("UnitPrice")
-                        .HasColumnType("REAL");
+                    b.Property<int>("Oil")
+                        .HasColumnType("INTEGER");
 
-                    b.HasKey("UsageType", "Year");
+                    b.Property<int>("Petrol")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Propan")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Solarpanels")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Year");
 
                     b.ToTable("HQ_Usages");
                 });
@@ -83,95 +92,95 @@ namespace SEP7.WebAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<float>("ADP_Fossil_MJ")
+                    b.Property<double>("ADP_Fossil_MJ")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("ADP_Minerals_Metals")
+                    b.Property<double>("ADP_Minerals_Metals")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("AP_Mol_H_Eq")
+                    b.Property<double>("AP_Mol_H_Eq")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("EP_Freshwater_kg_P")
+                    b.Property<double>("EP_Freshwater_kg_P")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("EP_Marine_kg_N")
+                    b.Property<double>("EP_Marine_kg_N")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("EP_Terrestrial_Mol_N_Eq")
+                    b.Property<double>("EP_Terrestrial_Mol_N_Eq")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("ETP_FW_CTUe")
+                    b.Property<double>("ETP_FW_CTUe")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("E_Fi_CTUe")
+                    b.Property<double>("E_Fi_CTUe")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("E_Fm_CTUe")
+                    b.Property<double>("E_Fm_CTUe")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("E_Fo_CTUe")
+                    b.Property<double>("E_Fo_CTUe")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("GWP_Biogenic_kg_CO2")
+                    b.Property<double>("GWP_Biogenic_kg_CO2")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("GWP_Fossil_kg_CO2")
+                    b.Property<double>("GWP_Fossil_kg_CO2")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("GWP_LULUC_kg_CO2")
+                    b.Property<double>("GWP_LULUC_kg_CO2")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("GWP_Total_kg_CO2")
+                    b.Property<double>("GWP_Total_kg_CO2")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HTTP_C_CTUh")
+                    b.Property<double>("HTTP_C_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HTTP_NC_CTUh")
+                    b.Property<double>("HTTP_NC_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HT_CI_CTUh")
+                    b.Property<double>("HT_CI_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HT_CM_CTUh")
+                    b.Property<double>("HT_CM_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HT_CO_CTUh")
+                    b.Property<double>("HT_CO_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HT_NCI_CTUh")
+                    b.Property<double>("HT_NCI_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HT_NCM_CTUh")
+                    b.Property<double>("HT_NCM_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("HT_NCO_CTUh")
+                    b.Property<double>("HT_NCO_CTUh")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("IRP_kBq_U235")
+                    b.Property<double>("IRP_kBq_U235")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("LU_Pt")
+                    b.Property<double>("LU_Pt")
                         .HasColumnType("REAL");
 
                     b.Property<string>("MaterialName")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("ODP_kg_CFC11")
+                    b.Property<double>("ODP_kg_CFC11")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("PM_Disease_Inc")
+                    b.Property<double>("PM_Disease_Inc")
                         .HasColumnType("REAL");
 
-                    b.Property<float>("POCP_kg_NMVOC")
+                    b.Property<double>("POCP_kg_NMVOC")
                         .HasColumnType("REAL");
 
                     b.Property<string>("ProductID")
                         .HasColumnType("TEXT");
 
-                    b.Property<float>("WDP_m3_Depriv")
+                    b.Property<double>("WDP_m3_Depriv")
                         .HasColumnType("REAL");
 
                     b.HasKey("MaterialId");

@@ -13,14 +13,14 @@ namespace SEP7.WebAPI.Models
     public string ProductName { get; set; }
 
     public string ImageUrl {get; set;}
-    // Navigation properties
+  
     
     public virtual ICollection<MaterialData> MaterialData { get; set; }
        
        
     
 
-    public virtual MaterialsTotal MaterialsTotal { get; set; }  // Navigation property to MaterialsTotal
+    public virtual MaterialsTotal MaterialsTotal { get; set; }  
 }
 
 }
