@@ -70,14 +70,26 @@ h1:focus {
 
 /*UPLOAD PAGE*/
 
-.upload-container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+/* Centering container */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items towards the top slightly */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Optional background color */
+    padding-top: 50px; /* Add top padding to lower it */
+     position: relative;
 }
 
+/* Upload styling remains unchanged */
+.upload {
+    max-width: 450px; /* Adjust width for a clean look */
+    width: 100%;
+    margin: 9% auto;
+    padding: 20px;
+    border-radius: 8px;  
+
+}
 
 
 .file-input {
@@ -608,7 +620,6 @@ button.btn.btn-primary.upload-btn {
 
 
 .upload-title {
-     
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -734,7 +745,7 @@ button.btn.btn-primary.upload-btn {
     overflow: hidden;
     padding: 1.5rem;
     text-align: center;
-    width: 280px; 
+    width: 300px; 
     transition: transform 0.2s, box-shadow 0.2s; 
 }
 .product-card:hover {
@@ -1312,7 +1323,7 @@ tr:hover {
 
 /* Image styles */
 .product-image {
-    width: 75px;
+    width: 100px;
     height: auto;
     border-radius: 4px;
 }
