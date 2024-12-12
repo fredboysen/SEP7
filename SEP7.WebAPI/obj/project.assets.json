@@ -4012,19 +4012,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\frebo\\.nuget\\packages\\": {}
+    "C:\\Users\\Thoma\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
       "projectName": "SEP7.WebAPI",
-      "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
