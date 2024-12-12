@@ -562,13 +562,8 @@ h1:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    height: 100vh; 
-    background: linear-gradient(to bottom right, #df8a0b, #140594d7); 
-=======
     height: 100vh; /* Full screen height */
     background: linear-gradient(to bottom right, #df8a0b, #140594d7);
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
     padding: 20px;
 }
 
