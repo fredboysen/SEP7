@@ -17,25 +17,25 @@
         
         <h3 class="custom-login-title">Login</h3>
         
-        <!-- Username Field -->
+        
         <div class="custom-login-field">
             <label for="username" class="custom-login-label">Username:</label>
             <input id="username" type="text" @bind="loginUsername" class="custom-login-input" />
         </div>
         
-        <!-- Password Field -->
+        
         <div class="custom-login-field">
             <label for="password" class="custom-login-label">Password:</label>
             <input id="password" type="password" @bind="loginPassword" class="custom-login-input" />
         </div>
         
-        <!-- Error Message -->
+       
         @if (!string.IsNullOrEmpty(loginErrorLabel))
         {
             <p class="custom-login-error">@loginErrorLabel</p>
         }
         
-        <!-- Login Button -->
+        
         <div class="custom-login-field">
             <button class="custom-login-button" @onclick="LoginAsync">Log in</button>
         </div>

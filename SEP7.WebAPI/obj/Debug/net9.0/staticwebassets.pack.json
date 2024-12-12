@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg",
+      "PackagePath": "staticwebassets\\images\\d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SEP7.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SEP7.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SEP7.WebAPI.props",
+      "PackagePath": "build\\SEP7.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SEP7.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\SEP7.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SEP7.WebAPI.props",
+      "PackagePath": "buildTransitive\\SEP7.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

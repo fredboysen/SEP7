@@ -21,10 +21,10 @@ namespace SEP7.WebAPI.Controllers
         [HttpGet("productGroup/{productGroup}")]
         public async Task<IActionResult> GetMaterialsTotalByProductGroup(string productGroup)
         {
-            // Use StartsWith to find all products where the ProductID begins with the search term
+            
             var materialsTotals = await _context.MaterialsTotals
-                .Where(mt => mt.ProductID.StartsWith(productGroup))  // Search by ProductID prefix
-                .Include(mt => mt.Product)  // Include Product navigation property
+                .Where(mt => mt.ProductID.StartsWith(productGroup))  
+                .Include(mt => mt.Product)  
                 .ToListAsync();
 
             if (!materialsTotals.Any())
@@ -32,7 +32,6 @@ namespace SEP7.WebAPI.Controllers
                 return NotFound("No MaterialsTotal found for this product group.");
             }
 
-            // Selecting relevant fields to return
             var result = materialsTotals.Select(mt => new
             {
                 mt.MaterialId,
@@ -76,24 +75,23 @@ namespace SEP7.WebAPI.Controllers
         }
 
 
-        // Existing endpoint to get all products
+        
         [HttpGet]
         public async Task<IActionResult> GetProducts()
         {
             try
             {
-                // Retrieve all products from the database, including navigation properties if needed
+                
                 var products = await _context.Products
-                    .Include(p => p.MaterialData) // Eager load MaterialData
-                    .Include(p => p.MaterialsTotal) // Eager load MaterialsTotal
+                    .Include(p => p.MaterialData) 
+                    .Include(p => p.MaterialsTotal) 
                     .ToListAsync();
 
-                // Return the list of products
+                
                 return Ok(products);
             }
             catch (Exception ex)
             {
-                // Log error (optional)
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
@@ -101,9 +99,10 @@ namespace SEP7.WebAPI.Controllers
 [HttpDelete("{productId}")]
 public async Task<IActionResult> DeleteProduct(string productId)
 {
+    
     var product = await _context.Products
-        .Include(p => p.MaterialData)  // Include related data if necessary
-        .Include(p => p.MaterialsTotal)  // Include related MaterialsTotal
+        .Include(p => p.MaterialData)  
+        .Include(p => p.MaterialsTotal)  
         .FirstOrDefaultAsync(p => p.ProductID == productId);
 
     if (product == null)
@@ -111,11 +110,25 @@ public async Task<IActionResult> DeleteProduct(string productId)
         return NotFound("Product not found.");
     }
 
-    // Remove product (cascading deletes will take care of related data)
+   
+    if (product.MaterialData != null && product.MaterialData.Any())
+    {
+        _context.MatData.RemoveRange(product.MaterialData);  
+    }
+
+    
+    if (product.MaterialsTotal != null)
+    {
+        _context.MaterialsTotals.Remove(product.MaterialsTotal);  
+    }
+
+    
     _context.Products.Remove(product);
+
+
     await _context.SaveChangesAsync();
 
-    return NoContent(); // Return a successful response
+    return NoContent(); 
 }
 }
 }
