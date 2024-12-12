@@ -5,7 +5,15 @@
       "PackagePath": "staticwebassets\\SEP7.WebApp.5q3ly8r0n2.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+=======
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\990.webp",
+      "PackagePath": "staticwebassets\\990.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
       "PackagePath": "staticwebassets\\ADP.webp"
     },
     {
@@ -13,12 +21,17 @@
       "PackagePath": "staticwebassets\\EP.webp"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Epd.jpg",
       "PackagePath": "staticwebassets\\Epd.jpg"
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\GWP.webp",
       "PackagePath": "staticwebassets\\GWP.webp"
+=======
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\GWPpic.webp",
+      "PackagePath": "staticwebassets\\GWPpic.webp"
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",

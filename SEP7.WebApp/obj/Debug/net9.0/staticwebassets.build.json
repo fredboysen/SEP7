@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "UPKDWQSx6+RkHGaMVmHKp6GkN9+3wDw5jQd0ZBIYx/c=",
+=======
+  "Hash": "Co2ghMjsYeQgZpZE7WYVX+c2pOrkUMX6WU+MTrjt17A=",
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
   "Source": "SEP7.WebApp",
   "BasePath": "_content/SEP7.WebApp",
   "Mode": "Default",
@@ -2535,7 +2539,32 @@
       "OriginalItemSpec": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+=======
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\990.webp",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "990#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yrgvmnhj7u",
+      "Integrity": "UjfjLymn66OTMsk+zlkLBnSwlNchJy7qoRCWMKFgs7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\990.webp"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\",
@@ -2598,6 +2627,7 @@
       "OriginalItemSpec": "wwwroot\\EP.webp"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Epd.jpg",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
@@ -2620,6 +2650,9 @@
     },
     {
       "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\favicon.png",
+=======
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\favicon.png",
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\",
@@ -9936,8 +9969,95 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "ADP.9vyporjgf7.webp",
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+=======
+      "Route": "990.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\990.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UjfjLymn66OTMsk+zlkLBnSwlNchJy7qoRCWMKFgs7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 20:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UjfjLymn66OTMsk+zlkLBnSwlNchJy7qoRCWMKFgs7o="
+        }
+      ]
+    },
+    {
+      "Route": "990.yrgvmnhj7u.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\990.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UjfjLymn66OTMsk+zlkLBnSwlNchJy7qoRCWMKFgs7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 20:51:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrgvmnhj7u"
+        },
+        {
+          "Name": "label",
+          "Value": "990.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UjfjLymn66OTMsk+zlkLBnSwlNchJy7qoRCWMKFgs7o="
+        }
+      ]
+    },
+    {
+      "Route": "ADP.e2odk4ighx.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10398,6 +10518,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "Epd.jpg",
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\Epd.jpg",
       "Selectors": [],
@@ -10480,6 +10601,8 @@
       ]
     },
     {
+=======
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
       "Route": "favicon.ifv42okdf2.png",
       "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\favicon.png",
       "Selectors": [],
@@ -10639,7 +10762,48 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-ZmUadNoySR6bs2n7KRkyhrRpuPRdkPOjfmLJb84+SQw="
+=======
+          "Value": "sha256-lhUxr4N6Fe882ryb/7f07vfCSrdyzIr1MIwuBTdr4XM="
+        }
+      ]
+    },
+    {
+      "Route": "Image1.jpg",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 21:20:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
         }
       ]
     },
@@ -10666,7 +10830,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 12 Dec 2024 16:57:09 GMT"
+=======
+          "Value": "Thu, 12 Dec 2024 21:20:55 GMT"
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
         },
         {
           "Name": "Cache-Control",
@@ -23860,7 +24028,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 12 Dec 2024 16:57:09 GMT"
+=======
+          "Value": "Thu, 12 Dec 2024 21:04:54 GMT"
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
         },
         {
           "Name": "Cache-Control",
@@ -23905,7 +24077,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 12 Dec 2024 16:57:09 GMT"
+=======
+          "Value": "Thu, 12 Dec 2024 21:04:54 GMT"
+>>>>>>> 37a4b51446e208d97043527fc36529055a3c23d0
         },
         {
           "Name": "Cache-Control",
