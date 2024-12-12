@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\SEP7.WebApp.5q3ly8r0n2.bundle.scp.css"
     },
@@ -18,6 +19,45 @@
     },
     {
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+=======
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SEP7.WebApp.5q3ly8r0n2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+      "PackagePath": "staticwebassets\\ADP.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\EP.webp",
+      "PackagePath": "staticwebassets\\EP.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Epd.jpg",
+      "PackagePath": "staticwebassets\\Epd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\GWPpic.webp",
+      "PackagePath": "staticwebassets\\GWPpic.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "PackagePath": "staticwebassets\\Image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ODPpic.webp",
+      "PackagePath": "staticwebassets\\ODPpic.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
+      "PackagePath": "staticwebassets\\Vola.png"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\WDP.webp",
+      "PackagePath": "staticwebassets\\WDP.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+>>>>>>> 99fe2bf22340bd08052153b488a138cae5ad87ac
       "PackagePath": "staticwebassets\\app.css"
     },
     {
@@ -201,7 +241,11 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\logo.png",
+=======
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\logo.png",
+>>>>>>> 99fe2bf22340bd08052153b488a138cae5ad87ac
       "PackagePath": "staticwebassets\\logo.png"
     },
     {

@@ -212,9 +212,14 @@ namespace SEP7.WebAPI.Controllers
 }
 
 
-        private float ParseFloat(object value)
-        {
-            return float.TryParse(value?.ToString(), out var result) ? result : 0f;
-        }
+      private float ParseFloat(object value)
+{
+    if (float.TryParse(value?.ToString(), out var result))
+    {
+        return (float)Math.Round(result, 4); // Round to 4 decimal places
     }
+    return 0f;
 }
+}
+}
+

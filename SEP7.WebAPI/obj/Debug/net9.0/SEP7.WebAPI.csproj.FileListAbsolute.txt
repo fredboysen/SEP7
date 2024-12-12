@@ -313,6 +313,7 @@ C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\refint\SEP7.WebAPI.dll
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.pdb
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.genruntimeconfig.cache
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\ref\SEP7.WebAPI.dll
+<<<<<<< HEAD
 C:\Users\frebo\SEP7\SEP7.WebAPI\bin\Debug\net9.0\SEP7.WebAPI.staticwebassets.runtime.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\bin\Debug\net9.0\appsettings.json
@@ -475,3 +476,5 @@ C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\ne
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.pdb
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.genruntimeconfig.cache
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebAPI\obj\Debug\net9.0\ref\SEP7.WebAPI.dll
+=======
+>>>>>>> 99fe2bf22340bd08052153b488a138cae5ad87ac

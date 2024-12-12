@@ -10,7 +10,7 @@
 
 <div class="materials-page-container">
     
-    <h1 class="materials-header">Materials Totals</h1>
+    <h1 class="materials-header">Materials Usage</h1>
 
     
     <div class="product-search-container">
@@ -31,6 +31,7 @@
         {
             
             <div class="product-materials-table-container">
+                <h2>Products</h2>
                 <table class="product-materials-table">
                     <thead>
                         <tr>
@@ -56,6 +57,7 @@
 
             
             <div class="product-materials-details-table-container">
+                <h2> Material Totals</h2>
                 <div class="table-wrapper">
                     <table class="product-materials-details-table">
                         <thead>
@@ -151,8 +153,9 @@
                                     <td>@variance.FieldName</td>
                                     <td>@variance.MinValue</td>
                                     <td>@variance.MaxValue</td>
-                                    <td>@variance.PercentageVariance %</td>
-                                </tr>
+<td style="color:@(variance.PercentageVariance > 15 ? "red" : "green")">
+                            @variance.PercentageVariance %
+                        </td>                                </tr>
                             }
                         </tbody>
                     </table>
