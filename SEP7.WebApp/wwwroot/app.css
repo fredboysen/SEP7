@@ -69,29 +69,35 @@ h1:focus {
 /* _______________________________________________________________________*/
 
 /*UPLOAD PAGE*/
-
 .center-container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh;
-    background-color: #f9f9f9;
-    padding-top: 50px;
+    min-height: 200vh;
+    background-color: #f9f9f900;
     position: relative;
+    
+
 }
 
-/* Upload styling remains unchanged */
+/* Upload section styling remains unchanged */
 .upload {
     max-width: 450px;
     width: 100%;
     margin: 9% auto;
     padding: 20px;
     border-radius: 8px;
+    background: #fff; /* Ensure the background is white */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
-/* Add export section styles */
+/* Export section - Apply consistent background */
 .export-section {
     margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
 .input-label {
@@ -188,6 +194,11 @@ button.btn.btn-primary.upload-btn {
     .upload-btn {
         font-size: 14px;
     }
+}
+
+.form-control {
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 
