@@ -21,7 +21,7 @@ namespace SEP7.WebAPI.Data
                 var product = new Product
                 {
                     ProductID = "4000-10-10", 
-                    ProductName = "Toiletpaperholder stainless steel",
+                    ProductName = "TPH Type 1",
                     ImageUrl = "Image1.jpg"
                 };
 
@@ -51,14 +51,14 @@ namespace SEP7.WebAPI.Data
                     HT_CI_CTUh = 0,
                     HT_CM_CTUh = 0.00021,
                     HT_CO_CTUh = 0.00010,
-                    HT_NCI_CTUh = 0.0002,
+                    HT_NCI_CTUh = 0.0001,
                     HT_NCM_CTUh = 0.0001,
                     HT_NCO_CTUh = 0.96000,
                     HTTP_C_CTUh = 0.00034,
                     HTTP_NC_CTUh = 0.00010,
                     IRP_kBq_U235 = 1.64705,
                     LU_Pt = 281.0320,
-                    ODP_kg_CFC11 = 0.000248,
+                    ODP_kg_CFC11 = 0.00024,
                     PM_Disease_Inc = 0.000342,
                     POCP_kg_NMVOC = 0.28662,
                     WDP_m3_Depriv = 88.4937846
