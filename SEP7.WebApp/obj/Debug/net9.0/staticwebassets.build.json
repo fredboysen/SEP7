@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "W4dfn6yfjpR55DeGBoZbzWS5niI1pk2U0fiWh1+zvLY=",
-=======
-  "Hash": "/QPQyAbx+uQqW/j0ccS5/b1j8oE97LNouxYUqoDn4B8=",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+  "Hash": "pCPRny+mP0eYNkzfA8NJUkmROnzDIBncyAh9sY2TIwo=",
   "Source": "SEP7.WebApp",
   "BasePath": "_content/SEP7.WebApp",
   "Mode": "Default",
@@ -23,13 +19,6 @@
     }
   ],
   "DiscoveryPatterns": [
-    {
-      "Name": "SEP7.WebAPI\\wwwroot",
-      "Source": "SEP7.WebAPI",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
-      "BasePath": "_content/SEP7.WebAPI",
-      "Pattern": "**"
-    },
     {
       "Name": "SEP7.WebApp\\wwwroot",
       "Source": "SEP7.WebApp",
@@ -817,27 +806,6 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg",
-      "SourceId": "SEP7.WebAPI",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\",
-      "BasePath": "_content/SEP7.WebAPI",
-      "RelativePath": "images/d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "aam9w78hn4",
-      "Integrity": "EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg"
-    },
-    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-rnojub5shy.gz",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
@@ -985,20 +953,12 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-p3r9wjvj4a.gz",
-=======
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-2uxat2w8bi.gz",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pa2hdchxzy.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
-<<<<<<< HEAD
-      "RelativePath": "app#[.{fingerprint=p3r9wjvj4a}]?.css.gz",
-=======
-      "RelativePath": "app#[.{fingerprint=2uxat2w8bi}]?.css.gz",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+      "RelativePath": "app#[.{fingerprint=pa2hdchxzy}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1007,13 +967,8 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-<<<<<<< HEAD
-      "Fingerprint": "25aulzv9ku",
-      "Integrity": "KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA=",
-=======
-      "Fingerprint": "25eewmc1y0",
-      "Integrity": "6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU=",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+      "Fingerprint": "w42g5zcu6o",
+      "Integrity": "0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css"
@@ -1607,12 +1562,12 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\css\\material-wcag.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-s1pim70diy.gz",
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-5q3ly8r0n2.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
-      "RelativePath": "SEP7.WebApp#[.{fingerprint=s1pim70diy}]?.styles.css.gz",
+      "RelativePath": "SEP7.WebApp#[.{fingerprint=5q3ly8r0n2}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1621,8 +1576,8 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SEP7.WebApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jh46fe05v6",
-      "Integrity": "yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=",
+      "Fingerprint": "o8a9w5y2e3",
+      "Integrity": "6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SEP7.WebApp.styles.css"
@@ -1985,12 +1940,12 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\css\\default-base.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-s1pim70diy.gz",
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-5q3ly8r0n2.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
-      "RelativePath": "SEP7.WebApp#[.{fingerprint=s1pim70diy}]!.bundle.scp.css.gz",
+      "RelativePath": "SEP7.WebApp#[.{fingerprint=5q3ly8r0n2}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1999,8 +1954,8 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jh46fe05v6",
-      "Integrity": "yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=",
+      "Fingerprint": "o8a9w5y2e3",
+      "Integrity": "6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css"
@@ -2545,8 +2500,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "s1pim70diy",
-      "Integrity": "UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=",
+      "Fingerprint": "5q3ly8r0n2",
+      "Integrity": "48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SEP7.WebApp.styles.css"
@@ -2566,19 +2521,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "s1pim70diy",
-      "Integrity": "UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=",
+      "Fingerprint": "5q3ly8r0n2",
+      "Integrity": "48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg",
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
       "BasePath": "_content/SEP7.WebApp",
-      "RelativePath": "8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1#[.{fingerprint}]?.jpg",
+      "RelativePath": "ADP#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2587,11 +2542,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "aam9w78hn4",
-      "Integrity": "EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=",
+      "Fingerprint": "e2odk4ighx",
+      "Integrity": "Fv98MsgHAT85ozV+lYOwzMrK1RTwKMzKpcIpSizq7c8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg"
+      "OriginalItemSpec": "wwwroot\\ADP.webp"
     },
     {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
@@ -2608,16 +2563,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-<<<<<<< HEAD
-      "Fingerprint": "p3r9wjvj4a",
-      "Integrity": "ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY=",
-=======
-      "Fingerprint": "2uxat2w8bi",
-      "Integrity": "NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA=",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+      "Fingerprint": "pa2hdchxzy",
+      "Integrity": "4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\EP.webp",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "EP#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iz5v1xbryg",
+      "Integrity": "8prI3O0O42yTxCrIoWFZtVmKBiEzhMdlEpunUL5t1hY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EP.webp"
     },
     {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Epd.jpg",
@@ -2662,6 +2633,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\GWPpic.webp",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "GWPpic#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qfmoukmymd",
+      "Integrity": "lhUxr4N6Fe882ryb/7f07vfCSrdyzIr1MIwuBTdr4XM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GWPpic.webp"
+    },
+    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
@@ -2676,8 +2668,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c8sue2r0r6",
-      "Integrity": "bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM=",
+      "Fingerprint": "aam9w78hn4",
+      "Integrity": "EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image1.jpg"
@@ -3607,6 +3599,48 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\logo.png",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p91m3otz43",
+      "Integrity": "E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ODPpic.webp",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "ODPpic#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7zbmgsbz91",
+      "Integrity": "3al2OEMNp7DG3Tc+WDjjDTwNtdFyFcYtxDWR6g5KKTg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ODPpic.webp"
+    },
+    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
@@ -3626,6 +3660,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Vola.png"
+    },
+    {
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\WDP.webp",
+      "SourceId": "SEP7.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\",
+      "BasePath": "_content/SEP7.WebApp",
+      "RelativePath": "WDP#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49durb3sxr",
+      "Integrity": "mNUXTLJvmeUwXJ5bv6/RAd7OCNh8Ag4ZG03tjSE5qPw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WDP.webp"
     }
   ],
   "Endpoints": [
@@ -9874,90 +9929,8 @@
       ]
     },
     {
-      "Route": "_content/SEP7.WebAPI/images/d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 15:59:28 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
-        }
-      ]
-    },
-    {
-      "Route": "_content/SEP7.WebAPI/images/d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.aam9w78hn4.jpg",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 15:59:28 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aam9w78hn4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/SEP7.WebAPI/images/d854eac2-8bdb-48bc-9b6f-6405a8c40f90_Image1.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg",
+      "Route": "ADP.e2odk4ighx.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9966,56 +9939,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16030"
+          "Value": "143986"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+          "Value": "\"Fv98MsgHAT85ozV+lYOwzMrK1RTwKMzKpcIpSizq7c8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 16:18:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
-        }
-      ]
-    },
-    {
-      "Route": "8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.aam9w78hn4.jpg",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 16:18:08 GMT"
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10025,154 +9961,63 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "aam9w78hn4"
+          "Value": "e2odk4ighx"
         },
         {
           "Name": "label",
-          "Value": "8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg"
+          "Value": "ADP.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+          "Value": "sha256-Fv98MsgHAT85ozV+lYOwzMrK1RTwKMzKpcIpSizq7c8="
         }
       ]
     },
     {
-<<<<<<< HEAD
+      "Route": "ADP.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "143986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fv98MsgHAT85ozV+lYOwzMrK1RTwKMzKpcIpSizq7c8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fv98MsgHAT85ozV+lYOwzMrK1RTwKMzKpcIpSizq7c8="
+        }
+      ]
+    },
+    {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-p3r9wjvj4a.gz",
-=======
-      "Route": "43ab868c-0f8a-444a-9056-82ca5373d73e_Image1.jpg",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\43ab868c-0f8a-444a-9056-82ca5373d73e_Image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 22:36:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
-        }
-      ]
-    },
-    {
-      "Route": "8800c53d-2f50-4f9b-a6fb-811a4c913b7b_Image1.aam9w78hn4.jpg",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\8800c53d-2f50-4f9b-a6fb-811a4c913b7b_Image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 22:36:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "aam9w78hn4"
-        },
-        {
-          "Name": "label",
-          "Value": "8800c53d-2f50-4f9b-a6fb-811a4c913b7b_Image1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
-        }
-      ]
-    },
-    {
-      "Route": "8800c53d-2f50-4f9b-a6fb-811a4c913b7b_Image1.jpg",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\8800c53d-2f50-4f9b-a6fb-811a4c913b7b_Image1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16030"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 22:36:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
-        }
-      ]
-    },
-    {
-      "Route": "app.2uxat2w8bi.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-2uxat2w8bi.gz",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pa2hdchxzy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-<<<<<<< HEAD
-          "Quality": "0.000184638109"
-=======
-          "Quality": "0.000186185068"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Quality": "0.000182049882"
         }
       ],
       "ResponseHeaders": [
@@ -10182,31 +10027,19 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "5415"
+          "Value": "5492"
         },
         {
           "Name": "ETag",
-          "Value": "\"KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA=\""
+          "Value": "\"0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:34:50 GMT"
-=======
-          "Value": "5370"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 20:03:58 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 20:14:57 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -10222,40 +10055,19 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "W/\"ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY=\""
-=======
-          "Value": "W/\"NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA=\""
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "W/\"4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "2uxat2w8bi"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY="
-=======
-          "Value": "sha256-NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA="
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "sha256-4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY="
         }
       ]
     },
     {
-<<<<<<< HEAD
       "Route": "app.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
-=======
-      "Route": "app.2uxat2w8bi.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10264,11 +10076,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "26740"
-=======
-          "Value": "25872"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "27634"
         },
         {
           "Name": "Content-Type",
@@ -10276,12 +10084,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY=\""
+          "Value": "\"4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:34:50 GMT"
+          "Value": "Thu, 12 Dec 2024 20:14:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10291,13 +10098,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY="
+          "Value": "sha256-4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY="
         }
       ]
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-p3r9wjvj4a.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pa2hdchxzy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10306,7 +10113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5415"
+          "Value": "5492"
         },
         {
           "Name": "Content-Type",
@@ -10314,11 +10121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA=\""
+          "Value": "\"0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:34:50 GMT"
+          "Value": "Thu, 12 Dec 2024 20:14:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10336,18 +10143,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA="
+          "Value": "sha256-0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts="
         }
       ]
     },
     {
-      "Route": "app.p3r9wjvj4a.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-p3r9wjvj4a.gz",
+      "Route": "app.pa2hdchxzy.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pa2hdchxzy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000184638109"
+          "Quality": "0.000182049882"
         }
       ],
       "ResponseHeaders": [
@@ -10357,27 +10164,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5415"
+          "Value": "5492"
         },
         {
           "Name": "ETag",
-          "Value": "\"KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA=\""
+          "Value": "\"0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:34:50 GMT"
-=======
-          "Value": "\"NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 20:03:58 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 20:14:57 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-<<<<<<< HEAD
         },
         {
           "Name": "Content-Encoding",
@@ -10393,19 +10192,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY=\""
-=======
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "W/\"4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "p3r9wjvj4a"
-=======
-          "Value": "2uxat2w8bi"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "pa2hdchxzy"
         },
         {
           "Name": "label",
@@ -10413,22 +10206,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY="
-=======
-          "Value": "sha256-NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA="
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "sha256-4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "app.p3r9wjvj4a.css",
+      "Route": "app.pa2hdchxzy.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
-=======
-      "Route": "app.2uxat2w8bi.css.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-2uxat2w8bi.gz",
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10437,11 +10221,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "26740"
-=======
-          "Value": "5370"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "27634"
         },
         {
           "Name": "Content-Type",
@@ -10449,12 +10229,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY=\""
+          "Value": "\"4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:34:50 GMT"
+          "Value": "Thu, 12 Dec 2024 20:14:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10464,7 +10243,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p3r9wjvj4a"
+          "Value": "pa2hdchxzy"
         },
         {
           "Name": "label",
@@ -10472,13 +10251,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ixLtA8yx/b/UOT9Q6NpnzLPlAR2NWfv8jRyLfHvPMYY="
+          "Value": "sha256-4VKasK2xtDZhyD9JkYSLm01JBPc5oO0Za6EZgUA0OLY="
         }
       ]
     },
     {
-      "Route": "app.p3r9wjvj4a.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-p3r9wjvj4a.gz",
+      "Route": "app.pa2hdchxzy.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pa2hdchxzy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10487,7 +10266,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5415"
+          "Value": "5492"
         },
         {
           "Name": "Content-Type",
@@ -10495,18 +10274,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA=\""
+          "Value": "\"0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 23:34:50 GMT"
-=======
-          "Value": "\"6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 20:03:58 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 20:14:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10524,11 +10296,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "p3r9wjvj4a"
-=======
-          "Value": "2uxat2w8bi"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "pa2hdchxzy"
         },
         {
           "Name": "label",
@@ -10536,71 +10304,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-KqCcFzVZRo6AzIGiGFTvirmi0aAluDY5BheLVYmPtdA="
-=======
-          "Value": "sha256-6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU="
+          "Value": "sha256-0D8G5MEeZ6hrhF7gFQcU20BTWZTmUx7KMr20zgGtXts="
         }
       ]
     },
     {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-2uxat2w8bi.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000186185068"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5370"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 20:03:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+      "Route": "EP.iz5v1xbryg.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\EP.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10609,35 +10319,43 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25872"
+          "Value": "130842"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA=\""
+          "Value": "\"8prI3O0O42yTxCrIoWFZtVmKBiEzhMdlEpunUL5t1hY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 20:03:58 GMT"
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "iz5v1xbryg"
+        },
+        {
+          "Name": "label",
+          "Value": "EP.webp"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-NrGEhd2v/L7YYxKGxrtBRsrhhXRrNXiu3+kUf7sX4XA="
+          "Value": "sha256-8prI3O0O42yTxCrIoWFZtVmKBiEzhMdlEpunUL5t1hY="
         }
       ]
     },
     {
-      "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-2uxat2w8bi.gz",
+      "Route": "EP.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\EP.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10646,38 +10364,29 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5370"
+          "Value": "130842"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU=\""
+          "Value": "\"8prI3O0O42yTxCrIoWFZtVmKBiEzhMdlEpunUL5t1hY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Dec 2024 20:03:58 GMT"
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6ojiF2TZIJvEmqSb5twBtKElPt4DIqwC1+0apWkZ2BU="
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "sha256-8prI3O0O42yTxCrIoWFZtVmKBiEzhMdlEpunUL5t1hY="
         }
       ]
     },
@@ -10846,8 +10555,8 @@
       ]
     },
     {
-      "Route": "Image1.c8sue2r0r6.jpg",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "Route": "GWPpic.qfmoukmymd.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\GWPpic.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10856,19 +10565,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6727"
+          "Value": "123744"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/webp"
         },
         {
           "Name": "ETag",
-          "Value": "\"bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM=\""
+          "Value": "\"lhUxr4N6Fe882ryb/7f07vfCSrdyzIr1MIwuBTdr4XM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 14:15:05 GMT"
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10878,15 +10587,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c8sue2r0r6"
+          "Value": "qfmoukmymd"
         },
         {
           "Name": "label",
-          "Value": "Image1.jpg"
+          "Value": "GWPpic.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM="
+          "Value": "sha256-lhUxr4N6Fe882ryb/7f07vfCSrdyzIr1MIwuBTdr4XM="
+        }
+      ]
+    },
+    {
+      "Route": "GWPpic.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\GWPpic.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lhUxr4N6Fe882ryb/7f07vfCSrdyzIr1MIwuBTdr4XM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lhUxr4N6Fe882ryb/7f07vfCSrdyzIr1MIwuBTdr4XM="
         }
       ]
     },
@@ -10901,7 +10647,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6727"
+          "Value": "16030"
         },
         {
           "Name": "Content-Type",
@@ -10909,11 +10655,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM=\""
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 14:15:05 GMT"
+          "Value": "Thu, 12 Dec 2024 16:35:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10923,7 +10669,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bLALWy7HcyIVBQjyLs7Hojj71rdf/YKB7EJBInmveJM="
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
+        }
+      ]
+    },
+    {
+      "Route": "Image1.aam9w78hn4.jpg",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16030"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:35:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aam9w78hn4"
+        },
+        {
+          "Name": "label",
+          "Value": "Image1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EjVHUQ6d6W50rzjrRdiUyNXgQP6ypmnOF5OijhFXvMQ="
         }
       ]
     },
@@ -24040,13 +23831,177 @@
       ]
     },
     {
-      "Route": "SEP7.WebApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-s1pim70diy.gz",
+      "Route": "logo.p91m3otz43.png",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p91m3otz43"
+        },
+        {
+          "Name": "label",
+          "Value": "logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
+        }
+      ]
+    },
+    {
+      "Route": "logo.png",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
+        }
+      ]
+    },
+    {
+      "Route": "ODPpic.7zbmgsbz91.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ODPpic.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3al2OEMNp7DG3Tc+WDjjDTwNtdFyFcYtxDWR6g5KKTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7zbmgsbz91"
+        },
+        {
+          "Name": "label",
+          "Value": "ODPpic.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3al2OEMNp7DG3Tc+WDjjDTwNtdFyFcYtxDWR6g5KKTg="
+        }
+      ]
+    },
+    {
+      "Route": "ODPpic.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ODPpic.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3al2OEMNp7DG3Tc+WDjjDTwNtdFyFcYtxDWR6g5KKTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3al2OEMNp7DG3Tc+WDjjDTwNtdFyFcYtxDWR6g5KKTg="
+        }
+      ]
+    },
+    {
+      "Route": "SEP7.WebApp.5q3ly8r0n2.bundle.scp.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-5q3ly8r0n2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000445632799"
+          "Quality": "0.000526592944"
         }
       ],
       "ResponseHeaders": [
@@ -24056,23 +24011,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2243"
+          "Value": "1898"
         },
         {
           "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -24088,18 +24039,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "W/\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5q3ly8r0n2"
+        },
+        {
+          "Name": "label",
+          "Value": "SEP7.WebApp.bundle.scp.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
         }
       ]
     },
     {
-      "Route": "SEP7.WebApp.bundle.scp.css",
+      "Route": "SEP7.WebApp.5q3ly8r0n2.bundle.scp.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -24109,7 +24068,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6392"
+          "Value": "5506"
         },
         {
           "Name": "Content-Type",
@@ -24117,133 +24076,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
-        }
-      ]
-    },
-    {
-      "Route": "SEP7.WebApp.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-s1pim70diy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2243"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g="
-        }
-      ]
-    },
-    {
-      "Route": "SEP7.WebApp.s1pim70diy.bundle.scp.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-s1pim70diy.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000445632799"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2243"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1pim70diy"
+          "Value": "5q3ly8r0n2"
         },
         {
           "Name": "label",
@@ -24251,13 +24098,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
         }
       ]
     },
     {
-      "Route": "SEP7.WebApp.s1pim70diy.bundle.scp.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
+      "Route": "SEP7.WebApp.5q3ly8r0n2.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-5q3ly8r0n2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24266,7 +24113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6392"
+          "Value": "1898"
         },
         {
           "Name": "Content-Type",
@@ -24274,64 +24121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s1pim70diy"
-        },
-        {
-          "Name": "label",
-          "Value": "SEP7.WebApp.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
-        }
-      ]
-    },
-    {
-      "Route": "SEP7.WebApp.s1pim70diy.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-s1pim70diy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2243"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24349,7 +24143,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1pim70diy"
+          "Value": "5q3ly8r0n2"
         },
         {
           "Name": "label",
@@ -24357,18 +24151,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g="
+          "Value": "sha256-6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc="
         }
       ]
     },
     {
-      "Route": "SEP7.WebApp.s1pim70diy.styles.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-s1pim70diy.gz",
+      "Route": "SEP7.WebApp.5q3ly8r0n2.styles.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-5q3ly8r0n2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000445632799"
+          "Quality": "0.000526592944"
         }
       ],
       "ResponseHeaders": [
@@ -24378,19 +24172,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2243"
+          "Value": "1898"
         },
         {
           "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24410,13 +24200,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "W/\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1pim70diy"
+          "Value": "5q3ly8r0n2"
         },
         {
           "Name": "label",
@@ -24424,12 +24214,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
         }
       ]
     },
     {
-      "Route": "SEP7.WebApp.s1pim70diy.styles.css",
+      "Route": "SEP7.WebApp.5q3ly8r0n2.styles.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SEP7.WebApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -24439,7 +24229,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6392"
+          "Value": "5506"
         },
         {
           "Name": "Content-Type",
@@ -24447,15 +24237,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24465,7 +24251,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1pim70diy"
+          "Value": "5q3ly8r0n2"
         },
         {
           "Name": "label",
@@ -24473,13 +24259,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
         }
       ]
     },
     {
-      "Route": "SEP7.WebApp.s1pim70diy.styles.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-s1pim70diy.gz",
+      "Route": "SEP7.WebApp.5q3ly8r0n2.styles.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-5q3ly8r0n2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24488,7 +24274,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2243"
+          "Value": "1898"
         },
         {
           "Name": "Content-Type",
@@ -24496,15 +24282,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24522,7 +24304,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s1pim70diy"
+          "Value": "5q3ly8r0n2"
         },
         {
           "Name": "label",
@@ -24530,18 +24312,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g="
+          "Value": "sha256-6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc="
         }
       ]
     },
     {
-      "Route": "SEP7.WebApp.styles.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-s1pim70diy.gz",
+      "Route": "SEP7.WebApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-5q3ly8r0n2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000445632799"
+          "Quality": "0.000526592944"
         }
       ],
       "ResponseHeaders": [
@@ -24551,19 +24333,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2243"
+          "Value": "1898"
         },
         {
           "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24583,13 +24361,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "W/\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
+        }
+      ]
+    },
+    {
+      "Route": "SEP7.WebApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
+        }
+      ]
+    },
+    {
+      "Route": "SEP7.WebApp.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\oojvh21iz4-5q3ly8r0n2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1898"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc="
+        }
+      ]
+    },
+    {
+      "Route": "SEP7.WebApp.styles.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-5q3ly8r0n2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000526592944"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1898"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
         }
       ]
     },
@@ -24604,7 +24519,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6392"
+          "Value": "5506"
         },
         {
           "Name": "Content-Type",
@@ -24612,15 +24527,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4=\""
+          "Value": "\"48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24630,13 +24541,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UOH+bG/Jzykc/X0CmfjU3PEVS+9pj7DIu8iuODFxKY4="
+          "Value": "sha256-48feoijbSMT8QUHXlby9he9Vl4axEp7jguZMeOTnwsg="
         }
       ]
     },
     {
       "Route": "SEP7.WebApp.styles.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-s1pim70diy.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\fpgyprccxm-5q3ly8r0n2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24645,7 +24556,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2243"
+          "Value": "1898"
         },
         {
           "Name": "Content-Type",
@@ -24653,15 +24564,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g=\""
+          "Value": "\"6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Mon, 09 Dec 2024 19:23:50 GMT"
-=======
-          "Value": "Thu, 12 Dec 2024 10:13:21 GMT"
->>>>>>> 386c102a77d12c2db63d6cc9ce9a624a063207d8
+          "Value": "Thu, 12 Dec 2024 16:34:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24679,7 +24586,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yfyn0Qq8+dSi75vdSaax8YfcY8Luxx73OOFqZFsuZ0g="
+          "Value": "sha256-6G+pH1wnx7DmmaBjnglK0yAr0HmSVpgBkx6i4ddQJvc="
         }
       ]
     },
@@ -24762,6 +24669,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-bkJwGWCvm6dgsyAcGQuf0U6WeuxhPIUSBSBi/ilY18k="
+        }
+      ]
+    },
+    {
+      "Route": "WDP.49durb3sxr.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\WDP.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNUXTLJvmeUwXJ5bv6/RAd7OCNh8Ag4ZG03tjSE5qPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49durb3sxr"
+        },
+        {
+          "Name": "label",
+          "Value": "WDP.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNUXTLJvmeUwXJ5bv6/RAd7OCNh8Ag4ZG03tjSE5qPw="
+        }
+      ]
+    },
+    {
+      "Route": "WDP.webp",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\WDP.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198908"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNUXTLJvmeUwXJ5bv6/RAd7OCNh8Ag4ZG03tjSE5qPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 16:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNUXTLJvmeUwXJ5bv6/RAd7OCNh8Ag4ZG03tjSE5qPw="
         }
       ]
     }

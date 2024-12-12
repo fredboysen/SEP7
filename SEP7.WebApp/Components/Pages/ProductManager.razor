@@ -2,9 +2,7 @@
 @inject HttpClient Http
 @rendermode InteractiveServer
 
-
-<h3>Product Manager</h3>
-
+<h3 class="page-title">Product Manager</h3>
 
 @if (Products != null && Products.Any())
 {
@@ -23,9 +21,8 @@
                 <tr>
                     <td>@product.ProductID</td>
                     <td>@product.ProductName</td>
-                    <td><img src="@product.ImageUrl" alt="Image" style="width: 75px;" class="product-manager-image" /></td>
+                    <td><img src="@product.ImageUrl" alt="Image" class="product-image" /></td>
                     <td>
-                        
                         <button class="btn btn-danger" @onclick="() => DeleteProduct(product.ProductID)">Delete</button>
                     </td>
                 </tr>
@@ -35,7 +32,7 @@
 }
 else
 {
-    <p>No products available.</p>
+    <p class="no-products">No products available.</p>
 }
 
 @code {
@@ -53,17 +50,14 @@ else
 
     private async Task DeleteProduct(string productId)
     {
-        
         var response = await Http.DeleteAsync($"api/Product/{productId}");
 
         if (response.IsSuccessStatusCode)
         {
-            
             await LoadProducts();
         }
         else
         {
-            
             Console.Error.WriteLine("Failed to delete product");
         }
     }

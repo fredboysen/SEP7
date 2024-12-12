@@ -2,23 +2,39 @@
   "Files": [
     {
       "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SEP7.WebApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SEP7.WebApp.s1pim70diy.bundle.scp.css"
+      "PackagePath": "staticwebassets\\SEP7.WebApp.5q3ly8r0n2.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg",
-      "PackagePath": "staticwebassets\\8cbd58a1-281a-4b5d-a84a-0c1693b2eed0_Image1.jpg"
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ADP.webp",
+      "PackagePath": "staticwebassets\\ADP.webp"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\EP.webp",
+      "PackagePath": "staticwebassets\\EP.webp"
     },
     {
       "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Epd.jpg",
       "PackagePath": "staticwebassets\\Epd.jpg"
     },
     {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\GWPpic.webp",
+      "PackagePath": "staticwebassets\\GWPpic.webp"
+    },
+    {
       "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Image1.jpg",
       "PackagePath": "staticwebassets\\Image1.jpg"
     },
     {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\ODPpic.webp",
+      "PackagePath": "staticwebassets\\ODPpic.webp"
+    },
+    {
       "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\Vola.png",
       "PackagePath": "staticwebassets\\Vola.png"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\WDP.webp",
+      "PackagePath": "staticwebassets\\WDP.webp"
     },
     {
       "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
@@ -203,6 +219,10 @@
     {
       "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SEP7.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

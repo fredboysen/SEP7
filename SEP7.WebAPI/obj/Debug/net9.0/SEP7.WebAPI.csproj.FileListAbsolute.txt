@@ -474,4 +474,3 @@ C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\refint\SEP7.WebAPI.dll
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.pdb
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\SEP7.WebAPI.genruntimeconfig.cache
 C:\Users\frebo\SEP7\SEP7.WebAPI\obj\Debug\net9.0\ref\SEP7.WebAPI.dll
-C:\Users\frebo\SEP7\SEP7.WebAPI\bin\Debug\net9.0\SEP7.WebAPI.staticwebassets.runtime.json

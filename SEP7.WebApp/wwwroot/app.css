@@ -1,5 +1,6 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 }
 
 a, .btn-link {
@@ -64,78 +65,6 @@ h1:focus {
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-/* Dashboard Container */
-.dashboard-container {
-    max-width: 800px;
-    margin: 2rem auto;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-/* Header Styles */
-.dashboard-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.dashboard-header h1 {
-    font-size: 2rem;
-    color: #333;
-}
-
-.dashboard-header p {
-    font-size: 1rem;
-    color: #666;
-}
-
-/* Summary Section */
-.error-summary {
-    background-color: #f8f9fa;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    border-left: 4px solid #007bff;
-}
-
-.error-summary h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #007bff;
-}
-
-.error-summary ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.error-summary li {
-    font-size: 1rem;
-    color: #333;
-    margin: 5px 0;
-}
-
-/* Table Styles */
-.error-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-.error-table th, .error-table td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-.error-table th {
-    background-color: #007bff;
-    color: white;
-}
-
-.error-table tr:hover {
-    background-color: #f1f1f1;
-}
 
 /* _______________________________________________________________________*/
 
@@ -319,6 +248,7 @@ h1:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    
     flex-direction: column;
 }
 
@@ -353,6 +283,7 @@ h1:focus {
 
 .product-materials-table tr:hover td {
     background-color: #e0f7fa;
+    
 }
 
 /* Loading/No Results Message */
@@ -392,6 +323,7 @@ h1:focus {
     max-width: 1200px;
     margin-top: 20px;
     border-collapse: collapse;
+    
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -406,6 +338,7 @@ h1:focus {
 .product-materials-details-table th {
     background-color: #ff6f03;
     color: white;
+    
 }
 
 .product-materials-details-table td {
@@ -435,11 +368,13 @@ h1:focus {
     align-items: center;
     flex-direction: column;
     gap: 40px;
+    
 }
 
 /* Extra margin between tables */
 .product-materials-table + .product-materials-details-table {
     margin-top: 40px;
+    
 }
 
 /* Product Materials Tables */
@@ -455,6 +390,7 @@ h1:focus {
 /* Styling for the first table */
 .product-materials-table-container {
     width: 100%;
+    
 }
 
 .product-materials-table {
@@ -474,6 +410,7 @@ h1:focus {
 .product-materials-table th {
     background-color: #ff6f03;
     color: white;
+    
 }
 
 .product-materials-table td {
@@ -491,6 +428,7 @@ h1:focus {
 /* Styling for the second table (Material Details) */
 .product-materials-details-table-container {
     width: 100%;
+    
 }
 
 /* Wrapper for horizontal scrolling */
@@ -1153,110 +1091,108 @@ h1:focus {
     background-color: #e0f7fa;
 }
 ----------------------------------------------------------------
+/* DASHBOARD PAGE */
 
-/* General Container Styling */
-.container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    background: linear-gradient(to right, #74ebd5, #9face6);
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-/* Table Styling */
-.table-container {
-    max-height: 500px; 
-    overflow-y: auto; 
-    border-radius: 10px;
-    border: none; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #74ebd5, #9face6); 
-    padding: 10px; 
-}
-
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: transparent;
-}
-
-.table th {
-    background-color: #3498db; 
-    color: white;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-/* No Products Message */
-.no-products-message {
-    font-size: 1.2rem;
-    color: #555;
-    margin-top: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-
-----------------------------------------------------------------
-/* Charts page */
 .dashboard-title {
     text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 100%x;
-    margin-bottom: 5px;
+    font-size: 5rem;
+    margin-bottom: 20px;
 }
 
 .dashboard-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
-}
-
-.top-section {
-    display: flex;
-    justify-content: center;
-    gap: 200px;
+    gap: 50px;
+    padding: 10px;
+    box-sizing: border-box;
     width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
-.unique-pie-chart { 
-    width: 450px;
-    height: 450px;
-    border: 2px solid #ffffff;
+.bottom-section, .top-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  
+}
+
+.unique-pie-chart {
+    flex: 1 1 45%;
+    max-width: 100%;
+    margin-bottom: 20px;
     border-radius: 8px;
     background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .unique-column-chart {
-    width: 1500px;
-    height: 35vh;
-    border: 2px solid #ffffff;
+    flex: 1 1 45%;
+    max-width: 100%;
+    margin-bottom: 20px;
     border-radius: 8px;
     background-color: #ffffff;
-   
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+.line-chart-container {
+    flex: 1 1 45%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
-.bottom-section {
-    display: flex;
-    justify-content: center;
+.energy-usage-container {
+    flex: 1 1 45%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.energy-usage-section {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.energy-usage-bar-chart {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .unique-line-chart {
-    width: 1000px;
-    height: 400px;
-    border: 2px solid #ffffff;
+    width: 100%;
+    height: 100%;
     border-radius: 8px;
     background-color: #ffffff;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-/* Pie Chart */
 .unique-pie-chart .rz-series-item-0 {
     fill: red;
     stroke: blue;
@@ -1278,64 +1214,122 @@ h1:focus {
     stroke-width: 2px;
 }
 
-.unique-pie-chart .rz-series-item-4 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+@media (max-width: 1200px) {
+    .line-chart-container,
+    .energy-usage-container {
+        flex: 1 1 100%;
+    }
+    .energy-usage-bar-chart {
+        height: 350px;
+    }
 }
 
-
-.unique-pie-chart .rz-series-item-5 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+@media (max-width: 768px) {
+    .line-chart-container,
+    .energy-usage-container {
+        flex: 1 1 100%;
+    }
+    .energy-usage-bar-chart {
+        height: 300px;
+    }
 }
 
+/* ----------------------------------------------------------------------- */
+/* Product Manager Page */
 
-.unique-pie-chart .rz-series-item-6 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+/* General page styles */
+.page-title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-
-.unique-pie-chart .rz-series-item-7 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-.unique-pie-chart .rz-series-item-8 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+th, td {
+    padding: 12px;
+    text-align: left;
 }
 
-
-
-.unique-pie-chart .rz-series-item-9 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
 }
 
-
-
-.unique-pie-chart .rz-series-item-10 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+td {
+    font-size: 1rem;
+    color: #555;
 }
 
-
-.unique-pie-chart .rz-series-item-11 {
-    fill: purple;
-    stroke: pink;
-    stroke-width: 2px;
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
+tr:hover {
+    background-color: #ddd;
+}
 
+/* Button styles */
+.btn-danger {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
 
+.btn-danger:hover {
+    background-color: #cc0000;
+}
 
+/* Image styles */
+.product-image {
+    width: 75px;
+    height: auto;
+    border-radius: 4px;
+}
 
+/* No products message */
+.no-products {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+}
+
+/* Responsive design for small screens */
+@media screen and (max-width: 768px) {
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .btn-danger {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    .product-image {
+        width: 50px;
+    }
+}
