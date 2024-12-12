@@ -563,7 +563,7 @@ h1:focus {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full screen height */
-    background: linear-gradient(to bottom right, #df8a0b, #140594d7); /* Subtle gradient */
+    background: linear-gradient(to bottom right, #df8a0b, #140594d7);
     padding: 20px;
 }
 
@@ -874,12 +874,12 @@ h1:focus {
     display: flex;
     justify-content: space-around;
     padding: 2rem;
-    background: #f9f9f9;
+    background: #ffffff00;
 }
 
 .info-box {
     max-width: 400px;
-    background: white;
+    background: linear-gradient(to bottom right, #03ac6b, #4739c7d7);
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -887,13 +887,13 @@ h1:focus {
 
 .info-box h3 {
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #000000;
     margin-bottom: 1rem;
 }
 
 .info-box p {
     font-size: 1rem;
-    color: #7f8c8d;
+    color: #000000;
 }
 
 
@@ -925,13 +925,13 @@ h1:focus {
 
 .about-section h3 {
     font-size: 1.8rem;
-    color: #2c3e50;
+    color: #000000;
     margin-bottom: 1rem;
 }
 
 .about-section p {
     font-size: 1rem;
-    color: #7f8c8d;
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -989,6 +989,57 @@ h1:focus {
     background-color: #2c3e50;
 }
 
+/* Data Collection Section */
+.data-collection-section {
+    padding: 2rem;
+    background: #fafafa;
+    text-align: center;
+}
+
+.data-collection-section h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.data-collection-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.data-box {
+    background: linear-gradient(to bottom right, #03ac6b, #4739c7d7); /* Subtle gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: left;
+    max-width: 300px;
+    flex: 1;
+}
+
+.data-box h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.data-box p {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Styling for Data Box Images */
+.data-box .data-image {
+    width: 100%; /* Ensures the image spans the width of the card */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Adds rounded corners */
+    margin-bottom: 1rem; /* Adds space between the image and the text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    object-fit: cover; /* Ensures the image covers the space proportionally */
+}
 
 --------------------------------------------------- ----------------------------------------------------------
 /* Material Details Page */

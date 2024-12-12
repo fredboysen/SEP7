@@ -52,6 +52,37 @@
     
 </section>
 
+<section class="data-collection-section">
+    <h2>Important measurable units for EPD reporting</h2>
+    <div class="data-collection-container">
+        <div class="data-box">
+             <img src="GWPpic.webp" alt="GWP" class="data-image" />
+            <h3>GWP</h3>
+            <p>Global Warming Potential (GWP) quantifies the impact of greenhouse gases on the Earth's climate over time.</p>
+        </div>
+        <div class="data-box">
+             <img src="ADP.webp" alt="ADP" class="data-image" />
+            <h3>ADP</h3>
+            <p>Abiotic Depletion Potential (ADP) measures the depletion of non-renewable resources such as minerals and fossil fuels.</p>
+        </div>
+        <div class="data-box">
+             <img src="ODPpic.webp" alt="ODP" class="data-image" />
+            <h3>ODP</h3>
+            <p>Ozone Depletion Potential (ODP) represents the effect of chemicals on the ozone layer.</p>
+        </div>
+        <div class="data-box">
+             <img src="EP.webp" alt="WEP" class="data-image" />
+            <h3>EP</h3>
+            <p>Eutrophication Potential (EP) indicates the likelihood of excess nutrients causing environmental issues like algal blooms.</p>
+        </div>
+        <div class="data-box">
+             <img src="WDP.webp" alt="WDP" class="data-image" />
+            <h3>WDP</h3>
+            <p>Water Depletion Potential (WDP) evaluates the impact of water usage on freshwater resources.</p>
+        </div>
+    </div>
+</section>
+
 <!-- Product Gallery Section -->
 <section class="gallery-section">
     <h3>Products overview</h3>
@@ -74,7 +105,10 @@
 
 <!-- Contact Form Section -->
 <section class="contact-section">
-    <h3>Get in Touch</h3>
+    <h3>Support</h3>
+    <p class="support-note">
+        Contact us below if you encounter a bug or if the website is not functioning properly. We aim to resolve issues as quickly as possible.
+    </p>
     <form class="contact-form">
         <div class="form-group">
             <label for="name">Name</label>
@@ -87,13 +121,14 @@
         </div>
 
         <div class="form-group">
-            <label for="message">Message</label>
+            <label for="message">Problem</label>
             <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
         </div>
 
         <button type="submit" class="btn btn-primary">Send</button>
     </form>
 </section>
+
 
 @code {
     private List<Product> products = new();
