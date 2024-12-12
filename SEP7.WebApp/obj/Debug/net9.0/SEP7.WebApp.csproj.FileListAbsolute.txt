@@ -440,6 +440,8 @@ C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\ref\SEP7.WebApp.dll
 C:\Users\frebo\SEP7\SEP7.WebApp\bin\Debug\net9.0\MudBlazor.dll
 C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\tzxjg6is5z-mhumzvqd1g.gz
 C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\0wz98yz2xy-rnojub5shy.gz
+C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\3g6se0gjxt-p3r9wjvj4a.gz
+C:\Users\frebo\SEP7\SEP7.WebApp\bin\Debug\net9.0\SEP7.WebAPI.staticwebassets.runtime.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\bin\Debug\net9.0\SEP7.WebAPI.deps.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\bin\Debug\net9.0\SEP7.WebAPI.runtimeconfig.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\bin\Debug\net9.0\SEP7.WebAPI.staticwebassets.runtime.json
@@ -551,7 +553,6 @@ C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\ne
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\6xb9o06z95-6r2i2cr4va.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\tzxjg6is5z-mhumzvqd1g.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\0wz98yz2xy-rnojub5shy.gz
-C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\3g6se0gjxt-2uxat2w8bi.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\xcqkpi03e1-t1cqhe9u97.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\zu00pqoilt-c2jlpeoesf.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\wlx0efq12s-sejl45xvog.gz
@@ -596,8 +597,8 @@ C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\ne
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\gc7be406a5-h1s4sie4z3.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\wt3b1sk6r5-4d85u1mtcx.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\m5nx0bnbi1-0j3bgjxly4.gz
-C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\fpgyprccxm-s1pim70diy.gz
-C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\oojvh21iz4-s1pim70diy.gz
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\fpgyprccxm-5q3ly8r0n2.gz
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\oojvh21iz4-5q3ly8r0n2.gz
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -613,5 +614,4 @@ C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\ne
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.pdb
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.genruntimeconfig.cache
 C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\ref\SEP7.WebApp.dll
-C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\3g6se0gjxt-p3r9wjvj4a.gz
-C:\Users\frebo\SEP7\SEP7.WebApp\bin\Debug\net9.0\SEP7.WebAPI.staticwebassets.runtime.json
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\3g6se0gjxt-qa7wtatjrt.gz

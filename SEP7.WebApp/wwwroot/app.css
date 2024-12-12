@@ -9,7 +9,7 @@ a, .btn-link {
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
-    border-color: #1861ac;
+    border-color: #000000;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -145,7 +145,6 @@ h1:focus {
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -178,8 +177,8 @@ h1:focus {
     border: 1px solid #ddd;
     border-radius: 8px;
     cursor: pointer;
-    color: #555;
-    font-size: 1.2rem; 
+    color: #000000;
+    font-size: 1.5rem; 
     transition: all 0.3s;
     width: 100%;
     box-sizing: border-box;
@@ -197,12 +196,15 @@ h1:focus {
     height: 28px;
 }
 
+button.btn.btn-primary.upload-btn {
+    border: none;
+  }
 
 .upload-btn {
     width: 100%;
     padding: 12px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #03857a;
     color: white;
     border: none;
     border-radius: 4px;
@@ -210,13 +212,17 @@ h1:focus {
     transition: background-color 0.3s ease;
 }
 
+.upload-card .upload-btn {
+    background-color: #21b8ac; 
+  }
+
 .upload-btn:disabled {
-    background-color: #cccccc;
+    background-color: #21b8ac;
     cursor: not-allowed;
 }
 
 .upload-btn:hover:not(:disabled) {
-    background-color: #0056b3;
+    background-color: #21b8ac;
 }
 
 
@@ -249,7 +255,7 @@ h1:focus {
     border: 1px solid #bee5eb;
 }
 
-/* Small responsive adjustments */
+
 @media (max-width: 768px) {
     .upload-container {
         padding: 15px;
@@ -285,7 +291,6 @@ h1:focus {
     padding: 10px;
     width: 300px;
     font-size: 1rem;
-    border: 2px solid #ff6f03;
     border-radius: 5px;
     transition: border-color 0.3s ease;
 }
@@ -557,14 +562,26 @@ h1:focus {
 
 /* -------------------------------------------------------------------- */
 /* LOGIN CSS */
-/* Center the login container */
+
+.custom-login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
 .custom-login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full screen height */
-    background: linear-gradient(to bottom right, #df8a0b, #140594d7);
+    width: 80vh;
+    height: 80vh;
+    background: linear-gradient(to right, #74ebd5, #9face6);
     padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* The login box */
@@ -619,7 +636,7 @@ h1:focus {
 }
 
 .custom-login-input:focus {
-    border-color: #d8a10b;
+
     outline: none;
 }
 
@@ -645,7 +662,7 @@ h1:focus {
 }
 
 .custom-login-button:hover {
-    background: #dd940d;
+    background: #74ebd5;
 }
   
 /* -------------------------------------------------------------------- */
@@ -653,7 +670,7 @@ h1:focus {
 
 
 .upload-title {
-    color: #4f4db0; 
+     
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -663,16 +680,18 @@ h1:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
+    width: 80vh;
     height: 80vh;
-    background: linear-gradient(to right, #4f4db0, #3db6ef); 
+    box-shadow: 0 0 0 rgba(255, 254, 254, 0);
 }
 
 .upload-card {
-    background: #ffffff;
+    background: linear-gradient(to right, #74ebd5, #9face6); 
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(253, 253, 253, 0.2);
     padding: 20px;
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     text-align: center;
 }
@@ -696,17 +715,16 @@ h1:focus {
     display: flex;
     align-items: center;
     gap: 10px;
-    background: #f4f4f4;
+    background: #ffffff;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 5px;
     cursor: pointer;
-    color: #555;
+    color: #000000;
     transition: all 0.3s;
 }
 
 .input-label:hover {
-    background: #eaeaea;
+    background: #74ebd5;
 }
 
 .input-icon {
@@ -721,15 +739,14 @@ h1:focus {
 .upload-btn {
     width: 100%;
     padding: 10px;
-    background-color: #4f4db0;
+    background-color: #7b7aa0;
     border: none;
     color: white;
-    border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .upload-btn:hover {
-    background-color: #3db6ef;
+    background-color: #21b8ac;
 }
 
 .alert {
@@ -773,7 +790,7 @@ h1:focus {
 }
 
 .product-card {
-    background: linear-gradient(to bottom, #ffffff, #f8f9fa); 
+    background: linear-gradient(to right, #74ebd5, #9face6); 
     border-radius: 15px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); 
     overflow: hidden;
@@ -816,7 +833,7 @@ h1:focus {
 }
 
 .product-details .btn {
-    background-color: #007bff;
+    background: linear-gradient(to right, #74ebd5, #9face6);
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -833,7 +850,6 @@ h1:focus {
 /* Header Styling */
 .home-header {
     font-size: 2rem;
-    color: #2c3e50;
     text-align: center;
     margin: 2rem 0;
 }
@@ -856,8 +872,6 @@ h1:focus {
     width: 250px;
 }
 
-
-
 .product-details h4 {
     font-size: 1.2rem;
     color: #34495e;
@@ -879,7 +893,7 @@ h1:focus {
 
 .info-box {
     max-width: 400px;
-    background: linear-gradient(to bottom right, #03ac6b, #4739c7d7);
+    background: linear-gradient(to right, #74ebd5, #9face6);
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -977,7 +991,7 @@ h1:focus {
 .contact-form button {
     padding: 0.75rem 2rem;
     border: none;
-    background-color: #34495e;
+    background: linear-gradient(to right, #7efde6, #a0b0fa);
     color: white;
     font-size: 1rem;
     border-radius: 5px;
@@ -986,7 +1000,7 @@ h1:focus {
 }
 
 .contact-form button:hover {
-    background-color: #2c3e50;
+    background-color: #2187ec;
 }
 
 /* Data Collection Section */
@@ -1010,7 +1024,7 @@ h1:focus {
 }
 
 .data-box {
-    background: linear-gradient(to bottom right, #03ac6b, #4739c7d7); /* Subtle gradient */
+    background: linear-gradient(to right, #74ebd5, #9face6); /* Subtle gradient */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -1059,7 +1073,7 @@ h1:focus {
 .materials-header {
     font-size: 2.5rem; 
     margin: 0; 
-    color: #333; 
+    color: #000000; 
 
 }
 
@@ -1093,7 +1107,7 @@ h1:focus {
 
 .product-search-input:focus {
     outline: none;
-    border-color: #000;
+    background:  #fcfcfc;
 }
 
 .product-search-button {
@@ -1108,7 +1122,7 @@ h1:focus {
 }
 
 .product-search-button:hover {
-    background: linear-gradient(to right, #0d856f, #1935af);
+    background: linear-gradient(to right, #5bf3d7, #3858e7);
 }
 
 /* Tables */

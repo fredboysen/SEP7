@@ -13,21 +13,21 @@ main[b-i4kmk03w9v] {
 
 .top-nav[b-i4kmk03w9v] {
     background: linear-gradient(to right, #4e54c8, #8f94fb, #4ad4e6);
-    height: 5rem; /* Fixed height */
-    display: flex; /* Flexbox for horizontal layout */
-    align-items: center; /* Center links vertically */
-    justify-content: space-between; /* Space between brand and nav menu */
-    padding: 0 1rem; /* Horizontal padding */
-    position: sticky; /* Stick to the top */
+    height: 5rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 1rem; 
+    position: sticky; 
     top: 0;
-    width: 100%; /* Full width */
-    z-index: 1000; /* Ensure it stays on top */
+    width: 100%; 
+    z-index: 1000; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #blazor-error-ui[b-i4kmk03w9v] {
     color-scheme: light only;
-    background: #fff3b0; /* Light yellow background for the error UI */
+    background: #fff3b0; 
     bottom: 0;
     box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
@@ -46,7 +46,7 @@ main[b-i4kmk03w9v] {
     top: 0.5rem;
 }
 
-/* Adjusted layout for larger screens */
+
 @media (min-width: 641px) {
     .page[b-i4kmk03w9v] {
         flex-direction: column;

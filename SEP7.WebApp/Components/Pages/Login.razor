@@ -11,33 +11,31 @@
 
 <PageTitle>Login</PageTitle>
 
-<div class="custom-login-container">
-    <div class="custom-login-box">
-        <img src="vola.png" alt="App Logo" class="custom-login-logo" />
-        
-        <h3 class="custom-login-title">Login</h3>
-        
-        
-        <div class="custom-login-field">
-            <label for="username" class="custom-login-label">Username:</label>
-            <input id="username" type="text" @bind="loginUsername" class="custom-login-input" />
-        </div>
-        
-        
-        <div class="custom-login-field">
-            <label for="password" class="custom-login-label">Password:</label>
-            <input id="password" type="password" @bind="loginPassword" class="custom-login-input" />
-        </div>
-        
-       
-        @if (!string.IsNullOrEmpty(loginErrorLabel))
-        {
-            <p class="custom-login-error">@loginErrorLabel</p>
-        }
-        
-        
-        <div class="custom-login-field">
-            <button class="custom-login-button" @onclick="LoginAsync">Log in</button>
+<div class="custom-login-wrapper">
+    <div class="custom-login-container">
+        <div class="custom-login-box">
+            <img src="vola.png" alt="App Logo" class="custom-login-logo" />
+            
+            <h3 class="custom-login-title">Login</h3>
+            
+            <div class="custom-login-field">
+                <label for="username" class="custom-login-label">Username:</label>
+                <input id="username" type="text" @bind="loginUsername" class="custom-login-input" />
+            </div>
+            
+            <div class="custom-login-field">
+                <label for="password" class="custom-login-label">Password:</label>
+                <input id="password" type="password" @bind="loginPassword" class="custom-login-input" />
+            </div>
+            
+            @if (!string.IsNullOrEmpty(loginErrorLabel))
+            {
+                <p class="custom-login-error">@loginErrorLabel</p>
+            }
+            
+            <div class="custom-login-field">
+                <button class="custom-login-button" @onclick="LoginAsync">Log in</button>
+            </div>
         </div>
     </div>
 </div>
