@@ -353,7 +353,7 @@ button.btn.btn-primary.upload-btn {
 }
 
 .product-materials-details-table th {
-    background-color: #ff6f03;
+    background-color: #000000;
     color: white;
     
 }
@@ -425,8 +425,9 @@ button.btn.btn-primary.upload-btn {
 }
 
 .product-materials-table th {
-    background-color: #ff6f03;
+    background-color: #201d1d !important;
     color: white;
+    
     
 }
 
@@ -469,7 +470,7 @@ button.btn.btn-primary.upload-btn {
 }
 
 .product-materials-details-table th {
-    background-color: #ff6f03;
+    background-color: #201d1d !important;
     color: white;
 }
 
