@@ -11,7 +11,6 @@
     </div>
 </div>
 
-
 <div class="nav-scrollable">
     <nav class="nav">
         <div class="nav-item">
@@ -19,7 +18,7 @@
                 <span class="bi bi-house-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
-         <div class="nav-item">
+        <div class="nav-item">
             <NavLink class="nav-link" href="dashboard">
                 <span class="bi bi-chart-nav-menu" aria-hidden="true"></span> Dashboard
             </NavLink>
@@ -29,41 +28,38 @@
                 <span class="bi bi-plus-circle-nav-menu" aria-hidden="true"></span> Materials Usage
             </NavLink>
         </div>
-        <div class="nav-item">
-            <NavLink class="nav-link" href="upload">
-                <span class="bi bi-cloud-upload-nav-menu" aria-hidden="true"></span> Upload Data
-            </NavLink>
-        </div>
-        
-        <div class="nav-item">
-          
-              <div class="nav-item">
-            <NavLink class="nav-link" href="product-manager">
-            
-                <span class="bi bi-material-nav-menu" aria-hidden="true"></span> Manage Product Data
-                
-            </NavLink>
-            
-        </div>
-</div>
 
-        <div class="nav-item">
+        @if (isLoggedIn)
+        {
+            <div class="nav-item">
+                <NavLink class="nav-link" href="upload">
+                    <span class="bi bi-cloud-upload-nav-menu" aria-hidden="true"></span> Import/Export Data
+                </NavLink>
+            </div>
 
-
-
-            @if (isLoggedIn)
+            @if (isAdmin)
             {
+                <div class="nav-item">
+                    <NavLink class="nav-link" href="product-manager">
+                        <span class="bi bi-material-nav-menu" aria-hidden="true"></span> Manage Product Data
+                    </NavLink>
+                </div>
+            }
+
+            <div class="nav-item">
                 <button class="nav-link btn btn-link" @onclick="Logout">
                     <span class="bi bi-person-circle-nav-menu" aria-hidden="true"></span> Sign Out
-                </button> 
-            }
-            else
-            {
+                </button>
+            </div>
+        }
+        else
+        {
+            <div class="nav-item">
                 <NavLink class="nav-link" href="/login">
                     <span class="bi bi-person-circle-nav-menu" aria-hidden="true"></span> Login
-                </NavLink>  
-            }
-        </div>
+                </NavLink>
+            </div>
+        }
     </nav>
 </div>
 
@@ -91,14 +87,14 @@
         {
             var authState = await authenticationStateProvider?.GetAuthenticationStateAsync();
 
-            if (authState == null || authState.User?.Identity == null)
+            if (authState == null || authState.User?.Identity == null || !authState.User.Identity.IsAuthenticated)
             {
                 isLoggedIn = false;
                 isAdmin = false;
             }
             else
             {
-                isLoggedIn = authState.User.Identity.IsAuthenticated;
+                isLoggedIn = true;
                 isAdmin = authState.User.IsInRole("admin");
             }
         }

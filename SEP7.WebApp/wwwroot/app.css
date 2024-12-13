@@ -69,44 +69,36 @@ h1:focus {
 /* _______________________________________________________________________*/
 
 /*UPLOAD PAGE*/
-
-/* Centering container */
 .center-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align items towards the top slightly */
-    min-height: 100vh; /* Full viewport height */
-    background-color: #f9f9f9; /* Optional background color */
-    padding-top: 50px; /* Add top padding to lower it */
-     position: relative;
+    align-items: flex-start;
+    min-height: 200vh;
+    background-color: #f9f9f900;
+    position: relative;
+    
+
 }
 
-/* Upload styling remains unchanged */
+/* Upload section styling remains unchanged */
 .upload {
-    max-width: 450px; /* Adjust width for a clean look */
+    max-width: 450px;
     width: 100%;
     margin: 9% auto;
     padding: 20px;
-    border-radius: 8px;  
-
+    border-radius: 8px;
+    background: #fff; /* Ensure the background is white */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
-
-.file-input {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid #fffdfd;
-    border-radius: 4px;
+/* Export section - Apply consistent background */
+.export-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
-
-/* Input groups */
-.input-group {
-    margin-bottom: 20px;
-    width: 100%; 
-}
-
 
 .input-label {
     display: flex;
@@ -119,27 +111,25 @@ h1:focus {
     border-radius: 8px;
     cursor: pointer;
     color: #000000;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     transition: all 0.3s;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
 }
 
-
 .input-label:hover {
     background: #eaeaea;
 }
 
-
 .input-icon {
-    width: 28px; 
+    width: 28px;
     height: 28px;
 }
 
 button.btn.btn-primary.upload-btn {
     border: none;
-  }
+}
 
 .upload-btn {
     width: 100%;
@@ -153,10 +143,6 @@ button.btn.btn-primary.upload-btn {
     transition: background-color 0.3s ease;
 }
 
-.upload-card .upload-btn {
-    background-color: #21b8ac; 
-  }
-
 .upload-btn:disabled {
     background-color: #21b8ac;
     cursor: not-allowed;
@@ -166,6 +152,10 @@ button.btn.btn-primary.upload-btn {
     background-color: #21b8ac;
 }
 
+/* Export section */
+.export-section .form-group {
+    margin-bottom: 20px;
+}
 
 .upload-status {
     margin-top: 20px;
@@ -196,7 +186,6 @@ button.btn.btn-primary.upload-btn {
     border: 1px solid #bee5eb;
 }
 
-
 @media (max-width: 768px) {
     .upload-container {
         padding: 15px;
@@ -205,6 +194,11 @@ button.btn.btn-primary.upload-btn {
     .upload-btn {
         font-size: 14px;
     }
+}
+
+.form-control {
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 
@@ -353,7 +347,7 @@ button.btn.btn-primary.upload-btn {
 }
 
 .product-materials-details-table th {
-    background-color: #ff6f03;
+    background-color: #000000;
     color: white;
     
 }
@@ -425,8 +419,9 @@ button.btn.btn-primary.upload-btn {
 }
 
 .product-materials-table th {
-    background-color: #ff6f03;
+    background-color: #201d1d !important;
     color: white;
+    
     
 }
 
@@ -469,7 +464,7 @@ button.btn.btn-primary.upload-btn {
 }
 
 .product-materials-details-table th {
-    background-color: #ff6f03;
+    background-color: #201d1d !important;
     color: white;
 }
 
@@ -1262,13 +1257,54 @@ button.btn.btn-primary.upload-btn {
 /* ----------------------------------------------------------------------- */
 /* Product Manager Page */
 
-/* General page styles */
+/* Page Title */
 .page-title {
     text-align: center;
     color: #333;
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Export Section */
+.export-section {
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.input-group .form-control {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+}
+
+.export-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.export-buttons .btn {
+    padding: 8px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
 }
 
 /* Table styles */
@@ -1276,7 +1312,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 0 auto;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -1335,6 +1371,17 @@ tr:hover {
     color: #999;
 }
 
+/* Error message styles */
+.alert-danger {
+    width: 100%;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 4px;
+    border: 1px solid #f5c6cb;
+}
+
 /* Responsive design for small screens */
 @media screen and (max-width: 768px) {
     .page-title {
@@ -1356,5 +1403,14 @@ tr:hover {
 
     .product-image {
         width: 50px;
+    }
+
+    .export-section {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .input-group .form-control {
+        width: 100%;
     }
 }

@@ -1,20 +1,12 @@
 {
   "Version": 1,
-  "Hash": "KUFacN+7goYlloncew3lsC+tBpl/yQCLnlxy3rURdzo=",
+  "Hash": "9ZWA55R6vm2oX7AuR9Pr5owQx2r18UEb4a/1FEcWjz8=",
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "SEP7.WebAPI\\wwwroot",
-      "Source": "SEP7.WebAPI",
-      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
-      "BasePath": "_content/SEP7.WebAPI",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []
 }
