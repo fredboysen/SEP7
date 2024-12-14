@@ -1,11 +1,16 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "CbFxR3hO9hZ4WcLt2pcgBlIxLkoCFzGlzTOgNxCW+5k=",
+=======
+  "Hash": "9ZWA55R6vm2oX7AuR9Pr5owQx2r18UEb4a/1FEcWjz8=",
+>>>>>>> 73c4f5bd12c0c0d4656e9753f57fcb5085447ebe
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
+<<<<<<< HEAD
   "DiscoveryPatterns": [
     {
       "Name": "SEP7.WebAPI\\wwwroot",
@@ -122,4 +127,9 @@
       ]
     }
   ]
+=======
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+>>>>>>> 73c4f5bd12c0c0d4656e9753f57fcb5085447ebe
 }

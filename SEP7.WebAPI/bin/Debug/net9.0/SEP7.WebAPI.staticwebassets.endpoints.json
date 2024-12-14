@@ -1,6 +1,7 @@
 {
   "Version": 1,
   "ManifestType": "Build",
+<<<<<<< HEAD
   "Endpoints": [
     {
       "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.p91m3otz43.png",
@@ -85,4 +86,7 @@
       ]
     }
   ]
+=======
+  "Endpoints": []
+>>>>>>> 73c4f5bd12c0c0d4656e9753f57fcb5085447ebe
 }
