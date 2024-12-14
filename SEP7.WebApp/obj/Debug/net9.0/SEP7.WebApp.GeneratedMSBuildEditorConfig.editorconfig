@@ -27,6 +27,26 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Layout/CenteredCardLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQ2VudGVyZWRDYXJkTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Layout/Homelayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcSG9tZWxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTG9naW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Charts.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDaGFydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -47,8 +67,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9kdWN0UGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Signup.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTaWdudXAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/UploadCSV.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVcGxvYWRDU1YucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thoma/OneDrive/Skrivebord/Documents/SEP71/SEP7/SEP7.WebApp/Components/Routes.razor]
