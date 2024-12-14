@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SEP7.WebAPI.props" />
+</Project>
