@@ -10,7 +10,6 @@
         "dependencies": {
           "Blazored.LocalStorage": "4.5.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
-          "MudBlazor": "7.15.0",
           "Newtonsoft.Json": "13.0.3",
           "Radzen.Blazor": "5.6.15",
           "SEP7.WebAPI": "1.0.0",
@@ -237,15 +236,6 @@
           "Microsoft.Extensions.Primitives": "9.0.0"
         }
       },
-      "Microsoft.Extensions.Localization/8.0.8": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Localization.Abstractions": "8.0.8",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Options": "9.0.0"
-        }
-      },
-      "Microsoft.Extensions.Localization.Abstractions/8.0.8": {},
       "Microsoft.Extensions.Logging/9.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.0",
@@ -341,19 +331,6 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.6.22.0",
             "fileVersion": "1.6.22.0"
-          }
-        }
-      },
-      "MudBlazor/7.15.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components": "9.0.0",
-          "Microsoft.AspNetCore.Components.Web": "9.0.0",
-          "Microsoft.Extensions.Localization": "8.0.8"
-        },
-        "runtime": {
-          "lib/net8.0/MudBlazor.dll": {
-            "assemblyVersion": "7.15.0.0",
-            "fileVersion": "7.15.0.0"
           }
         }
       },
@@ -833,20 +810,6 @@
       "path": "microsoft.extensions.fileproviders.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Localization/8.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-n32ZGmc2UOv9R/xsBHQPOxBsqCSAAJSoMtFqoQ8zOegB2P+H6+773OyCWg4jRBkO/3dmCyBJXB0yLAOVW2/C/w==",
-      "path": "microsoft.extensions.localization/8.0.8",
-      "hashPath": "microsoft.extensions.localization.8.0.8.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-WYIsqP/A6dH/LWJznrvgoNPc7Q+CUJD0E78765GL3aonBtyFK1BKtPzBvvlnrr3SVqSO2r6xJCLgCEiCMG1gfA==",
-      "path": "microsoft.extensions.localization.abstractions/8.0.8",
-      "hashPath": "microsoft.extensions.localization.abstractions.8.0.8.nupkg.sha512"
-    },
     "Microsoft.Extensions.Logging/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -937,13 +900,6 @@
       "sha512": "sha512-aBvunmrdu/x+4CaA/UP1Jx4xWGwk4kymhoIRnn2Vp+zi5/KOPQJ9EkSXHRUr01WcGKtYl3Au7XfkPJbU1G2sjQ==",
       "path": "microsoft.openapi/1.6.22",
       "hashPath": "microsoft.openapi.1.6.22.nupkg.sha512"
-    },
-    "MudBlazor/7.15.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-b2+hO7ZTGwsGhu9SoowuNe2ETeF1GzExpg/hIYR++rSh+vy4v/QD0iOsrATWv3LdFJXSgk3d1+XIr5srW3jBiA==",
-      "path": "mudblazor/7.15.0",
-      "hashPath": "mudblazor.7.15.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",

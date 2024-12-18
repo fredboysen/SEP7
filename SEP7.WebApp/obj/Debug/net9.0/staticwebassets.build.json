@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d4XT0HkoaZ8JDowvFakdbixrKvObEoOQf+0NLuKLd2M=",
+  "Hash": "sRVKxN8Lvv6GfMNX/OATnDw+tsVMbV7bqafyyeMI6hs=",
   "Source": "SEP7.WebApp",
   "BasePath": "_content/SEP7.WebApp",
   "Mode": "Default",
@@ -28,48 +28,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mhumzvqd1g",
-      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "rnojub5shy",
-      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
-    },
     {
       "Identity": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\css\\dark-base.css",
       "SourceId": "Radzen.Blazor",
@@ -806,27 +764,6 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-rnojub5shy.gz",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "dk8j3iybj5",
-      "Integrity": "4wLiWt+hjBSHQm4LZp1HuYpuGHh0C71GVep0cTYkHdI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
-    },
-    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\13w5d5gf1p-4011cbe3ws.gz",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
@@ -953,12 +890,12 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pwey08w7su.gz",
+      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-buldego7gy.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SEP7.WebApp",
-      "RelativePath": "app#[.{fingerprint=pwey08w7su}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=buldego7gy}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -967,8 +904,8 @@
       "RelatedAsset": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dmqbfdkv0v",
-      "Integrity": "e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc=",
+      "Fingerprint": "5elnyt5qku",
+      "Integrity": "823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css"
@@ -2234,27 +2171,6 @@
       "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\css\\standard-dark-base.css"
     },
     {
-      "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\tzxjg6is5z-mhumzvqd1g.gz",
-      "SourceId": "MudBlazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/MudBlazor",
-      "RelativePath": "MudBlazor.min.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "750f4eamv2",
-      "Integrity": "e0odARo5WTdd1QrI6+iEl/0LONnlAaAnEGSWQQ696m0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
-    },
-    {
       "Identity": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\ukd7v6s5mc-cosvhxvwiu.gz",
       "SourceId": "SEP7.WebApp",
       "SourceType": "Discovered",
@@ -2563,8 +2479,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pwey08w7su",
-      "Integrity": "+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4=",
+      "Fingerprint": "buldego7gy",
+      "Integrity": "LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -3642,280 +3558,6 @@
     }
   ],
   "Endpoints": [
-    {
-      "Route": "_content/MudBlazor/MudBlazor.min.css",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "580975"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
-        }
-      ]
-    },
-    {
-      "Route": "_content/MudBlazor/MudBlazor.min.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\tzxjg6is5z-mhumzvqd1g.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000015997440"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "62509"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e0odARo5WTdd1QrI6+iEl/0LONnlAaAnEGSWQQ696m0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
-        }
-      ]
-    },
-    {
-      "Route": "_content/MudBlazor/MudBlazor.min.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\tzxjg6is5z-mhumzvqd1g.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "62509"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e0odARo5WTdd1QrI6+iEl/0LONnlAaAnEGSWQQ696m0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e0odARo5WTdd1QrI6+iEl/0LONnlAaAnEGSWQQ696m0="
-        }
-      ]
-    },
-    {
-      "Route": "_content/MudBlazor/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49823"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
-        }
-      ]
-    },
-    {
-      "Route": "_content/MudBlazor/MudBlazor.min.js",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-rnojub5shy.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000093773443"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10663"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4wLiWt+hjBSHQm4LZp1HuYpuGHh0C71GVep0cTYkHdI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
-        }
-      ]
-    },
-    {
-      "Route": "_content/MudBlazor/MudBlazor.min.js.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\0wz98yz2xy-rnojub5shy.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10663"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4wLiWt+hjBSHQm4LZp1HuYpuGHh0C71GVep0cTYkHdI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4wLiWt+hjBSHQm4LZp1HuYpuGHh0C71GVep0cTYkHdI="
-        }
-      ]
-    },
     {
       "Route": "_content/Radzen.Blazor/css/dark-base.4011cbe3ws.css",
       "AssetFile": "C:\\Users\\frebo\\.nuget\\packages\\radzen.blazor\\5.6.15\\staticwebassets\\css\\dark-base.css",
@@ -9969,13 +9611,13 @@
       ]
     },
     {
-      "Route": "app.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pwey08w7su.gz",
+      "Route": "app.buldego7gy.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-buldego7gy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000177999288"
+          "Quality": "0.000175592625"
         }
       ],
       "ResponseHeaders": [
@@ -9985,19 +9627,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5617"
+          "Value": "5694"
         },
         {
           "Name": "ETag",
-          "Value": "\"e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc=\""
+          "Value": "\"823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:48:32 GMT"
+          "Value": "Thu, 12 Dec 2024 23:21:17 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -10013,18 +9655,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4=\""
+          "Value": "W/\"LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "buldego7gy"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4="
+          "Value": "sha256-LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8="
         }
       ]
     },
     {
-      "Route": "app.css",
+      "Route": "app.buldego7gy.css",
       "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -10034,7 +9684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28986"
+          "Value": "29389"
         },
         {
           "Name": "Content-Type",
@@ -10042,121 +9692,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4=\""
+          "Value": "\"LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:48:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pwey08w7su.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5617"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:48:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc="
-        }
-      ]
-    },
-    {
-      "Route": "app.pwey08w7su.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pwey08w7su.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000177999288"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5617"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:48:32 GMT"
+          "Value": "Thu, 12 Dec 2024 23:21:17 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pwey08w7su"
+          "Value": "buldego7gy"
         },
         {
           "Name": "label",
@@ -10164,13 +9714,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4="
+          "Value": "sha256-LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8="
         }
       ]
     },
     {
-      "Route": "app.pwey08w7su.css",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+      "Route": "app.buldego7gy.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-buldego7gy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10179,7 +9729,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28986"
+          "Value": "5694"
         },
         {
           "Name": "Content-Type",
@@ -10187,56 +9737,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4=\""
+          "Value": "\"823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:48:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pwey08w7su"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+V9X6KT9KARu03HNm/8X22YxCHU7rL4vc6DXLbnQgr4="
-        }
-      ]
-    },
-    {
-      "Route": "app.pwey08w7su.css.gz",
-      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-pwey08w7su.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5617"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 12 Dec 2024 22:48:32 GMT"
+          "Value": "Thu, 12 Dec 2024 23:21:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10254,7 +9759,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pwey08w7su"
+          "Value": "buldego7gy"
         },
         {
           "Name": "label",
@@ -10262,7 +9767,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e+F5M36IKfrZqagFvqmWA8tO4/BsfRdbuDd+iDlzolc="
+          "Value": "sha256-823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-buldego7gy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000175592625"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5694"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 23:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 23:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LQJwGYcJwSjCquypmaoY5wt6sOe8H2ZjovO4NXUgzr8="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\frebo\\SEP7\\SEP7.WebApp\\obj\\Debug\\net9.0\\compressed\\3g6se0gjxt-buldego7gy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 23:21:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-823Z3G33eZWNfIH/da5GzLWrliCe5q4xDNYrSfKgqmk="
         }
       ]
     },
