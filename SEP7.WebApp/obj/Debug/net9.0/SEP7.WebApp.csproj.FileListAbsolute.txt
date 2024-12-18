@@ -611,4 +611,19 @@ C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\refint\SEP7.WebApp.dll
 C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.pdb
 C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.genruntimeconfig.cache
 C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\ref\SEP7.WebApp.dll
+<<<<<<< HEAD
 C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\3g6se0gjxt-buldego7gy.gz
+=======
+C:\Users\frebo\SEP7\SEP7.WebApp\obj\Debug\net9.0\compressed\3g6se0gjxt-pwey08w7su.gz
+<<<<<<< HEAD
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.csproj.AssemblyReference.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.AssemblyInfoInputs.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.AssemblyInfo.cs
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Thoma\OneDrive\Skrivebord\Documents\SEP71\SEP7\SEP7.WebApp\obj\Debug\net9.0\SEP7.WebApp.sourcelink.json
+=======
+>>>>>>> 73c4f5bd12c0c0d4656e9753f57fcb5085447ebe
+>>>>>>> d52298f8726fc0ab766ca69e273c6476802a2994
