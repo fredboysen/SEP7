@@ -13,7 +13,7 @@ dotnet tool install --global dotnet-ef
 dotnet restore
 ```
 6. Create database in SQlite (You can use DB Browser (SQLite) to create db on local)
-7. Update appsettings.json in BookTradingHub.WebAPI to reflect your own DB Browser path.
+7. Update appsettings.json in SEP7.WebAPI to reflect your own DB Browser path.
 ```csharp
 "ConnectionStrings": {
     "DefaultConnection": "Data Source=C:\\Users\\frebo\\SEP7.db;"
