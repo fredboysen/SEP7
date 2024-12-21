@@ -1,135 +1,20 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "Hash": "CbFxR3hO9hZ4WcLt2pcgBlIxLkoCFzGlzTOgNxCW+5k=",
-=======
-  "Hash": "9ZWA55R6vm2oX7AuR9Pr5owQx2r18UEb4a/1FEcWjz8=",
->>>>>>> 73c4f5bd12c0c0d4656e9753f57fcb5085447ebe
+  "Hash": "AgMHs4g1DBSL1qKcbax9dzYAwugrtLrShCKclwWZ4dM=",
   "Source": "SEP7.WebAPI",
   "BasePath": "_content/SEP7.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-<<<<<<< HEAD
   "DiscoveryPatterns": [
     {
       "Name": "SEP7.WebAPI\\wwwroot",
       "Source": "SEP7.WebAPI",
-      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebAPI\\wwwroot\\",
       "BasePath": "_content/SEP7.WebAPI",
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
-      "SourceId": "SEP7.WebAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\",
-      "BasePath": "_content/SEP7.WebAPI",
-      "RelativePath": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "p91m3otz43",
-      "Integrity": "E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.p91m3otz43.png",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "92789"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p91m3otz43"
-        },
-        {
-          "Name": "label",
-          "Value": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
-        }
-      ]
-    },
-    {
-      "Route": "images/39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
-      "AssetFile": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\wwwroot\\images\\39a27789-5409-4f0f-8045-7ebe0568950b_logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "92789"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 09 Dec 2024 07:40:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-E30s6Qv2wvrwAiSosqKxF2LHO5xkOrj1KKiT6+OoCwM="
-        }
-      ]
-    }
-  ]
-=======
-  "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []
->>>>>>> 73c4f5bd12c0c0d4656e9753f57fcb5085447ebe
 }
