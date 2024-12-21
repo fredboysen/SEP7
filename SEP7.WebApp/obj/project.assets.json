@@ -2762,33 +2762,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thoma\\.nuget\\packages\\": {}
+    "C:\\Users\\frebo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
       "projectName": "SEP7.WebApp",
-      "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Thoma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebApp\\obj\\",
+      "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebApp\\SEP7.WebApp.csproj",
+      "packagesPath": "C:\\Users\\frebo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Thoma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\frebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
-              "projectPath": "C:\\Users\\Thoma\\OneDrive\\Skrivebord\\Documents\\SEP71\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
+            "C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj": {
+              "projectPath": "C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebAPI\\SEP7.WebAPI.csproj"
             }
           }
         }
@@ -2801,7 +2800,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -2853,8 +2852,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\frebo\\SEP7\\SEP7\\SEP7.WebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
